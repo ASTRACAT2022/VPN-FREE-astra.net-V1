@@ -17,7 +17,7 @@
 Гайд для Android
 1. Скачиваем v2rayNG - Ссылка https://play.google.com/store/apps/details?id=com.v2ray.ang
 2. Копируем в буфер обмена:
-https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS
+https://raw.githubusercontent.com/ASTRACAT2022/VPN-FREE-astra.net-V1/refs/heads/main/AVPN%20Key
 3. Заходим в приложение v2rayNG и в правом верхнем углу нажимаем на ➕, а затем выбираем Импорт из буфера обмена.
 4. Нажимаем 3 точки в правом верхнем углу и выбираем время отклика профилей групп, по окончанию нажимаем сортировка по результатам теста.
 5. Выбираем нужный вам сервер из числа первых затем нажимаем на кнопку ▶️ в правом нижнем углу.
