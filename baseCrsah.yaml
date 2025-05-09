@@ -1,0 +1,511 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: ASTRACAT-Tunels-1, server: 103.21.244.233, port: 8443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-2, server: 104.16.153.219, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-3, server: 104.24.220.124, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-4, server: 172.64.145.45, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-5, server: 104.16.7.47, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-6, server: 104.24.193.111, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-7, server: 141.101.74.42, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-8, server: 172.64.137.62, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-9, server: 188.114.101.137, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-10, server: 190.93.243.244, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-11, server: 162.159.152.183, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-12, server: 104.16.39.71, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-13, server: 104.24.167.39, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-14, server: 172.64.247.199, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-15, server: 104.16.58.137, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-16, server: 104.24.3.69, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-17, server: 141.101.81.210, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-18, server: 172.64.25.239, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-19, server: 188.114.101.139, port: 2087, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: ASTRACAT-Tunels-20, server: 190.93.241.141, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+proxy-groups:
+  - name: Node Selection
+    type: select
+    proxies:
+      - Auto Select
+      - Fallback
+      - Load Balance
+      - DIRECT
+      - ASTRACAT-Tunels-1
+      - ASTRACAT-Tunels-2
+      - ASTRACAT-Tunels-3
+      - ASTRACAT-Tunels-4
+      - ASTRACAT-Tunels-5
+      - ASTRACAT-Tunels-6
+      - ASTRACAT-Tunels-7
+      - ASTRACAT-Tunels-8
+      - ASTRACAT-Tunels-9
+      - ASTRACAT-Tunels-10
+      - ASTRACAT-Tunels-11
+      - ASTRACAT-Tunels-12
+      - ASTRACAT-Tunels-13
+      - ASTRACAT-Tunels-14
+      - ASTRACAT-Tunels-15
+      - ASTRACAT-Tunels-16
+      - ASTRACAT-Tunels-17
+      - ASTRACAT-Tunels-18
+      - ASTRACAT-Tunels-19
+      - ASTRACAT-Tunels-20
+  - name: Auto Select
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - ASTRACAT-Tunels-1
+      - ASTRACAT-Tunels-2
+      - ASTRACAT-Tunels-3
+      - ASTRACAT-Tunels-4
+      - ASTRACAT-Tunels-5
+      - ASTRACAT-Tunels-6
+      - ASTRACAT-Tunels-7
+      - ASTRACAT-Tunels-8
+      - ASTRACAT-Tunels-9
+      - ASTRACAT-Tunels-10
+      - ASTRACAT-Tunels-11
+      - ASTRACAT-Tunels-12
+      - ASTRACAT-Tunels-13
+      - ASTRACAT-Tunels-14
+      - ASTRACAT-Tunels-15
+      - ASTRACAT-Tunels-16
+      - ASTRACAT-Tunels-17
+      - ASTRACAT-Tunels-18
+      - ASTRACAT-Tunels-19
+      - ASTRACAT-Tunels-20
+  - name: Fallback
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - ASTRACAT-Tunels-1
+      - ASTRACAT-Tunels-2
+      - ASTRACAT-Tunels-3
+      - ASTRACAT-Tunels-4
+      - ASTRACAT-Tunels-5
+      - ASTRACAT-Tunels-6
+      - ASTRACAT-Tunels-7
+      - ASTRACAT-Tunels-8
+      - ASTRACAT-Tunels-9
+      - ASTRACAT-Tunels-10
+      - ASTRACAT-Tunels-11
+      - ASTRACAT-Tunels-12
+      - ASTRACAT-Tunels-13
+      - ASTRACAT-Tunels-14
+      - ASTRACAT-Tunels-15
+      - ASTRACAT-Tunels-16
+      - ASTRACAT-Tunels-17
+      - ASTRACAT-Tunels-18
+      - ASTRACAT-Tunels-19
+      - ASTRACAT-Tunels-20
+  - name: Load Balance
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - ASTRACAT-Tunels-1
+      - ASTRACAT-Tunels-2
+      - ASTRACAT-Tunels-3
+      - ASTRACAT-Tunels-4
+      - ASTRACAT-Tunels-5
+      - ASTRACAT-Tunels-6
+      - ASTRACAT-Tunels-7
+      - ASTRACAT-Tunels-8
+      - ASTRACAT-Tunels-9
+      - ASTRACAT-Tunels-10
+      - ASTRACAT-Tunels-11
+      - ASTRACAT-Tunels-12
+      - ASTRACAT-Tunels-13
+      - ASTRACAT-Tunels-14
+      - ASTRACAT-Tunels-15
+      - ASTRACAT-Tunels-16
+      - ASTRACAT-Tunels-17
+      - ASTRACAT-Tunels-18
+      - ASTRACAT-Tunels-19
+      - ASTRACAT-Tunels-20
+  - name: Direct
+    type: select
+    proxies:
+      - DIRECT
+      - Node Selection
+      - Auto Select
+  - name: Block
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: Fallback Proxy
+    type: select
+    proxies:
+      - Node Selection
+      - Direct
+      - Auto Select
+      - Fallback
+      - Load Balance
+      - ASTRACAT-Tunels-1
+      - ASTRACAT-Tunels-2
+      - ASTRACAT-Tunels-3
+      - ASTRACAT-Tunels-4
+      - ASTRACAT-Tunels-5
+      - ASTRACAT-Tunels-6
+      - ASTRACAT-Tunels-7
+      - ASTRACAT-Tunels-8
+      - ASTRACAT-Tunels-9
+      - ASTRACAT-Tunels-10
+      - ASTRACAT-Tunels-11
+      - ASTRACAT-Tunels-12
+      - ASTRACAT-Tunels-13
+      - ASTRACAT-Tunels-14
+      - ASTRACAT-Tunels-15
+      - ASTRACAT-Tunels-16
+      - ASTRACAT-Tunels-17
+      - ASTRACAT-Tunels-18
+      - ASTRACAT-Tunels-19
+      - ASTRACAT-Tunels-20
+rules:
+  - DOMAIN-SUFFIX,acl4.ssr,Direct
+  - DOMAIN-SUFFIX,ip6-localhost,Direct
+  - DOMAIN-SUFFIX,ip6-loopback,Direct
+  - DOMAIN-SUFFIX,lan,Direct
+  - DOMAIN-SUFFIX,local,Direct
+  - DOMAIN-SUFFIX,localhost,Direct
+  - IP-CIDR,0.0.0.0/8,Direct,no-resolve
+  - IP-CIDR,10.0.0.0/8,Direct,no-resolve
+  - IP-CIDR,100.64.0.0/10,Direct,no-resolve
+  - IP-CIDR,127.0.0.0/8,Direct,no-resolve
+  - IP-CIDR,169.254.0.0/16,Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,Direct,no-resolve
+  - IP-CIDR,198.18.0.0/15,Direct,no-resolve
+  - IP-CIDR,224.0.0.0/4,Direct,no-resolve
+  - IP-CIDR6,::1/128,Direct,no-resolve
+  - IP-CIDR6,fc00::/7,Direct,no-resolve
+  - IP-CIDR6,fe80::/10,Direct,no-resolve
+  - IP-CIDR6,fd00::/8,Direct,no-resolve
+  - DOMAIN,app.adjust.com,Direct
+  - DOMAIN,appsflyer.com,Direct
+  - DOMAIN,bugly.qq.com,Direct
+  - DOMAIN-SUFFIX,abtasty.com,Direct
+  - DOMAIN-SUFFIX,akadns.net,Direct
+  - DOMAIN-SUFFIX,akamai.net,Direct
+  - DOMAIN-SUFFIX,akamaihd.net,Direct
+  - DOMAIN-SUFFIX,akamaiedge.net,Direct
+  - DOMAIN-SUFFIX,alibabacorp.com,Direct
+  - DOMAIN-SUFFIX,alibaba.com,Direct
+  - DOMAIN-SUFFIX,alicdn.com,Direct
+  - DOMAIN-SUFFIX,alipay.com,Direct
+  - DOMAIN-SUFFIX,aliyun.com,Direct
+  - DOMAIN-SUFFIX,aliyuncs.com,Direct
+  - DOMAIN-SUFFIX,amap.com,Direct
+  - DOMAIN-SUFFIX,amd.com,Direct
+  - DOMAIN-SUFFIX,android.com,Direct
+  - DOMAIN-SUFFIX,autonavi.com,Direct
+  - DOMAIN-SUFFIX,bdimg.com,Direct
+  - DOMAIN-SUFFIX,bdstatic.com,Direct
+  - DOMAIN-SUFFIX,caiyunapp.com,Direct
+  - DOMAIN-SUFFIX,ccgslb.com,Direct
+  - DOMAIN-SUFFIX,chinacache.net,Direct
+  - DOMAIN-SUFFIX,chinanetcenter.com,Direct
+  - DOMAIN-SUFFIX,dingtalk.com,Direct
+  - DOMAIN-SUFFIX,ele.me,Direct
+  - DOMAIN-SUFFIX,eleme.cn,Direct
+  - DOMAIN-SUFFIX,fastly.net,Direct
+  - DOMAIN-SUFFIX,gtimg.cn,Direct
+  - DOMAIN-SUFFIX,gtimg.com,Direct
+  - DOMAIN-SUFFIX,hadotone.com,Direct
+  - DOMAIN-SUFFIX,hichina.com,Direct
+  - DOMAIN-SUFFIX,hp.com,Direct
+  - DOMAIN-SUFFIX,ibytedtos.com,Direct
+  - DOMAIN-SUFFIX,icloud.com,Direct
+  - DOMAIN-SUFFIX,icloud-content.com,Direct
+  - DOMAIN-SUFFIX,images-amazon.com,Direct
+  - DOMAIN-SUFFIX,jd.com,Direct
+  - DOMAIN-SUFFIX,jd.hk,Direct
+  - DOMAIN-SUFFIX,meituan.com,Direct
+  - DOMAIN-SUFFIX,meituan.net,Direct
+  - DOMAIN-SUFFIX,microsoft.com,Direct
+  - DOMAIN-SUFFIX,miui.com,Direct
+  - DOMAIN-SUFFIX,msecnd.net,Direct
+  - DOMAIN-SUFFIX,myqcloud.com,Direct
+  - DOMAIN-SUFFIX,netease.com,Direct
+  - DOMAIN-SUFFIX,office.com,Direct
+  - DOMAIN-SUFFIX,office365.com,Direct
+  - DOMAIN-SUFFIX,office.net,Direct
+  - DOMAIN-SUFFIX,openresty.org,Direct
+  - DOMAIN-SUFFIX,pingan.com,Direct
+  - DOMAIN-SUFFIX,pstatp.com,Direct
+  - DOMAIN-SUFFIX,qcloud.com,Direct
+  - DOMAIN-SUFFIX,qq.com,Direct
+  - DOMAIN-SUFFIX,rakuten.co.jp,Direct
+  - DOMAIN-SUFFIX,sina.cn,Direct
+  - DOMAIN-SUFFIX,sina.com,Direct
+  - DOMAIN-SUFFIX,sm.cn,Direct
+  - DOMAIN-SUFFIX,sogou.com,Direct
+  - DOMAIN-SUFFIX,sohu.com,Direct
+  - DOMAIN-SUFFIX,szfw.org,Direct
+  - DOMAIN-SUFFIX,tbcdn.cn,Direct
+  - DOMAIN-SUFFIX,tenpay.com,Direct
+  - DOMAIN-SUFFIX,tmall.com,Direct
+  - DOMAIN-SUFFIX,toutiao.com,Direct
+  - DOMAIN-SUFFIX,trafficmanager.net,Direct
+  - DOMAIN-SUFFIX,udemy.com,Direct
+  - DOMAIN-SUFFIX,umeng.com,Direct
+  - DOMAIN-SUFFIX,unionpay.com,Direct
+  - DOMAIN-SUFFIX,verygslb.com,Direct
+  - DOMAIN-SUFFIX,volcengineapi.com,Direct
+  - DOMAIN-SUFFIX,volcengine.com,Direct
+  - DOMAIN-SUFFIX,volcsdk.com,Direct
+  - DOMAIN-SUFFIX,volcvod.com,Direct
+  - DOMAIN-SUFFIX,weibo.cn,Direct
+  - DOMAIN-SUFFIX,weibo.com,Direct
+  - DOMAIN-SUFFIX,windows.net,Direct
+  - DOMAIN-SUFFIX,wordpress.com,Direct
+  - DOMAIN-SUFFIX,ximalaya.com,Direct
+  - DOMAIN-SUFFIX,yimg.com,Direct
+  - DOMAIN-SUFFIX,youku.com,Direct
+  - DOMAIN-SUFFIX,zendesk.com,Direct
+  - DOMAIN-KEYWORD,alicdn,Direct
+  - DOMAIN-KEYWORD,alimama,Direct
+  - DOMAIN-KEYWORD,aliyun,Direct
+  - DOMAIN-KEYWORD,taobao,Direct
+  - DOMAIN-KEYWORD,tmall,Direct
+  - DOMAIN,admob.com,Block
+  - DOMAIN,ads.gmodules.com,Block
+  - DOMAIN,ads.google.com,Block
+  - DOMAIN,adservice.google.com,Block
+  - DOMAIN-SUFFIX,1rx.io,Block
+  - DOMAIN-SUFFIX,33across.com,Block
+  - DOMAIN-SUFFIX,360buyimg.com,Block
+  - DOMAIN-SUFFIX,adcolony.com,Block
+  - DOMAIN-SUFFIX,adgoji.com,Block
+  - DOMAIN-SUFFIX,admarvel.com,Block
+  - DOMAIN-SUFFIX,admaster.com.cn,Block
+  - DOMAIN-SUFFIX,admob.com,Block
+  - DOMAIN-SUFFIX,adsense.com,Block
+  - DOMAIN-SUFFIX,adsrvr.org,Block
+  - DOMAIN-SUFFIX,adtechus.com,Block
+  - DOMAIN-SUFFIX,advertising.com,Block
+  - DOMAIN-SUFFIX,adview.cn,Block
+  - DOMAIN-SUFFIX,adxmi.com,Block
+  - DOMAIN-SUFFIX,adzerk.net,Block
+  - DOMAIN-SUFFIX,amazon-adsystem.com,Block
+  - DOMAIN-SUFFIX,appads.com,Block
+  - DOMAIN-SUFFIX,applovin.com,Block
+  - DOMAIN-SUFFIX,appsflyer.com,Block
+  - DOMAIN-SUFFIX,chartboost.com,Block
+  - DOMAIN-SUFFIX,criteo.com,Block
+  - DOMAIN-SUFFIX,domob.cn,Block
+  - DOMAIN-SUFFIX,dotomi.com,Block
+  - DOMAIN-SUFFIX,doubleclick.net,Block
+  - DOMAIN-SUFFIX,duapp.com,Block
+  - DOMAIN-SUFFIX,flurry.com,Block
+  - DOMAIN-SUFFIX,guangzhuiyuan.com,Block
+  - DOMAIN-SUFFIX,immob.cn,Block
+  - DOMAIN-SUFFIX,inmobi.com,Block
+  - DOMAIN-SUFFIX,madhouse.cn,Block
+  - DOMAIN-SUFFIX,mopub.com,Block
+  - DOMAIN-SUFFIX,openx.com,Block
+  - DOMAIN-SUFFIX,pubmatic.com,Block
+  - DOMAIN-SUFFIX,rubiconproject.com,Block
+  - DOMAIN-SUFFIX,scorecardresearch.com,Block
+  - DOMAIN-SUFFIX,smartadserver.com,Block
+  - DOMAIN-SUFFIX,supersonicads.com,Block
+  - DOMAIN-SUFFIX,tanx.com,Block
+  - DOMAIN-SUFFIX,unity3d.com,Block
+  - DOMAIN-SUFFIX,unityads.unity3d.com,Block
+  - DOMAIN-SUFFIX,vungle.com,Block
+  - DOMAIN-SUFFIX,wqmobile.com,Block
+  - DOMAIN-SUFFIX,yieldmo.com, unhappy
+  - DOMAIN-KEYWORD,ads,Block
+  - DOMAIN-KEYWORD,ad,Block
+  - DOMAIN,api.weibo.com,Node Selection
+  - DOMAIN,beacon.qq.com,Node Selection
+  - DOMAIN,mp.weixin.qq.com,Node Selection
+  - DOMAIN-SUFFIX,126.com,Node Selection
+  - DOMAIN-SUFFIX,126.net,Node Selection
+  - DOMAIN-SUFFIX,163.com,Node Selection
+  - DOMAIN-SUFFIX,1password.com,Node Selection
+  - DOMAIN-SUFFIX,2fa.rip,Node Selection
+  - DOMAIN-SUFFIX,51y5.net,Node Selection
+  - DOMAIN-SUFFIX,8686c.com,Node Selection
+  - DOMAIN-SUFFIX,abema.tv,Node Selection
+  - DOMAIN-SUFFIX,apple.com,Node Selection
+  - DOMAIN-SUFFIX,apple-cloudkit.com,Node Selection
+  - DOMAIN-SUFFIX,appleid.apple.com,Node Selection
+  - DOMAIN-SUFFIX,archive.org,Node Selection
+  - DOMAIN-SUFFIX,avgle.com,Node Selection
+  - DOMAIN-SUFFIX,azure.com,Node Selection
+  - DOMAIN-SUFFIX,bandwagonhost.com,Node Selection
+  - DOMAIN-SUFFIX,bing.com,Node Selection
+  - DOMAIN-SUFFIX,bitwarden.com,Node Selection
+  - DOMAIN-SUFFIX,blogger.com,Node Selection
+  - DOMAIN-SUFFIX,blogspot.com,Node Selection
+  - DOMAIN-SUFFIX,box.com,Node Selection
+  - DOMAIN-SUFFIX,cloudflare.com,Node Selection
+  - DOMAIN-SUFFIX,cloudfront.net,Node Selection
+  - DOMAIN-SUFFIX,coomer.su,Node Selection
+  - DOMAIN-SUFFIX,culturedcode.com,Node Selection
+  - DOMAIN-SUFFIX,dailymotion.com,Node Selection
+  - DOMAIN-SUFFIX,daraz.com,Node Selection
+  - DOMAIN-SUFFIX,dayone.app,Node Selection
+  - DOMAIN-SUFFIX,deviantart.com,Node Selection
+  - DOMAIN-SUFFIX,dmm.co.jp,Node Selection
+  - DOMAIN-SUFFIX,dmm.com,Node Selection
+  - DOMAIN-SUFFIX,dropbox.com,Node Selection
+  - DOMAIN-SUFFIX,dropboxapi.com,Node Selection
+  - DOMAIN-SUFFIX,duck.com,Node Selection
+  - DOMAIN-SUFFIX,duckduckgo.com,Node Selection
+  - DOMAIN-SUFFIX,evernote.com,Node Selection
+  - DOMAIN-SUFFIX,everything.app,Node Selection
+  - DOMAIN-SUFFIX,facebook.com,Node Selection
+  - DOMAIN-SUFFIX,fb.com,Node Selection
+  - DOMAIN-SUFFIX,fb.me,Node Selection
+  - DOMAIN-SUFFIX,fbcdn.net,Node Selection
+  - DOMAIN-SUFFIX,fox.com,Node Selection
+  - DOMAIN-SUFFIX,foxnews.com,Node Selection
+  - DOMAIN-SUFFIX,gameloft.com,Node Selection
+  - DOMAIN-SUFFIX,gamespot.com,Node Selection
+  - DOMAIN-SUFFIX,gfycat.com,Node Selection
+  - DOMAIN-SUFFIX,github.com,Node Selection
+  - DOMAIN-SUFFIX,github.io,Node Selection
+  - DOMAIN-SUFFIX,gitlab.com,Node Selection
+  - DOMAIN-SUFFIX,gm.com,Node Selection
+  - DOMAIN-SUFFIX,go.dev,Node Selection
+  - DOMAIN-SUFFIX,golang.org,Node Selection
+  - DOMAIN-SUFFIX,google.ae,Node Selection
+  - DOMAIN-SUFFIX,google.at,Node Selection
+  - DOMAIN-SUFFIX,google.be,Node Selection
+  - DOMAIN-SUFFIX,google.ca,Node Selection
+  - DOMAIN-SUFFIX,google.ch,Node Selection
+  - DOMAIN-SUFFIX,google.cn,Node Selection
+  - DOMAIN-SUFFIX,google.co.id,Node Selection
+  - DOMAIN-SUFFIX,google.co.in,Node Selection
+  - DOMAIN-SUFFIX,google.co.jp,Node Selection
+  - DOMAIN-SUFFIX,google.co.kr,Node Selection
+  - DOMAIN-SUFFIX,google.co.th,Node Selection
+  - DOMAIN-SUFFIX,google.co.uk,Node Selection
+  - DOMAIN-SUFFIX,google.com,Node Selection
+  - DOMAIN-SUFFIX,google.com.au,Node Selection
+  - DOMAIN-SUFFIX,google.com.hk,Node Selection
+  - DOMAIN-SUFFIX,google.com.my,Node Selection
+  - DOMAIN-SUFFIX,google.com.sg,Node Selection
+  - DOMAIN-SUFFIX,google.com.tr,Node Selection
+  - DOMAIN-SUFFIX,google.com.tw,Node Selection
+  - DOMAIN-SUFFIX,google.de,Node European
+  - DOMAIN-SUFFIX,google.dev,Node Selection
+  - DOMAIN-SUFFIX,google.dz,Node Selection
+  - DOMAIN-SUFFIX,google.es,Node Selection
+  - DOMAIN-SUFFIX,google.fr,Node Selection
+  - DOMAIN-SUFFIX,google.ie,Node Selection
+  - DOMAIN-SUFFIX,google.it,Node Selection
+  - DOMAIN-SUFFIX,google.nl,Node Selection
+  - DOMAIN-SUFFIX,google.no,Node Selection
+  - DOMAIN-SUFFIX,google.pl,Node Selection
+  - DOMAIN-SUFFIX,google.pt,Node Selection
+  - DOMAIN-SUFFIX,google.se,Node Selection
+  - DOMAIN-SUFFIX,googleapis.com,Node Selection
+  - DOMAIN-SUFFIX,googlevideo.com,Node Selection
+  - DOMAIN-SUFFIX,gov,Node Selection
+  - DOMAIN-SUFFIX,gov.hk,Node Selection
+  - DOMAIN-SUFFIX,gov.mo,Node Selection
+  - DOMAIN-SUFFIX,gov.tw,Node Selection
+  - DOMAIN-SUFFIX,hk,Node Selection
+  - DOMAIN-SUFFIX,hotstar.com,Node Selection
+  - DOMAIN-SUFFIX,huggingface.co,Node Selection
+  - DOMAIN-SUFFIX,icloud.com,Node Selection
+  - DOMAIN-SUFFIX,icloud-content.com,Node Selection
+  - DOMAIN-SUFFIX,ift.tt,Node Selection
+  - DOMAIN-SUFFIX,insider.com,Node Selection
+  - DOMAIN-SUFFIX,instagram.com,Node Selection
+  - DOMAIN-SUFFIX,instagr.am,Node Selection
+  - DOMAIN-SUFFIX,jable.tv,Node Selection
+  - DOMAIN-SUFFIX,keep.google.com,Node Selection
+  - DOMAIN-SUFFIX,kemono.su,Node Selection
+  - DOMAIN-SUFFIX,kobo.com,Node Selection
+  - DOMAIN-SUFFIX,line.me,Node Selection
+  - DOMAIN-SUFFIX,linkedin.com,Node Selection
+  - DOMAIN-SUFFIX,medium.com,Node Selection
+  - DOMAIN-SUFFIX,mega.nz,Node Selection
+  - DOMAIN-SUFFIX,messenger.com,Node Selection
+  - DOMAIN-SUFFIX,mubi.com,Node Selection
+  - DOMAIN-SUFFIX,naver.com,Node Selection
+  - DOMAIN-SUFFIX,netflix.com,Node Selection
+  - DOMAIN-SUFFIX,netflix.net,Node Selection
+  - DOMAIN-SUFFIX,nflxext.com,Node Selection
+  - DOMAIN-SUFFIX,nflximg.com,Node Selection
+  - DOMAIN-SUFFIX,nflxso.net,Node Selection
+  - DOMAIN-SUFFIX,nflxvideo.net,Node Selection
+  - DOMAIN-SUFFIX,niconico.com,Node Selection
+  - DOMAIN-SUFFIX,niconico.jp,Node Selection
+  - DOMAIN-SUFFIX,nintendo.com,Node Selection
+  - DOMAIN-SUFFIX,nintendo.net,Node Selection
+  - DOMAIN-SUFFIX,notion.com,Node Selection
+  - DOMAIN-SUFFIX,notion.so,Node Selection
+  - DOMAIN-SUFFIX,nyaa.si,Node Selection
+  - DOMAIN-SUFFIX,nytimes.com,Node Selection
+  - DOMAIN-SUFFIX,openai.com,Node Selection
+  - DOMAIN-SUFFIX,patreon.com,Node Selection
+  - DOMAIN-SUFFIX,paypal.com,Node Selection
+  - DOMAIN-SUFFIX,paypal.me,Node Selection
+  - DOMAIN-SUFFIX,paypalobjects.com,Node Selection
+  - DOMAIN-SUFFIX,pinimg.com,Node Selection
+  - DOMAIN-SUFFIX,pinterest.com,Node Selection
+  - DOMAIN-SUFFIX,pixiv.net,Node Selection
+  - DOMAIN-SUFFIX,pornhub.com,Node Selection
+  - DOMAIN-SUFFIX,pornhubpremium.com,Node Selection
+  - DOMAIN-SUFFIX,proton.me,Node Selection
+  - DOMAIN-SUFFIX,protonvpn.com,Node Selection
+  - DOMAIN-SUFFIX,quora.com,Node Selection
+  - DOMAIN-SUFFIX,reddit.com,Node Selection
+  - DOMAIN-SUFFIX,redd.it,Node Selection
+  - DOMAIN-SUFFIX,ryrob.com,Node Selection
+  - DOMAIN-SUFFIX,shopee.com,Node Selection
+  - DOMAIN-SUFFIX,signal.org,Node Selection
+  - DOMAIN-SUFFIX,spotify.com,Node Selection
+  - DOMAIN-SUFFIX,stackoverflow.com,Node Selection
+  - DOMAIN-SUFFIX,steamcommunity.com,Node Selection
+  - DOMAIN-SUFFIX,steampowered.com,Node Selection
+  - DOMAIN-SUFFIX,stripchat.com,Node Selection
+  - DOMAIN-SUFFIX,telegram.me,Node Selection
+  - DOMAIN-SUFFIX,telegram.org,Node Selection
+  - DOMAIN-SUFFIX,tesla.com,Node Selection
+  - DOMAIN-SUFFIX,threads.net,Node Selection
+  - DOMAIN-SUFFIX,tiktok.com,Node Selection
+  - DOMAIN-SUFFIX,tiktokv.com,Node Selection
+  - DOMAIN-SUFFIX,t.me,Node Selection
+  - DOMAIN-SUFFIX,twimg.com,Node Selection
+  - DOMAIN-SUFFIX,twitch.tv,Node Selection
+  - DOMAIN-SUFFIX,twitter.com,Node Selection
+  - DOMAIN-SUFFIX,unhappy,Node Selection
+  - DOMAIN-SUFFIX,vimeo.com,Node Selection
+  - DOMAIN-SUFFIX,walmart.com,Node Selection
+  - DOMAIN-SUFFIX,whatsapp.com,Node Selection
+  - DOMAIN-SUFFIX,whatsapp.net,Node Selection
+  - DOMAIN-SUFFIX,wikileaks.org,Node Selection
+  - DOMAIN-SUFFIX,wikipedia.org,Node Selection
+  - DOMAIN-SUFFIX,wp.com,Node Selection
+  - DOMAIN-SUFFIX,x.com,Node Selection
+  - DOMAIN-SUFFIX,xnxx.com,Node Selection
+  - DOMAIN-SUFFIX,xvideos.com,Node Selection
+  - DOMAIN-SUFFIX,yelp.com,Node Selection
+  - DOMAIN-SUFFIX,youtube.com,Node Selection
+  - DOMAIN-SUFFIX,ytimg.com,Node Selection
+  - DOMAIN-SUFFIX,zoho.com,Node Selection
+  - DOMAIN-SUFFIX,zoom.us,Node Selection
+  - DOMAIN-KEYWORD,facebook,Node Selection
+  - DOMAIN-KEYWORD,fb,Node Selection
+  - DOMAIN-KEYWORD,google,Node Selection
+  - DOMAIN-KEYWORD,instagram,Node Selection
+  - DOMAIN-KEYWORD,netflix,Node Selection
+  - DOMAIN-KEYWORD,openai,Node Selection
+  - DOMAIN-KEYWORD,twitter,Node Selection
+  - DOMAIN-KEYWORD,youtube,Node Selection
+  - GEOIP,CN,Direct
+  - MATCH,Fallback Proxy
