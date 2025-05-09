@@ -5,26 +5,26 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: ASTRACAT-Tunels-1, server: 103.21.244.233, port: 8443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-2, server: 104.16.153.219, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-3, server: 104.24.220.124, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-4, server: 172.64.145.45, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-5, server: 104.16.7.47, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-6, server: 104.24.193.111, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-7, server: 141.101.74.42, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-8, server: 172.64.137.62, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-9, server: 188.114.101.137, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-10, server: 190.93.243.244, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-11, server: 162.159.152.183, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-12, server: 104.16.39.71, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-13, server: 104.24.167.39, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-14, server: 172.64.247.199, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-15, server: 104.16.58.137, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-16, server: 104.24.3.69, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-17, server: 141.101.81.210, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-18, server: 172.64.25.239, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-19, server: 188.114.101.139, port: 2087, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: ASTRACAT-Tunels-20, server: 190.93.241.141, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-1, server: 103.21.244.233, port: 8443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-2, server: 104.16.153.219, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-3, server: 104.24.220.124, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-4, server: 172.64.145.45, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-5, server: 104.16.7.47, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-6, server: 104.24.193.111, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-7, server: 141.101.74.42, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-8, server: 172.64.137.62, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-9, server: 188.114.101.137, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-10, server: 190.93.243.244, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-11, server: 162.159.152.183, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-12, server: 104.16.39.71, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-13, server: 104.24.167.39, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-14, server: 172.64.247.199, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo islands, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-15, server: 104.16.58.137, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-16, server: 104.24.3.69, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-17, server: 141.101.81.210, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-18, server: 172.64.25.239, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-19, server: 188.114.101.139, port: 2087, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
+  - {name: 🚀 ASTRACAT-Tunels-20, server: 190.93.241.141, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
 proxy-groups:
   - name: Node Selection
     type: select
@@ -33,103 +33,103 @@ proxy-groups:
       - Fallback
       - Load Balance
       - DIRECT
-      - ASTRACAT-Tunels-1
-      - ASTRACAT-Tunels-2
-      - ASTRACAT-Tunels-3
-      - ASTRACAT-Tunels-4
-      - ASTRACAT-Tunels-5
-      - ASTRACAT-Tunels-6
-      - ASTRACAT-Tunels-7
-      - ASTRACAT-Tunels-8
-      - ASTRACAT-Tunels-9
-      - ASTRACAT-Tunels-10
-      - ASTRACAT-Tunels-11
-      - ASTRACAT-Tunels-12
-      - ASTRACAT-Tunels-13
-      - ASTRACAT-Tunels-14
-      - ASTRACAT-Tunels-15
-      - ASTRACAT-Tunels-16
-      - ASTRACAT-Tunels-17
-      - ASTRACAT-Tunels-18
-      - ASTRACAT-Tunels-19
-      - ASTRACAT-Tunels-20
+      - 🚀 ASTRACAT-Tunels-1
+      - 🚀 ASTRACAT-Tunels-2
+      - 🚀 ASTRACAT-Tunels-3
+      - 🚀 ASTRACAT-Tunels-4
+      - 🚀 ASTRACAT-Tunels-5
+      - 🚀 ASTRACAT-Tunels-6
+      - 🚀 ASTRACAT-Tunels-7
+      - 🚀 ASTRACAT-Tunels-8
+      - 🚀 ASTRACAT-Tunels-9
+      - 🚀 ASTRACAT-Tunels-10
+      - 🚀 ASTRACAT-Tunels-11
+      - 🚀 ASTRACAT-Tunels-12
+      - 🚀 ASTRACAT-Tunels-13
+      - 🚀 ASTRACAT-Tunels-14
+      - 🚀 ASTRACAT-Tunels-15
+      - 🚀 ASTRACAT-Tunels-16
+      - 🚀 ASTRACAT-Tunels-17
+      - 🚀 ASTRACAT-Tunels-18
+      - 🚀 ASTRACAT-Tunels-19
+      - 🚀 ASTRACAT-Tunels-20
   - name: Auto Select
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ASTRACAT-Tunels-1
-      - ASTRACAT-Tunels-2
-      - ASTRACAT-Tunels-3
-      - ASTRACAT-Tunels-4
-      - ASTRACAT-Tunels-5
-      - ASTRACAT-Tunels-6
-      - ASTRACAT-Tunels-7
-      - ASTRACAT-Tunels-8
-      - ASTRACAT-Tunels-9
-      - ASTRACAT-Tunels-10
-      - ASTRACAT-Tunels-11
-      - ASTRACAT-Tunels-12
-      - ASTRACAT-Tunels-13
-      - ASTRACAT-Tunels-14
-      - ASTRACAT-Tunels-15
-      - ASTRACAT-Tunels-16
-      - ASTRACAT-Tunels-17
-      - ASTRACAT-Tunels-18
-      - ASTRACAT-Tunels-19
-      - ASTRACAT-Tunels-20
+      - 🚀 ASTRACAT-Tunels-1
+      - 🚀 ASTRACAT-Tunels-2
+      - 🚀 ASTRACAT-Tunels-3
+      - 🚀 ASTRACAT-Tunels-4
+      - 🚀 ASTRACAT-Tunels-5
+      - 🚀 ASTRACAT-Tunels-6
+      - 🚀 ASTRACAT-Tunels-7
+      - 🚀 ASTRACAT-Tunels-8
+      - 🚀 ASTRACAT-Tunels-9
+      - 🚀 ASTRACAT-Tunels-10
+      - 🚀 ASTRACAT-Tunels-11
+      - 🚀 ASTRACAT-Tunels-12
+      - 🚀 ASTRACAT-Tunels-13
+      - 🚀 ASTRACAT-Tunels-14
+      - 🚀 ASTRACAT-Tunels-15
+      - 🚀 ASTRACAT-Tunels-16
+      - 🚀 ASTRACAT-Tunels-17
+      - 🚀 ASTRACAT-Tunels-18
+      - 🚀 ASTRACAT-Tunels-19
+      - 🚀 ASTRACAT-Tunels-20
   - name: Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - ASTRACAT-Tunels-1
-      - ASTRACAT-Tunels-2
-      - ASTRACAT-Tunels-3
-      - ASTRACAT-Tunels-4
-      - ASTRACAT-Tunels-5
-      - ASTRACAT-Tunels-6
-      - ASTRACAT-Tunels-7
-      - ASTRACAT-Tunels-8
-      - ASTRACAT-Tunels-9
-      - ASTRACAT-Tunels-10
-      - ASTRACAT-Tunels-11
-      - ASTRACAT-Tunels-12
-      - ASTRACAT-Tunels-13
-      - ASTRACAT-Tunels-14
-      - ASTRACAT-Tunels-15
-      - ASTRACAT-Tunels-16
-      - ASTRACAT-Tunels-17
-      - ASTRACAT-Tunels-18
-      - ASTRACAT-Tunels-19
-      - ASTRACAT-Tunels-20
+      - 🚀 ASTRACAT-Tunels-1
+      - 🚀 ASTRACAT-Tunels-2
+      - 🚀 ASTRACAT-Tunels-3
+      - 🚀 ASTRACAT-Tunels-4
+      - 🚀 ASTRACAT-Tunels-5
+      - 🚀 ASTRACAT-Tunels-6
+      - 🚀 ASTRACAT-Tunels-7
+      - 🚀 ASTRACAT-Tunels-8
+      - 🚀 ASTR票CAT-Tunels-9
+      - 🚀 ASTRACAT-Tunels-10
+      - 🚀 ASTRACAT-Tunels-11
+      - 🚀 ASTRACAT-Tunels-12
+      - 🚀 ASTRACAT-Tunels-13
+      - 🚀 ASTRACAT-Tunels-14
+      - 🚀 ASTRACAT-Tunels-15
+      - 🚀 ASTRACAT-Tunels-16
+      - 🚀 ASTRACAT-Tunels-17
+      - 🚀 ASTRACAT-Tunels-18
+      - 🚀 ASTRACAT-Tunels-19
+      - 🚀 ASTRACAT-Tunels-20
   - name: Load Balance
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - ASTRACAT-Tunels-1
-      - ASTRACAT-Tunels-2
-      - ASTRACAT-Tunels-3
-      - ASTRACAT-Tunels-4
-      - ASTRACAT-Tunels-5
-      - ASTRACAT-Tunels-6
-      - ASTRACAT-Tunels-7
-      - ASTRACAT-Tunels-8
-      - ASTRACAT-Tunels-9
-      - ASTRACAT-Tunels-10
-      - ASTRACAT-Tunels-11
-      - ASTRACAT-Tunels-12
-      - ASTRACAT-Tunels-13
-      - ASTRACAT-Tunels-14
-      - ASTRACAT-Tunels-15
-      - ASTRACAT-Tunels-16
-      - ASTRACAT-Tunels-17
-      - ASTRACAT-Tunels-18
-      - ASTRACAT-Tunels-19
-      - ASTRACAT-Tunels-20
+      - 🚀 ASTRACAT-Tunels-1
+      - 🚀 ASTRACAT-Tunels-2
+      - 🚀 ASTRACAT-Tunels-3
+      - 🚀 ASTRACAT-Tunels-4
+      - 🚀 ASTRACAT-Tunels-5
+      - 🚀 ASTRACAT-Tunels-6
+      - 🚀 ASTRACAT-Tunels-7
+      - 🚀 ASTRACAT-Tunels-8
+      - 🚀 ASTRACAT-Tunels-9
+      - 🚀 ASTRACAT-Tunels-10
+      - 🚀 ASTRACAT-Tunels-11
+      - 🚀 ASTRACAT-Tunels-12
+      - 🚀 ASTRACAT-Tunels-13
+      - 🚀 ASTRACAT-Tunels-14
+      - 🚀 ASTRACAT-Tunels-15
+      - 🚀 ASTRACAT-Tunels-16
+      - 🚀 ASTRACAT-Tunels-17
+      - 🚀 ASTRACAT-Tunels-18
+      - 🚀 ASTRACAT-Tunels-19
+      - 🚀 ASTRACAT-Tunels-20
   - name: Direct
     type: select
     proxies:
@@ -149,26 +149,26 @@ proxy-groups:
       - Auto Select
       - Fallback
       - Load Balance
-      - ASTRACAT-Tunels-1
-      - ASTRACAT-Tunels-2
-      - ASTRACAT-Tunels-3
-      - ASTRACAT-Tunels-4
-      - ASTRACAT-Tunels-5
-      - ASTRACAT-Tunels-6
-      - ASTRACAT-Tunels-7
-      - ASTRACAT-Tunels-8
-      - ASTRACAT-Tunels-9
-      - ASTRACAT-Tunels-10
-      - ASTRACAT-Tunels-11
-      - ASTRACAT-Tunels-12
-      - ASTRACAT-Tunels-13
-      - ASTRACAT-Tunels-14
-      - ASTRACAT-Tunels-15
-      - ASTRACAT-Tunels-16
-      - ASTRACAT-Tunels-17
-      - ASTRACAT-Tunels-18
-      - ASTRACAT-Tunels-19
-      - ASTRACAT-Tunels-20
+      - 🚀 ASTRACAT-Tunels-1
+      - 🚀 ASTRACAT-Tunels-2
+      - 🚀 ASTRACAT-Tunels-3
+      - 🚀 ASTRACAT-Tunels-4
+      - 🚀 ASTRACAT-Tunels-5
+      - 🚀 ASTRACAT-Tunels-6
+      - 🚀 ASTRACAT-Tunels-7
+      - 🚀 ASTRACAT-Tunels-8
+      - 🚀 ASTRACAT-Tunels-9
+      - 🚀 ASTRACAT-Tunels-10
+      - 🚀 ASTRACAT-Tunels-11
+      - 🚀 ASTRACAT-Tunels-12
+      - 🚀 ASTRACAT-Tunels-13
+      - 🚀 ASTRACAT-Tunels-14
+      - 🚀 ASTRACAT-Tunels-15
+      - 🚀 ASTRACAT-Tunels-16
+      - 🚀 ASTRACAT-Tunels-17
+      - 🚀 ASTRACAT-Tunels-18
+      - 🚀 ASTRACAT-Tunels-19
+      - 🚀 ASTRACAT-Tunels-20
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,Direct
   - DOMAIN-SUFFIX,ip6-localhost,Direct
@@ -322,7 +322,7 @@ rules:
   - DOMAIN-SUFFIX,unityads.unity3d.com,Block
   - DOMAIN-SUFFIX,vungle.com,Block
   - DOMAIN-SUFFIX,wqmobile.com,Block
-  - DOMAIN-SUFFIX,yieldmo.com, unhappy
+  - DOMAIN-SUFFIX,yieldmo.com,Block
   - DOMAIN-KEYWORD,ads,Block
   - DOMAIN-KEYWORD,ad,Block
   - DOMAIN,api.weibo.com,Node Selection
@@ -398,7 +398,7 @@ rules:
   - DOMAIN-SUFFIX,google.com.sg,Node Selection
   - DOMAIN-SUFFIX,google.com.tr,Node Selection
   - DOMAIN-SUFFIX,google.com.tw,Node Selection
-  - DOMAIN-SUFFIX,google.de,Node European
+  - DOMAIN-SUFFIX,google.de,Node Selection
   - DOMAIN-SUFFIX,google.dev,Node Selection
   - DOMAIN-SUFFIX,google.dz,Node Selection
   - DOMAIN-SUFFIX,google.es,Node Selection
@@ -483,7 +483,6 @@ rules:
   - DOMAIN-SUFFIX,twimg.com,Node Selection
   - DOMAIN-SUFFIX,twitch.tv,Node Selection
   - DOMAIN-SUFFIX,twitter.com,Node Selection
-  - DOMAIN-SUFFIX,unhappy,Node Selection
   - DOMAIN-SUFFIX,vimeo.com,Node Selection
   - DOMAIN-SUFFIX,walmart.com,Node Selection
   - DOMAIN-SUFFIX,whatsapp.com,Node Selection
