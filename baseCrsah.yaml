@@ -168,8 +168,32 @@ proxies:
       path: /
       headers:
         Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-Tunels-LKRU1
+    type: vless
+    server: 85.209.2.112
+    port: 14083
+    uuid: 4181b99f-be17-4774-99bb-9427ede998b2
+    cipher: none
+    tls: false
+    network: tcp
+  - name: 🚀 ASTRACAT-Tunels-LKRU2
+    type: vless
+    server: 85.209.2.112
+    port: 14083
+    uuid: 94b1a101-64d4-4b57-a0b8-1675b14a90d6
+    cipher: none
+    tls: false
+    network: tcp
+  - name: 🚀 ASTRACAT-Tunels-LKRU3
+    type: vless
+    server: 85.209.2.112
+    port: 14083
+    uuid: b95a82d6-4b1e-44ef-a564-6612fe247709
+    cipher: none
+    tls: false
+    network: tcp
 proxy-groups:
-  - name: 🚀 ASTRACAT-TunelsX-Group
+  - name: 🚀 ASTRACAT-Tunels-Group
     type: select
     proxies:
       - 🚀 ASTRACAT-TunelsX1
@@ -185,8 +209,11 @@ proxy-groups:
       - 🚀 ASTRACAT-TunelsX11
       - 🚀 ASTRACAT-TunelsX12
       - 🚀 ASTRACAT-TunelsX13
+      - 🚀 ASTRACAT-Tunels-LKRU1
+      - 🚀 ASTRACAT-Tunels-LKRU2
+      - 🚀 ASTRACAT-Tunels-LKRU3
 rules:
-  - MATCH,🚀 ASTRACAT-TunelsX-Group
+  - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
   enable: true
   ipv6: false
