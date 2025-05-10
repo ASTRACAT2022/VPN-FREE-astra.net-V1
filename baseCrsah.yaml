@@ -1,370 +1,195 @@
+# Clash-meta конфигурация
 port: 7890
 socks-port: 7891
-allow-lan: true
-mode: Rule
+allow-lan: false
+mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🚀 ASTRACAT-Tunels-1, server: 103.21.244.233, port: 8443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-2, server: 104.16.153.219, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-3, server: 104.24.220.124, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-4, server: 172.64.145.45, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-5, server: 104.16.7.47, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-6, server: 104.24.193.111, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-7, server: 141.101.74.42, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-8, server: 172.64.137.62, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-9, server: 188.114.101.137, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-10, server: 190.93.243.244, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-11, server: 162.159.152.183, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-12, server: 104.16.39.71, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-13, server: 104.24.167.39, port: 2083, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-14, server: 172.64.247.199, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-15, server: 104.16.58.137, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-16, server: 104.24.3.69, port: 443, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-17, server: 141.101.81.210, port: 2053, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-18, server: 172.64.25.239, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-19, server: 188.114.101.139, port: 2087, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀 ASTRACAT-Tunels-20, server: 190.93.241.141, port: 2096, type: vless, uuid: 1deac88e-b439-44b2-b376-666a2fba0c1e, tls: true, alpn: [h3], tfo: false, skip-cert-verify: true, servername: astrawarpxs.pages.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: astrawarpxs.pages.dev}}}
-  - {name: 🚀ASTRACAT-Tunels--u1hp1r1s, server: 85.209.2.112, port: 14083, type: vless, uuid: 4181b99f-be17-4774-99bb-9427ede998b2, tls: false, network: tcp}
-  - {name: 🚀ASTRACAT-Tunels--s9ekdvb0, server: 85.209.2.112, port: 14083, type: vless, uuid: 94b1a101-64d4-4b57-a0b8-1675b14a90d6, tls: false, network: tcp}
-  - {name: 🚀ASTRACAT-Tunels--7qgzxq18, server: 85.209.2.112, port: 14083, type: vless, uuid: b95a82d6-4b1e-44ef-a564-6612fe247709, tls: false, network: tcp}
-  - {name: 🚀ASTRACAT-Tunels--q5fyms1h, server: 85.209.2.112, port: 14083, type: vless, uuid: 73726b38-dde4-4493-9d66-ec78fcbbdf71, tls: false, network: tcp}
-  - {name: 🚀ASTRACAT-Tunels--684dplty, server: 85.209.2.112, port: 14083, type: vless, uuid: 4e9090fb-dff4-436a-a5a3-57607659f1f0, tls: false, network: tcp}
-  - {name: 🚀ASTRACAT-Tunels--owgykxp3, server: 85.209.2.112, port: 14083, type: vless, uuid: b5bb50c1-b81e-4b80-849a-b0c514a9ed2d, tls: false, network: tcp}
-  - {name: 🚀ASTRACAT-Tunels--7ousbsip, server: 85.209.2.112, port: 14083, type: vless, uuid: 01b34936-ce3f-4e83-98ef-9e7401684f01, tls: false, network: tcp}
-  - {name: 🚀ASTRACAT-Tunels--00fgq4b4, server: 85.209.2.112, port: 14083, type: vless, uuid: 2ff5cf68-b926-411b-9955-bbdd92cb77eb, tls: false, network: tcp}
-  - {name: 🚀ASTRACAT-Tunels--xappm6f2, server: 85.209.2.112, port: 14083, type: vless, uuid: c8a5fadb-e3e5-4aa0-8ca0-b4443c3a3331, tls: false, network: tcp}
+  - name: 🚀 ASTRACAT-TunelsX1
+    type: vless
+    server: www.visa.com
+    port: 80
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX2
+    type: vless
+    server: cis.visa.com
+    port: 8080
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX3
+    type: vless
+    server: africa.visa.com
+    port: 8880
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX4
+    type: vless
+    server: www.visa.com.sg
+    port: 2052
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX5
+    type: vless
+    server: www.visaeurope.at
+    port: 2082
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX6
+    type: vless
+    server: www.visa.com.mt
+    port: 2086
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX7
+    type: vless
+    server: qa.visamiddleeast.com
+    port: 2095
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX8
+    type: vless
+    server: usa.visa.com
+    port: 443
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: true
+    servername: astrawarpx.astracat2019.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX9
+    type: vless
+    server: myanmar.visa.com
+    port: 8443
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: true
+    servername: astrawarpx.astracat2019.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX10
+    type: vless
+    server: www.visa.com.tw
+    port: 2053
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: true
+    servername: astrawarpx.astracat2019.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX11
+    type: vless
+    server: www.visaeurope.ch
+    port: 2083
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: true
+    servername: astrawarpx.astracat2019.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX12
+    type: vless
+    server: www.visa.com.br
+    port: 2087
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: true
+    servername: astrawarpx.astracat2019.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
+  - name: 🚀 ASTRACAT-TunelsX13
+    type: vless
+    server: www.visasoutheasteurope.com
+    port: 2096
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    cipher: none
+    tls: true
+    servername: astrawarpx.astracat2019.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: astrawarpx.astracat2019.workers.dev
 proxy-groups:
-  - name: Node Selection
+  - name: 🚀 ASTRACAT-TunelsX-Group
     type: select
     proxies:
-      - Auto Select
-      - Fallback
-      - Load Balance
-      - DIRECT
-      - 🚀 ASTRACAT-Tunels-1
-      - 🚀 ASTRACAT-Tunels-2
-      - 🚀 ASTRACAT-Tunels-3
-      - 🚀 ASTRACAT-Tunels-4
-      - 🚀 ASTRACAT-Tunels-5
-      - 🚀 ASTRACAT-Tunels-6
-      - 🚀 ASTRACAT-Tunels-7
-      - 🚀 ASTRACAT-Tunels-8
-      - 🚀 ASTRACAT-Tunels-9
-      - 🚀 ASTRACAT-Tunels-10
-      - 🚀 ASTRACAT-Tunels-11
-      - 🚀 ASTRACAT-Tunels-12
-      - 🚀 ASTRACAT-Tunels-13
-      - 🚀 ASTRACAT-Tunels-14
-      - 🚀 ASTRACAT-Tunels-15
-      - 🚀 ASTRACAT-Tunels-16
-      - 🚀 ASTRACAT-Tunels-17
-      - 🚀 ASTRACAT-Tunels-18
-      - 🚀 ASTRACAT-Tunels-19
-      - 🚀 ASTRACAT-Tunels-20
-      - 🚀ASTRACAT-Tunels--u1hp1r1s
-      - 🚀ASTRACAT-Tunels--s9ekdvb0
-      - 🚀ASTRACAT-Tunels--7qgzxq18
-      - 🚀ASTRACAT-Tunels--q5fyms1h
-      - 🚀ASTRACAT-Tunels--684dplty
-      - 🚀ASTRACAT-Tunels--owgykxp3
-      - 🚀ASTRACAT-Tunels--7ousbsip
-      - 🚀ASTRACAT-Tunels--00fgq4b4
-      - 🚀ASTRACAT-Tunels--xappm6f2
-  - name: Auto Select
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🚀 ASTRACAT-Tunels-1
-      - 🚀 ASTRACAT-Tunels-2
-      - 🚀 ASTRACAT-Tunels-3
-      - 🚀 ASTRACAT-Tunels-4
-      - 🚀 ASTRACAT-Tunels-5
-      - 🚀 ASTRACAT-Tunels-6
-      - 🚀 ASTRACAT-Tunels-7
-      - 🚀 ASTRACAT-Tunels-8
-      - 🚀 ASTRACAT-Tunels-9
-      - 🚀 ASTRACAT-Tunels-10
-      - 🚀 ASTRACAT-Tunels-11
-      - 🚀 ASTRACAT-Tunels-12
-      - 🚀 ASTRACAT-Tunels-13
-      - 🚀 ASTRACAT-Tunels-14
-      - 🚀 ASTRACAT-Tunels-15
-      - 🚀 ASTRACAT-Tunels-16
-      - 🚀 ASTRACAT-Tunels-17
-      - 🚀 ASTRACAT-Tunels-18
-      - 🚀 ASTRACAT-Tunels-19
-      - 🚀 ASTRACAT-Tunels-20
-      - 🚀ASTRACAT-Tunels--u1hp1r1s
-      - 🚀ASTRACAT-Tunels--s9ekdvb0
-      - 🚀ASTRACAT-Tunels--7qgzxq18
-      - 🚀ASTRACAT-Tunels--q5fyms1h
-      - 🚀ASTRACAT-Tunels--684dplty
-      - 🚀ASTRACAT-Tunels--owgykxp3
-      - 🚀ASTRACAT-Tunels--7ousbsip
-      - 🚀ASTRACAT-Tunels--00fgq4b4
-      - 🚀ASTRACAT-Tunels--xappm6f2
-  - name: Fallback
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - 🚀 ASTRACAT-Tunels-1
-      - 🚀 ASTRACAT-Tunels-2
-      - 🚀 ASTRACAT-Tunels-3
-      - 🚀 ASTRACAT-Tunels-4
-      - 🚀 ASTRACAT-Tunels-5
-      - 🚀 ASTRACAT-Tunels-6
-      - 🚀 ASTRACAT-Tunels-7
-      - 🚀 ASTRACAT-Tunels-8
-      - 🚀 ASTRACAT-Tunels-9
-      - 🚀 ASTRACAT-Tunels-10
-      - 🚀 ASTRACAT-Tunels-11
-      - 🚀 ASTRACAT-Tunels-12
-      - 🚀 ASTRACAT-Tunels-13
-      - 🚀 ASTRACAT-Tunels-14
-      - 🚀 ASTRACAT-Tunels-15
-      - 🚀 ASTRACAT-Tunels-16
-      - 🚀 ASTRACAT-Tunels-17
-      - 🚀 ASTRACAT-Tunels-18
-      - 🚀 ASTRACAT-Tunels-19
-      - 🚀 ASTRACAT-Tunels-20
-      - 🚀ASTRACAT-Tunels--u1hp1r1s
-      - 🚀ASTRACAT-Tunels--s9ekdvb0
-      - 🚀ASTRACAT-Tunels--7qgzxq18
-      - 🚀ASTRACAT-Tunels--q5fyms1h
-      - 🚀ASTRACAT-Tunels--684dplty
-      - 🚀ASTRACAT-Tunels--owgykxp3
-      - 🚀ASTRACAT-Tunels--7ousbsip
-      - 🚀ASTRACAT-Tunels--00fgq4b4
-      - 🚀ASTRACAT-Tunels--xappm6f2
-  - name: Load Balance
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - 🚀 ASTRACAT-Tunels-1
-      - 🚀 ASTRACAT-Tunels-2
-      - 🚀 ASTRACAT-Tunels-3
-      - 🚀 ASTRACAT-Tunels-4
-      - 🚀 ASTRACAT-Tunels-5
-      - 🚀 ASTRACAT-Tunels-6
-      - 🚀 ASTRACAT-Tunels-7
-      - 🚀 ASTRACAT-Tunels-8
-      - 🚀 ASTRACAT-Tunels-9
-      - 🚀 ASTRACAT-Tunels-10
-      - 🚀 ASTRACAT-Tunels-11
-      - 🚀 ASTRACAT-Tunels-12
-      - 🚀 ASTRACAT-Tunels-13
-      - 🚀 ASTRACAT-Tunels-14
-      - 🚀 ASTRACAT-Tunels-15
-      - 🚀 ASTRACAT-Tunels-16
-      - 🚀 ASTRACAT-Tunels-17
-      - 🚀 ASTRACAT-Tunels-18
-      - 🚀 ASTRACAT-Tunels-19
-      - 🚀 ASTRACAT-Tunels-20
-      - 🚀ASTRACAT-Tunels--u1hp1r1s
-      - 🚀ASTRACAT-Tunels--s9ekdvb0
-      - 🚀ASTRACAT-Tunels--7qgzxq18
-      - 🚀ASTRACAT-Tunels--q5fyms1h
-      - 🚀ASTRACAT-Tunels--684dplty
-      - 🚀ASTRACAT-Tunels--owgykxp3
-      - 🚀ASTRACAT-Tunels--7ousbsip
-      - 🚀ASTRACAT-Tunels--00fgq4b4
-      - 🚀ASTRACAT-Tunels--xappm6f2
-  - name: Direct
-    type: select
-    proxies:
-      - DIRECT
-      - Node Selection
-      - Auto Select
-  - name: Block
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: Fallback Proxy
-    type: select
-    proxies:
-      - Node Selection
-      - Direct
-      - Auto Select
-      - Fallback
-      - Load Balance
-      - 🚀 ASTRACAT-Tunels-1
-      - 🚀 ASTRACAT-Tunels-2
-      - 🚀 ASTRACAT-Tunels-3
-      - 🚀 ASTRACAT-Tunels-4
-      - 🚀 ASTRACAT-Tunels-5
-      - 🚀 ASTRACAT-Tunels-6
-      - 🚀 ASTRACAT-Tunels-7
-      - 🚀 ASTRACAT-Tunels-8
-      - 🚀 ASTRACAT-Tunels-9
-      - 🚀 ASTRACAT-Tunels-10
-      - 🚀 ASTRACAT-Tunels-11
-      - 🚀 ASTRACAT-Tunels-12
-      - 🚀 ASTRACAT-Tunels-13
-      - 🚀 ASTRACAT-Tunels-14
-      - 🚀 ASTRACAT-Tunels-15
-      - 🚀 ASTRACAT-Tunels-16
-      - 🚀 ASTRACAT-Tunels-17
-      - 🚀 ASTRACAT-Tunels-18
-      - 🚀 ASTRACAT-Tunels-19
-      - 🚀 ASTRACAT-Tunels-20
-      - 🚀ASTRACAT-Tunels--u1hp1r1s
-      - 🚀ASTRACAT-Tunels--s9ekdvb0
-      - 🚀ASTRACAT-Tunels--7qgzxq18
-      - 🚀ASTRACAT-Tunels--q5fyms1h
-      - 🚀ASTRACAT-Tunels--684dplty
-      - 🚀ASTRACAT-Tunels--owgykxp3
-      - 🚀ASTRACAT-Tunels--7ousbsip
-      - 🚀ASTRACAT-Tunels--00fgq4b4
-      - 🚀ASTRACAT-Tunels--xappm6f2
+      - 🚀 ASTRACAT-TunelsX1
+      - 🚀 ASTRACAT-TunelsX2
+      - 🚀 ASTRACAT-TunelsX3
+      - 🚀 ASTRACAT-TunelsX4
+      - 🚀 ASTRACAT-TunelsX5
+      - 🚀 ASTRACAT-TunelsX6
+      - 🚀 ASTRACAT-TunelsX7
+      - 🚀 ASTRACAT-TunelsX8
+      - 🚀 ASTRACAT-TunelsX9
+      - 🚀 ASTRACAT-TunelsX10
+      - 🚀 ASTRACAT-TunelsX11
+      - 🚀 ASTRACAT-TunelsX12
+      - 🚀 ASTRACAT-TunelsX13
 rules:
-  - DOMAIN-SUFFIX,acl4.ssr,Direct
-  - DOMAIN-SUFFIX,ip6-localhost,Direct
-  - DOMAIN-SUFFIX,ip6-loopback,Direct
-  - DOMAIN-SUFFIX,lan,Direct
-  - DOMAIN-SUFFIX,local,Direct
-  - DOMAIN-SUFFIX,localhost,Direct
-  - IP-CIDR,0.0.0.0/8,Direct,no-resolve
-  - IP-CIDR,10.0.0.0/8,Direct,no-resolve
-  - IP-CIDR,100.64.0.0/10,Direct,no-resolve
-  - IP-CIDR,127.0.0.0/8,Direct,no-resolve
-  - IP-CIDR,169.254.0.0/16,Direct,no-resolve
-  - IP-CIDR,172.16.0.0/12,Direct,no-resolve
-  - IP-CIDR,192.168.0.0/16,Direct,no-resolve
-  - IP-CIDR,198.18.0.0/15,Direct,no-resolve
-  - IP-CIDR,224.0.0.0/4,Direct,no-resolve
-  - IP-CIDR6,::1/128,Direct,no-resolve
-  - IP-CIDR6,fc00::/7,Direct,no-resolve
-  - IP-CIDR6,fe80::/10,Direct,no-resolve
-  - IP-CIDR6,fd00::/8,Direct,no-resolve
-  - DOMAIN,app.adjust.com,Direct
-  - DOMAIN,appsflyer.com,Direct
-  - DOMAIN,bugly.qq.com,Direct
-  - DOMAIN-SUFFIX,abtasty.com,Direct
-  - DOMAIN-SUFFIX,akadns.net,Direct
-  - DOMAIN-SUFFIX,akamai.net,Direct
-  - DOMAIN-SUFFIX,akamaihd.net,Direct
-  - DOMAIN-SUFFIX,akamaiedge.net,Direct
-  - DOMAIN-SUFFIX,alibabacorp.com,Direct
-  - DOMAIN-SUFFIX,alibaba.com,Direct
-  - DOMAIN-SUFFIX,alicdn.com,Direct
-  - DOMAIN-SUFFIX,alipay.com,Direct
-  - DOMAIN-SUFFIX,aliyun.com,Direct
-  - DOMAIN-SUFFIX,aliyuncs.com,Direct
-  - DOMAIN-SUFFIX,amap.com,Direct
-  - DOMAIN-SUFFIX,amd.com,Direct
-  - DOMAIN-SUFFIX,android.com,Direct
-  - DOMAIN-SUFFIX,autonavi.com,Direct
-  - DOMAIN-SUFFIX,bdimg.com,Direct
-  - DOMAIN-SUFFIX,bdstatic.com,Direct
-  - DOMAIN-SUFFIX,caiyunapp.com,Direct
-  - DOMAIN-SUFFIX,ccgslb.com,Direct
-  - DOMAIN-SUFFIX,chinacache.net,Direct
-  - DOMAIN-SUFFIX,chinanetcenter.com,Direct
-  - DOMAIN-SUFFIX,dingtalk.com,Direct
-  - DOMAIN-SUFFIX,ele.me,Direct
-  - DOMAIN-SUFFIX,eleme.cn,Direct
-  - DOMAIN-SUFFIX,fastly.net,Direct
-  - DOMAIN-SUFFIX,gtimg.cn,Direct
-  - DOMAIN-SUFFIX,gtimg.com,Direct
-  - DOMAIN-SUFFIX,hadotone.com,Direct
-  - DOMAIN-SUFFIX,hichina.com,Direct
-  - DOMAIN-SUFFIX,hp.com,Direct
-  - DOMAIN-SUFFIX,ibytedtos.com,Direct
-  - DOMAIN-SUFFIX,icloud.com,Direct
-  - DOMAIN-SUFFIX,icloud-content.com,Direct
-  - DOMAIN-SUFFIX,images-amazon.com,Direct
-  - DOMAIN-SUFFIX,jd.com,Direct
-  - DOMAIN-SUFFIX,jd.hk,Direct
-  - DOMAIN-SUFFIX,meituan.com,Direct
-  - DOMAIN-SUFFIX,meituan.net,Direct
-  - DOMAIN-SUFFIX,microsoft.com,Direct
-  - DOMAIN-SUFFIX,miui.com,Direct
-  - DOMAIN-SUFFIX,msecnd.net,Direct
-  - DOMAIN-SUFFIX,myqcloud.com,Direct
-  - DOMAIN-SUFFIX,netease.com,Direct
-  - DOMAIN-SUFFIX,office.com,Direct
-  - DOMAIN-SUFFIX,office365.com,Direct
-  - DOMAIN-SUFFIX,office.net,Direct
-  - DOMAIN-SUFFIX,openresty.org,Direct
-  - DOMAIN-SUFFIX,pingan.com,Direct
-  - DOMAIN-SUFFIX,pstatp.com,Direct
-  - DOMAIN-SUFFIX,qcloud.com,Direct
-  - DOMAIN-SUFFIX,qq.com,Direct
-  - DOMAIN-SUFFIX,rakuten.co.jp,Direct
-  - DOMAIN-SUFFIX,sina.cn,Direct
-  - DOMAIN-SUFFIX,sina.com,Direct
-  - DOMAIN-SUFFIX,sm.cn,Direct
-  - DOMAIN-SUFFIX,sogou.com,Direct
-  - DOMAIN-SUFFIX,sohu.com,Direct
-  - DOMAIN-SUFFIX,szfw.org,Direct
-  - DOMAIN-SUFFIX,tbcdn.cn,Direct
-  - DOMAIN-SUFFIX,tenpay.com,Direct
-  - DOMAIN-SUFFIX,tmall.com,Direct
-  - DOMAIN-SUFFIX,toutiao.com,Direct
-  - DOMAIN-SUFFIX,trafficmanager.net,Direct
-  - DOMAIN-SUFFIX,udemy.com,Direct
-  - DOMAIN-SUFFIX,umeng.com,Direct
-  - DOMAIN-SUFFIX,unionpay.com,Direct
-  - DOMAIN-SUFFIX,verygslb.com,Direct
-  - DOMAIN-SUFFIX,volcengineapi.com,Direct
-  - DOMAIN-SUFFIX,volcengine.com,Direct
-  - DOMAIN-SUFFIX,volcsdk.com,Direct
-  - DOMAIN-SUFFIX,volcvod.com,Direct
-  - DOMAIN-SUFFIX,weibo.cn,Direct
-  - DOMAIN-SUFFIX,weibo.com,Direct
-  - DOMAIN-SUFFIX,windows.net,Direct
-  - DOMAIN-SUFFIX,wordpress.com,Direct
-  - DOMAIN-SUFFIX,ximalaya.com,Direct
-  - DOMAIN-SUFFIX,yimg.com,Direct
-  - DOMAIN-SUFFIX,youku.com,Direct
-  - DOMAIN-SUFFIX,zendesk.com,Direct
-  - DOMAIN-KEYWORD,alicdn,Direct
-  - DOMAIN-KEYWORD,alimama,Direct
-  - DOMAIN-KEYWORD,aliyun,Direct
-  - DOMAIN-KEYWORD,taobao,Direct
-  - DOMAIN-KEYWORD,tmall,Direct
-  - DOMAIN,admob.com,Block
-  - DOMAIN,ads.gmodules.com,Block
-  - DOMAIN,ads.google.com,Block
-  - DOMAIN,adservice.google.com,Block
-  - DOMAIN-SUFFIX,1rx.io,Block
-  - DOMAIN-SUFFIX,33across.com,Block
-  - DOMAIN-SUFFIX,360buyimg.com,Block
-  - DOMAIN-SUFFIX,adcolony.com,Block
-  - DOMAIN-SUFFIX,adgoji.com,Block
-  - DOMAIN-SUFFIX,admarvel.com,Block
-  - DOMAIN-SUFFIX,admaster.com.cn,Block
-  - DOMAIN-SUFFIX,admob.com,Block
-  - DOMAIN-SUFFIX,adsense.com,Block
-  - DOMAIN-SUFFIX,adsrvr.org,Block
-  - DOMAIN-SUFFIX,adtechus.com,Block
-  - DOMAIN-SUFFIX,advertising.com,Block
-  - DOMAIN-SUFFIX,adview.cn,Block
-  - DOMAIN-SUFFIX,adxmi.com,Block
-  - DOMAIN-SUFFIX,adzerk.net,Block
-  - DOMAIN-SUFFIX,amazon-adsystem.com,Block
-  - DOMAIN-SUFFIX,appads.com,Block
-  - DOMAIN-SUFFIX,applovin.com,Block
-  - DOMAIN-SUFFIX,appsflyer.com,Block
-  - DOMAIN-SUFFIX,chartboost.com,Block
-  - DOMAIN-SUFFIX,criteo.com,Block
-  - DOMAIN-SUFFIX,domob.cn,Block
-  - DOMAIN-SUFFIX,dotomi.com,Block
-  - DOMAIN-SUFFIX,doubleclick.net,Block
-  - DOMAIN-SUFFIX,duapp.com,Block
-  - DOMAIN-SUFFIX,flurry.com,Block
-  - DOMAIN-SUFFIX,guangzhuiyuan.com,Block
-  - DOMAIN-SUFFIX,immob.cn,Block
-  - DOMAIN-SUFFIX,inmobi.com,Block
-  - DOMAIN-SUFFIX,madhouse.cn,Block
-  - DOMAIN-SUFFIX,mopub.com,Block
-  - DOMAIN-SUFFIX,openx.com,Block
-  - DOMAIN-SUFFIX,pubmatic.com,Block
-  - DOMAIN-SUFFIX,rubiconව
+  - MATCH,🚀 ASTRACAT-TunelsX-Group
+dns:
+  enable: true
+  ipv6: false
+  nameserver:
+    - 85.209.2.112
+    - 85.209.2.112
