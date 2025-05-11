@@ -2,7 +2,7 @@ name: Update VPN Configs
 on:
   schedule:
     - cron: "0 */4 * * *" # Каждые 4 часа
-  workflow_dispatch: # Ручной запуск
+  workflow_dispatch:
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -14,8 +14,8 @@ jobs:
           python-version: "3.8"
       - name: Install dependencies
         run: pip install -r website/requirements.txt
-      - name: Run Pylint (optional)
-        run: pylint website/main.py || true # Не завершать сборку при предупреждениях
+      - name: Run Pylint
+        run: pylint website/main.py || true # Опционально, не прерывает сборку
       - name: Run config script
         run: python website/main.py
       - name: Commit changes
