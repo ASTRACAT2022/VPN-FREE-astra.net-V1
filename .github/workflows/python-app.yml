@@ -1,4 +1,4 @@
-name: Update Raw VPN Configs
+name: 🚀 Update Raw VPN Configs
 
 on:
   schedule:
@@ -52,5 +52,5 @@ jobs:
           git stash pop || echo "No changes to apply from stash"
 
           git add website/configs/
-          git commit -m "ASTRACAT 10 min update" || echo "No changes to commit"
+          git commit -m "🚀 ASTRACAT 10 min update" || echo "No changes to commit"
           git push
