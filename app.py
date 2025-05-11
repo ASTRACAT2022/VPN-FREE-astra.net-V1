@@ -6,6 +6,7 @@ import binascii
 import os
 import json
 import yaml
+import geoip2.database
 from jinja2 import Environment, BaseLoader
 from urllib.parse import urlparse, parse_qs
 
@@ -112,6 +113,12 @@ fixed_text = """#profile-title: base64:8J+agCBBU1RSQUNBVCBTaGVyZVZQTiDwn6W3
 #profile-web-page-url: https://github.com/ASTRACAT2022/apiV2ray
 """
 
+# Карта эмодзи флагов по коду страны
+COUNTRY_FLAGS = {
+    "CA": "🇨🇦", "US": "🇺🇸", "RU": "🇷🇺", "GB": "🇬🇧", "DE": "🇩🇪", "FR": "🇫🇷",
+    "CN": "🇨🇳", "JP": "🇯🇵", "KR": "🇰🇷", "BR": "🇧🇷", "AU": "🇦🇺", "IN": "🇮🇳"
+}
+
 # Функции обработки конфигураций
 def decode_base64(encoded):
     decoded = ""
@@ -150,6 +157,15 @@ def decode_dir_links(dir_links):
             print(f"Failed to fetch {link}: {e}")
     return decoded_dir_links
 
+def get_country_emoji(ip):
+    try:
+        reader = geoip2.database.Reader('GeoLite2-Country.mmdb')
+        response = reader.country(ip)
+        country_code = response.country.iso_code
+        return COUNTRY_FLAGS.get(country_code, "🌍")
+    except Exception:
+        return "🌍"
+
 def parse_vless_url(vless_url):
     try:
         parsed = urlparse(vless_url)
@@ -179,6 +195,7 @@ def format_vless_yaml(vless_configs):
     for config in vless_configs:
         parsed = parse_vless_url(config)
         if parsed:
+            country_emoji = get_country_emoji(parsed["host"])
             yaml_config = {
                 "protocol": "vless",
                 "uuid": parsed["uuid"],
@@ -186,7 +203,7 @@ def format_vless_yaml(vless_configs):
                 "port": int(parsed["port"]),
                 "dns": "85.209.2.112",
                 "params": parsed["params"],
-                "name": parsed["fragment"] or "ASTRACAT ShereVPN"
+                "name": f"{country_emoji} ASTRACAT ShereVPN"
             }
             yaml_configs.append(yaml_config)
     return {"configs": yaml_configs}
