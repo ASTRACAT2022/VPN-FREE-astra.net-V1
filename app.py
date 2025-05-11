@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 import pybase64
 import base64
 import requests
@@ -7,10 +7,11 @@ import binascii
 import os
 import json
 from jinja2 import Environment, BaseLoader
+from urllib.parse import urlparse, parse_qs
 
 app = FastAPI()
 
-# HTML-шаблон с кнопкой копирования и уведомлением
+# HTML-шаблон
 INDEX_HTML = """
 <!DOCTYPE html>
 <html lang="ru">
@@ -44,7 +45,7 @@ INDEX_HTML = """
             window.location.href = `/?protocol=${protocol}`;
         }
         function copyLink() {
-            const url = window.location.origin + '/public/configs/All_Configs_Sub.txt';
+            const url = window.location.origin + '/public/configs/vless_configs.json';
             navigator.clipboard.writeText(url).then(() => {
                 const toast = document.getElementById('toast');
                 toast.style.display = 'block';
@@ -65,7 +66,7 @@ INDEX_HTML = """
     </header>
     <main class="container mx-auto p-4">
         <h1 class="text-4xl font-bold text-center mb-8">ASTRACAT ShereVPN</h1>
-        <p class="text-center mb-8">Бесплатные VPN-конфигурации с актуальной статистикой</p>
+        <p class="text-center mb-8">Бесплатные VLess-конфигурации с актуальной статистикой</p>
         <div class="mb-8 text-center">
             <label for="protocol" class="mr-2">Выберите протокол:</label>
             <select id="protocol" onchange="filterStats()" class="bg-gray-800 text-white p-2 rounded">
@@ -104,7 +105,7 @@ template = env.from_string(INDEX_HTML)
 
 # Конфигурация
 TIMEOUT = 20
-fixed_text = """#profile-title: base64:8J+GkyBBU1RSQUNBVDIwMjIgfCBTaGVyZVZQTiDwn6W3
+fixed_text = """#profile-title: base64:8J+agCBBU1RSQUNBVCBTaGVyZVZQTiDwn6W3
 #profile-update-interval: 1
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/ASTRACAT2022/apiV2ray
@@ -149,18 +150,57 @@ def decode_dir_links(dir_links):
             print(f"Failed to fetch {link}: {e}")
     return decoded_dir_links
 
-def filter_for_protocols(data, protocols):
-    filtered_data = []
-    stats = {protocol: 0 for protocol in protocols}
+def parse_vless_url(vless_url):
+    try:
+        parsed = urlparse(vless_url)
+        if parsed.scheme != "vless":
+            return None
+        user_info = parsed.netloc.split("@")
+        if len(user_info) != 2:
+            return None
+        uuid = user_info[0]
+        host_port = user_info[1].split(":")
+        if len(host_port) != 2:
+            return None
+        host, port = host_port
+        query = parse_qs(parsed.query)
+        return {
+            "uuid": uuid,
+            "host": host,
+            "port": port,
+            "params": query,
+            "fragment": parsed.fragment
+        }
+    except Exception:
+        return None
+
+def format_vless_json(vless_configs):
+    json_configs = []
+    for config in vless_configs:
+        parsed = parse_vless_url(config)
+        if parsed:
+            json_config = {
+                "protocol": "vless",
+                "uuid": parsed["uuid"],
+                "host": parsed["host"],
+                "port": int(parsed["port"]),
+                "dns": "85.209.2.112",
+                "params": parsed["params"],
+                "name": parsed["fragment"] or "ASTRACAT ShereVPN"
+            }
+            json_configs.append(json_config)
+    return json_configs
+
+def filter_vless(data):
+    vless_configs = []
+    stats = {"vless": 0}
     for item in data:
         lines = item.splitlines()
         for line in lines:
-            for protocol in protocols:
-                if protocol in line:
-                    filtered_data.append(line)
-                    stats[protocol] += 1
-                    break
-    return filtered_data, stats
+            if "vless" in line:
+                vless_configs.append(line)
+                stats["vless"] += 1
+    return vless_configs, stats
 
 def ensure_directories_exist():
     output_folder = os.path.abspath("./public/configs")
@@ -170,10 +210,9 @@ def ensure_directories_exist():
 
 def process_configs():
     output_folder = ensure_directories_exist()
-    protocols = ["vmess", "vless", "trojan", "ss", "ssr", "hy2", "tuic", "warp://"]
     links = [
         "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt",
-        "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/base64/mix",
+        "https:// tides/TVC/main/subscriptions/xray/base64/mix",
         "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt",
         "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
         "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
@@ -188,17 +227,24 @@ def process_configs():
     decoded_links = decode_links(links)
     decoded_dir_links = decode_dir_links(dir_links)
     combined_data = decoded_links + decoded_dir_links
-    merged_configs, stats = filter_for_protocols(combined_data, protocols)
+    vless_configs, stats = filter_vless(combined_data)
 
+    # Save VLess configs as text
     output_filename = os.path.join(output_folder, "All_Configs_Sub.txt")
     if os.path.exists(output_filename):
         os.remove(output_filename)
-
     with open(output_filename, "w") as f:
         f.write(fixed_text)
-        for config in merged_configs:
+        for config in vless_configs:
             f.write(config + "\n")
 
+    # Save VLess configs as JSON
+    json_configs = format_vless_json(vless_configs)
+    vless_json_file = os.path.join(output_folder, "vless_configs.json")
+    with open(vless_json_file, "w") as f:
+        json.dump({"configs": json_configs}, f, indent=2, ensure_ascii=False)
+
+    # Save stats
     stats_file = os.path.join(output_folder, "stats.json")
     with open(stats_file, "w") as f:
         json.dump(stats, f, indent=2)
@@ -217,7 +263,7 @@ def load_stats():
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request, protocol: str = None):
     stats = load_stats()
-    protocols = ["all"] + list(stats.keys())
+    protocols = ["all", "vless"]
     filtered_stats = stats if protocol is None or protocol == "all" else {protocol: stats.get(protocol, 0)}
     html_content = template.render(
         stats=filtered_stats,
@@ -235,10 +281,12 @@ async def serve_configs(filename: str):
     file_path = os.path.join("public/configs", filename)
     if os.path.exists(file_path):
         with open(file_path, "r") as f:
+            if filename.endswith(".json"):
+                return JSONResponse(content=json.load(f))
             content = f.read()
         return HTMLResponse(content=content, media_type="text/plain")
     return {"error": "File not found"}, 404
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=5000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
