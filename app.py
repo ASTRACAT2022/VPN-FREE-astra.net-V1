@@ -1,0 +1,225 @@
+from fastapi import FastAPI, Request
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
+import pybase64
+import base64
+import requests
+import binascii
+import os
+import json
+from jinja2 import Environment, BaseLoader
+
+app = FastAPI()
+
+# HTML-шаблон как строка
+INDEX_HTML = """
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTRACAT V2rayS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .card {
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+    <script>
+        function filterStats() {
+            const protocol = document.getElementById('protocol').value;
+            window.location.href = `/?protocol=${protocol}`;
+        }
+    </script>
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 p-4 shadow-md">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">ASTRACAT V2rayS</h1>
+            <ul class="flex space-x-4">
+                <li><a href="/" class="hover:text-blue-400">Главная</a></li>
+                <li><a href="https://github.com/ASTRACAT2022/apiV2ray" class="hover:text-blue-400">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container mx-auto p-4">
+        <h1 class="text-4xl font-bold text-center mb-8">ASTRACAT V2rayS</h1>
+        <p class="text-center mb-8">Бесплатные VPN-конфигурации с актуальной статистикой</p>
+        <div class="mb-8 text-center">
+            <label for="protocol" class="mr-2">Выберите протокол:</label>
+            <select id="protocol" onchange="filterStats()" class="bg-gray-800 text-white p-2 rounded">
+                {% for proto in protocols %}
+                    <option value="{{ proto }}" {% if proto == selected_protocol %}selected{% endif %}>
+                        {{ proto|capitalize }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {% for protocol, count in stats.items() %}
+                <div class="bg-gray-800 p-4 rounded-lg shadow-lg card">
+                    <h2 class="text-xl font-semibold">{{ protocol|upper }}</h2>
+                    <p class="text-2xl">{{ count }} конфигураций</p>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="text-center mt-8">
+            <a href="/public/configs/All_Configs_Sub.txt" download class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Скачать конфигурации
+            </a>
+        </div>
+    </main>
+    <footer class="bg-gray-800 p-4 mt-8 text-center">
+        <p>Создано <a href="https://github.com/ASTRACAT2022/apiV2ray" class="text-blue-400">ASTRACAT2022</a></p>
+    </footer>
+</body>
+</html>
+"""
+
+# Jinja2 окружение
+env = Environment(loader=BaseLoader())
+template = env.from_string(INDEX_HTML)
+
+# Конфигурация
+TIMEOUT = 20
+fixed_text = """#profile-title: base64:8J+GkyBBU1RSQUNBVDIwMjIgfCBWMnJheVMg8J+ltw==
+#profile-update-interval: 1
+#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
+#support-url: https://github.com/ASTRACAT2022/apiV2ray
+#profile-web-page-url: https://github.com/ASTRACAT2022/apiV2ray
+"""
+
+# Функции обработки конфигураций
+def decode_base64(encoded):
+    decoded = ""
+    for encoding in ["utf-8", "iso-8859-1"]:
+        try:
+            decoded = pybase64.b64decode(encoded + b"=" * (-len(encoded) % 4)).decode(encoding)
+            break
+        except (UnicodeDecodeError, binascii.Error):
+            pass
+    return decoded
+
+def decode_links(links):
+    decoded_data = []
+    for link in links:
+        try:
+            response = requests.get(link, timeout=TIMEOUT)
+            response.raise_for_status()
+            encoded_bytes = response.content
+            decoded_text = decode_base64(encoded_bytes)
+            if decoded_text:
+                decoded_data.append(decoded_text)
+        except requests.RequestException as e:
+            print(f"Failed to fetch {link}: {e}")
+    return decoded_data
+
+def decode_dir_links(dir_links):
+    decoded_dir_links = []
+    for link in dir_links:
+        try:
+            response = requests.get(link, timeout=TIMEOUT)
+            response.raise_for_status()
+            decoded_text = response.text
+            if decoded_text:
+                decoded_dir_links.append(decoded_text)
+        except requests.RequestException as e:
+            print(f"Failed to fetch {link}: {e}")
+    return decoded_dir_links
+
+def filter_for_protocols(data, protocols):
+    filtered_data = []
+    stats = {protocol: 0 for protocol in protocols}
+    for item in data:
+        lines = item.splitlines()
+        for line in lines:
+            for protocol in protocols:
+                if protocol in line:
+                    filtered_data.append(line)
+                    stats[protocol] += 1
+                    break
+    return filtered_data, stats
+
+def ensure_directories_exist():
+    output_folder = os.path.abspath("./public/configs")
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+    return output_folder
+
+def process_configs():
+    output_folder = ensure_directories_exist()
+    protocols = ["vmess", "vless", "trojan", "ss", "ssr", "hy2", "tuic", "warp://"]
+    links = [
+        "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt",
+        "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/base64/mix",
+        "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt",
+        "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
+        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
+    ]
+    dir_links = [
+        "https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/mix",
+        "https://raw.githubusercontent.com/sarinaesmailzadeh/V2Hub/main/merged",
+        "https://raw.githubusercontent.com/freev2rayconfig/V2RAY_SUBSCRIPTION_LINK/main/v2rayconfigs.txt",
+        "https://raw.githubusercontent.com/Everyday-VPN/Everyday-VPN/main/subscription/main.txt",
+    ]
+
+    decoded_links = decode_links(links)
+    decoded_dir_links = decode_dir_links(dir_links)
+    combined_data = decoded_links + decoded_dir_links
+    merged_configs, stats = filter_for_protocols(combined_data, protocols)
+
+    output_filename = os.path.join(output_folder, "All_Configs_Sub.txt")
+    if os.path.exists(output_filename):
+        os.remove(output_filename)
+
+    with open(output_filename, "w") as f:
+        f.write(fixed_text)
+        for config in merged_configs:
+            f.write(config + "\n")
+
+    stats_file = os.path.join(output_folder, "stats.json")
+    with open(stats_file, "w") as f:
+        json.dump(stats, f, indent=2)
+
+    return stats
+
+# Загрузка статистики
+def load_stats():
+    stats_file = "public/configs/stats.json"
+    if os.path.exists(stats_file):
+        with open(stats_file, "r") as f:
+            return json.load(f)
+    return process_configs()
+
+# FastAPI маршруты
+@app.get("/", response_class=HTMLResponse)
+async def index(request: Request, protocol: str = None):
+    stats = load_stats()
+    protocols = ["all"] + list(stats.keys())
+    filtered_stats = stats if protocol is None or protocol == "all" else {protocol: stats.get(protocol, 0)}
+    html_content = template.render(
+        stats=filtered_stats,
+        protocols=protocols,
+        selected_protocol=protocol or "all"
+    )
+    return HTMLResponse(content=html_content)
+
+@app.get("/api/stats")
+async def stats_api():
+    return load_stats()
+
+@app.get("/public/configs/{filename}")
+async def serve_configs(filename: str):
+    file_path = os.path.join("public/configs", filename)
+    if os.path.exists(file_path):
+        with open(file_path, "r") as f:
+            content = f.read()
+        return HTMLResponse(content=content, media_type="text/plain")
+    return {"error": "File not found"}, 404
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=5000)
