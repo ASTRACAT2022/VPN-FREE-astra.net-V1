@@ -191,22 +191,54 @@ def parse_vless_url(vless_url):
         return None
 
 def format_vless_yaml(vless_configs):
-    yaml_configs = []
-    for config in vless_configs:
+    proxies = []
+    for index, config in enumerate(vless_configs, 1):
         parsed = parse_vless_url(config)
         if parsed:
             country_emoji = get_country_emoji(parsed["host"])
-            yaml_config = {
-                "protocol": "vless",
-                "uuid": parsed["uuid"],
-                "host": parsed["host"],
+            proxy = {
+                "name": f"{country_emoji} ASTRACAT-Tunels-{index}",
+                "type": "vless",
+                "server": parsed["host"],
                 "port": int(parsed["port"]),
-                "dns": "85.209.2.112",
-                "params": parsed["params"],
-                "name": f"{country_emoji} ASTRACAT ShereVPN"
+                "uuid": parsed["uuid"],
+                "cipher": "none",
+                "tls": "security" in parsed["params"] and parsed["params"]["security"][0] == "tls",
+                "network": parsed["params"].get("type", ["tcp"])[0]
             }
-            yaml_configs.append(yaml_config)
-    return {"configs": yaml_configs}
+            if proxy["network"] == "ws":
+                ws_opts = {"path": parsed["params"].get("path", ["/"])[0]}
+                if "host" in parsed["params"]:
+                    ws_opts["headers"] = {"Host": parsed["params"]["host"][0]}
+                proxy["ws-opts"] = ws_opts
+                if proxy["tls"]:
+                    proxy["servername"] = parsed["params"].get("sni", [parsed["host"]])[0]
+            proxies.append(proxy)
+    
+    proxy_names = [proxy["name"] for proxy in proxies]
+    yaml_config = {
+        "port": 7890,
+        "socks-port": 7891,
+        "allow-lan": False,
+        "mode": "rule",
+        "log-level": "info",
+        "external-controller": "127.0.0.1:9090",
+        "proxies": proxies,
+        "proxy-groups": [
+            {
+                "name": "🚀 ASTRACAT-Tunels-Group",
+                "type": "select",
+                "proxies": proxy_names
+            }
+        ],
+        "rules": ["MATCH,🚀 ASTRACAT-Tunels-Group"],
+        "dns": {
+            "enable": True,
+            "ipv6": False,
+            "nameserver": ["85.209.2.112"]
+        }
+    }
+    return yaml_config
 
 def filter_vless(data):
     vless_configs = []
@@ -256,10 +288,10 @@ def process_configs():
             f.write(config + "\n")
 
     # Save VLess configs as YAML
-    yaml_configs = format_vless_yaml(vless_configs)
+    yaml_config = format_vless_yaml(vless_configs)
     vless_yaml_file = os.path.join(output_folder, "vless_configs.yaml")
     with open(vless_yaml_file, "w") as f:
-        yaml.dump(yaml_configs, f, allow_unicode=True, sort_keys=False)
+        yaml.dump(yaml_config, f, allow_unicode=True, sort_keys=False)
 
     # Save stats
     stats_file = os.path.join(output_folder, "stats.json")
