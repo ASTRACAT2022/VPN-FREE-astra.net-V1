@@ -9,10 +9,11 @@ import yaml
 import geoip2.database
 from jinja2 import Environment, BaseLoader
 from urllib.parse import urlparse, parse_qs
+import sys
 
 app = FastAPI()
 
-# HTML-шаблон
+# HTML-шаблон (с Telegram и Яндекс.Метрикой)
 INDEX_HTML = """
 <!DOCTYPE html>
 <html lang="ru">
@@ -39,23 +40,9 @@ INDEX_HTML = """
     <noscript><div><img src="https://mc.yandex.ru/watch/100530848" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
     <style>
-        .card {
-            transition: transform 0.2s;
-        }
-        .card:hover {
-            transform: scale(1.05);
-        }
-        #toast {
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #10b981;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            z-index: 1000;
-        }
+        .card { transition: transform 0.2s; }
+        .card:hover { transform: scale(1.05); }
+        #toast { display: none; position: fixed; bottom: 20px; right: 20px; background-color: #10b981; color: white; padding: 10px 20px; border-radius: 5px; z-index: 1000; }
     </style>
     <script>
         function filterStats() {
@@ -63,7 +50,7 @@ INDEX_HTML = """
             window.location.href = `/?protocol=${protocol}`;
         }
         function copyLink() {
-            const url = window.location.origin + '/public/configs/vless_configs.yaml';
+            const url = 'https://raw.githubusercontent.com/ASTRACAT2022/VPN-FREE-astra.net-V1/main/public/configs/vless_configs.yaml';
             navigator.clipboard.writeText(url).then(() => {
                 const toast = document.getElementById('toast');
                 toast.style.display = 'block';
@@ -78,7 +65,7 @@ INDEX_HTML = """
             <h1 class="text-2xl font-bold">ASTRACAT ShereVPN</h1>
             <ul class="flex space-x-4">
                 <li><a href="/" class="hover:text-blue-400">Главная</a></li>
-                <li><a href="https://github.com/ASTRACAT2022/apiV2ray" class="hover:text-blue-400">GitHub</a></li>
+                <li><a href="https://github.com/ASTRACAT2022/VPN-FREE-astra.net-V1" class="hover:text-blue-400">GitHub</a></li>
             </ul>
         </nav>
     </header>
@@ -111,7 +98,7 @@ INDEX_HTML = """
         <div id="toast">Ссылка скопирована!</div>
     </main>
     <footer class="bg-gray-800 p-4 mt-8 text-center">
-        <p>Создано <a href="https://github.com/ASTRACAT2022/apiV2ray" class="text-blue-400">ASTRACAT2022</a></p>
+        <p>Создано <a href="https://github.com/ASTRACAT2022/VPN-FREE-astra.net-V1" class="text-blue-400">ASTRACAT2022</a></p>
         <p>Telegram: <a href="https://t.me/astracatui" class="text-blue-400">@astracatui</a></p>
     </footer>
 </body>
@@ -127,8 +114,8 @@ TIMEOUT = 20
 fixed_text = """#profile-title: base64:8J+agCBBU1RSQUNBVCBTaGVyZVZQTiDwn6W3
 #profile-update-interval: 1
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
-#support-url: https://github.com/ASTRACAT2022/apiV2ray
-#profile-web-page-url: https://github.com/ASTRACAT2022/apiV2ray
+#support-url: https://github.com/ASTRACAT2022/VPN-FREE-astra.net-V1
+#profile-web-page-url: https://github.com/ASTRACAT2022/VPN-FREE-astra.net-V1
 """
 
 # Карта эмодзи флагов по коду страны
@@ -353,5 +340,8 @@ async def serve_configs(filename: str):
     return {"error": "File not found"}, 404
 
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    if len(sys.argv) > 1 and sys.argv[1] == "--generate":
+        process_configs()  # Для GitHub Actions
+    else:
+        import uvicorn
+        uvicorn.run(app, host="0.0.0.0", port=8000)  # Для локального/Vercel
