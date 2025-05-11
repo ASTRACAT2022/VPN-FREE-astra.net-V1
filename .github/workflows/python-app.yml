@@ -9,7 +9,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # Право на запись в репозиторий
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -27,13 +28,14 @@ jobs:
         run: |
           pwd
           ls -R
+
       - name: Run update_raw_configs.py
         run: python update_raw_configs.py
-        working-directory: website
+        working-directory: website  # Переход в папку website
 
       - name: Check generated files
         run: ls -l configs/
-        working-directory: website
+        working-directory: website  # Проверка файлов в папке website
 
       - name: Commit and push changes
         run: |
@@ -41,5 +43,5 @@ jobs:
           git config user.email "actions@github.com"
           git pull --rebase
           git add website/configs/
-          git commit -m "ASTRACAT 10min update" || echo "No changes to commit"
+          git commit -m "ASTRACAT 10 min update" || echo "No changes to commit"
           git push
