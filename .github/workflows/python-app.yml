@@ -1,7 +1,7 @@
 name: Update VPN Configs
 on:
   schedule:
-    - cron: "0 */4 * * *" # Каждые 4 часа
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 jobs:
   update:
@@ -13,15 +13,21 @@ jobs:
         with:
           python-version: "3.8"
       - name: Install dependencies
-        run: pip install -r website/requirements.txt
+        run: pip install -r requirements.txt
       - name: Run Pylint
-        run: pylint website/main.py || true # Опционально
+        run: pylint main.py || true
+      - name: Debug directory structure
+        run: |
+          pwd
+          ls -R
       - name: Run config script
-        run: python website/main.py --generate
+        run: python main.py --generate
+      - name: Check generated files
+        run: ls -l public/configs/
       - name: Commit changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add website/public/configs/
+          git add public/configs/
           git commit -m "Update VLess configs" || echo "No changes to commit"
           git push
