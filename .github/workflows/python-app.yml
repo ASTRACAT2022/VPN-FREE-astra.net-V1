@@ -41,5 +41,5 @@ jobs:
           git config user.email "actions@github.com"
           git pull --rebase
           git add website/configs/
-          git commit -m "🚀 ASTRACAT — обновлено 10 минут назад" || echo "No changes to commit"
+          git commit -m "🚀 ASTRACAT 10min" || echo "No changes to commit"
           git push
