@@ -13,7 +13,7 @@ import sys
 
 app = FastAPI()
 
-# HTML-шаблон (с Telegram и Яндекс.Метрикой)
+# HTML template (with Telegram and Yandex.Metrika)
 INDEX_HTML = """
 <!DOCTYPE html>
 <html lang="ru">
@@ -50,7 +50,7 @@ INDEX_HTML = """
             window.location.href = `/?protocol=${protocol}`;
         }
         function copyLink() {
-            const url = 'https://raw.githubusercontent.com/ASTRACAT2022/VPN-FREE-astra.net-V1/main/public/configs/vless_configs.yaml';
+            const url = 'https://raw.githubusercontent.com/ASTRACAT2022/VPN-FREE-astra.net-V1/main/website/public/configs/vless_configs.yaml';
             navigator.clipboard.writeText(url).then(() => {
                 const toast = document.getElementById('toast');
                 toast.style.display = 'block';
@@ -105,11 +105,11 @@ INDEX_HTML = """
 </html>
 """
 
-# Jinja2 окружение
+# Jinja2 environment
 env = Environment(loader=BaseLoader())
 template = env.from_string(INDEX_HTML)
 
-# Конфигурация
+# Configuration
 TIMEOUT = 20
 fixed_text = """#profile-title: base64:8J+agCBBU1RSQUNBVCBTaGVyZVZQTiDwn6W3
 #profile-update-interval: 1
@@ -118,7 +118,7 @@ fixed_text = """#profile-title: base64:8J+agCBBU1RSQUNBVCBTaGVyZVZQTiDwn6W3
 #profile-web-page-url: https://github.com/ASTRACAT2022/VPN-FREE-astra.net-V1
 """
 
-# Карта эмодзи флагов
+# Country flags
 COUNTRY_FLAGS = {
     "CA": "🇨🇦", "US": "🇺🇸", "RU": "🇷🇺", "GB": "🇬🇧", "DE": "🇩🇪", "FR": "🇫🇷",
     "CN": "🇨🇳", "JP": "🇯🇵", "KR": "🇰🇷", "BR": "🇧🇷", "AU": "🇦🇺", "IN": "🇮🇳"
@@ -321,7 +321,6 @@ def process_configs():
 
     return stats
 
-# Загрузка статистики
 def load_stats():
     stats_file = "website/public/configs/stats.json"
     if os.path.exists(stats_file):
@@ -331,7 +330,6 @@ def load_stats():
     print("No stats file found, generating new configs")
     return process_configs()
 
-# FastAPI маршруты
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request, protocol: str = None):
     stats = load_stats()
