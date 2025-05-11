@@ -118,13 +118,12 @@ fixed_text = """#profile-title: base64:8J+agCBBU1RSQUNBVCBTaGVyZVZQTiDwn6W3
 #profile-web-page-url: https://github.com/ASTRACAT2022/VPN-FREE-astra.net-V1
 """
 
-# Карта эмодзи флагов по коду страны
+# Карта эмодзи флагов
 COUNTRY_FLAGS = {
     "CA": "🇨🇦", "US": "🇺🇸", "RU": "🇷🇺", "GB": "🇬🇧", "DE": "🇩🇪", "FR": "🇫🇷",
     "CN": "🇨🇳", "JP": "🇯🇵", "KR": "🇰🇷", "BR": "🇧🇷", "AU": "🇦🇺", "IN": "🇮🇳"
 }
 
-# Функции обработки конфигураций
 def decode_base64(encoded):
     decoded = ""
     for encoding in ["utf-8", "iso-8859-1"]:
@@ -145,6 +144,9 @@ def decode_links(links):
             decoded_text = decode_base64(encoded_bytes)
             if decoded_text:
                 decoded_data.append(decoded_text)
+                print(f"Successfully decoded {link}")
+            else:
+                print(f"No data decoded from {link}")
         except requests.RequestException as e:
             print(f"Failed to fetch {link}: {e}")
     return decoded_data
@@ -158,17 +160,21 @@ def decode_dir_links(dir_links):
             decoded_text = response.text
             if decoded_text:
                 decoded_dir_links.append(decoded_text)
+                print(f"Successfully fetched {link}")
+            else:
+                print(f"No data from {link}")
         except requests.RequestException as e:
             print(f"Failed to fetch {link}: {e}")
     return decoded_dir_links
 
 def get_country_emoji(ip):
     try:
-        reader = geoip2.database.Reader('GeoLite2-Country.mmdb')
+        reader = geoip2.database.Reader('website/GeoLite2-Country.mmdb')
         response = reader.country(ip)
         country_code = response.country.iso_code
         return COUNTRY_FLAGS.get(country_code, "🌍")
-    except Exception:
+    except Exception as e:
+        print(f"GeoIP error for {ip}: {e}")
         return "🌍"
 
 def parse_vless_url(vless_url):
@@ -192,7 +198,8 @@ def parse_vless_url(vless_url):
             "params": query,
             "fragment": parsed.fragment
         }
-    except Exception:
+    except Exception as e:
+        print(f"Error parsing VLess URL {vless_url}: {e}")
         return None
 
 def format_vless_yaml(vless_configs):
@@ -219,7 +226,7 @@ def format_vless_yaml(vless_configs):
                 if proxy["tls"]:
                     proxy["servername"] = parsed["params"].get("sni", [parsed["host"]])[0]
             proxies.append(proxy)
-    
+            print(f"Added proxy: {proxy['name']}")
     proxy_names = [proxy["name"] for proxy in proxies]
     yaml_config = {
         "port": 7890,
@@ -254,16 +261,21 @@ def filter_vless(data):
             if "vless" in line:
                 vless_configs.append(line)
                 stats["vless"] += 1
+    print(f"Found {stats['vless']} VLess configs")
     return vless_configs, stats
 
 def ensure_directories_exist():
-    output_folder = os.path.abspath("./public/configs")
+    output_folder = os.path.abspath("./website/public/configs")
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
+        print(f"Created directory: {output_folder}")
+    else:
+        print(f"Directory exists: {output_folder}")
     return output_folder
 
 def process_configs():
     output_folder = ensure_directories_exist()
+    print(f"Output folder: {output_folder}")
     links = [
         "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt",
         "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/base64/mix",
@@ -287,30 +299,36 @@ def process_configs():
     output_filename = os.path.join(output_folder, "All_Configs_Sub.txt")
     if os.path.exists(output_filename):
         os.remove(output_filename)
+        print(f"Removed existing file: {output_filename}")
     with open(output_filename, "w") as f:
         f.write(fixed_text)
         for config in vless_configs:
             f.write(config + "\n")
+    print(f"Saved VLess configs to {output_filename}")
 
     # Save VLess configs as YAML
     yaml_config = format_vless_yaml(vless_configs)
     vless_yaml_file = os.path.join(output_folder, "vless_configs.yaml")
     with open(vless_yaml_file, "w") as f:
         yaml.dump(yaml_config, f, allow_unicode=True, sort_keys=False)
+    print(f"Saved YAML configs to {vless_yaml_file}")
 
     # Save stats
     stats_file = os.path.join(output_folder, "stats.json")
     with open(stats_file, "w") as f:
         json.dump(stats, f, indent=2)
+    print(f"Saved stats to {stats_file}")
 
     return stats
 
 # Загрузка статистики
 def load_stats():
-    stats_file = "public/configs/stats.json"
+    stats_file = "website/public/configs/stats.json"
     if os.path.exists(stats_file):
         with open(stats_file, "r") as f:
+            print(f"Loaded stats from {stats_file}")
             return json.load(f)
+    print("No stats file found, generating new configs")
     return process_configs()
 
 # FastAPI маршруты
@@ -332,7 +350,7 @@ async def stats_api():
 
 @app.get("/public/configs/{filename}")
 async def serve_configs(filename: str):
-    file_path = os.path.join("public/configs", filename)
+    file_path = os.path.join("website/public/configs", filename)
     if os.path.exists(file_path):
         with open(file_path, "r") as f:
             content = f.read()
@@ -341,7 +359,8 @@ async def serve_configs(filename: str):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--generate":
-        process_configs()  # Для GitHub Actions
+        process_configs()
+        print("Config generation completed")
     else:
         import uvicorn
-        uvicorn.run(app, host="0.0.0.0", port=8000)  # Для локального/Vercel
+        uvicorn.run(app, host="0.0.0.0", port=8000)
