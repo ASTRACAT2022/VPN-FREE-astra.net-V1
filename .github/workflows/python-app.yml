@@ -36,10 +36,11 @@ jobs:
         run: ls -l configs/
         working-directory: website
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          git pull --rebase
           git add website/configs/
           git commit -m "Update raw VLess configs" || echo "No changes to commit"
           git push
