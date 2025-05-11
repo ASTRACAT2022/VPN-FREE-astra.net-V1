@@ -1,13 +1,13 @@
-name: Update VPN Configs
+name: Update Raw VPN Configs
 on:
   schedule:
-    - cron: "0 */4 * * *" # Каждые 4 часа
+    - cron: "*/10 * * * *" # Каждые 10 минут
   workflow_dispatch:
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Право на запись в репозиторий
+      contents: write # Право на запись
     steps:
       - uses: actions/checkout@v4
         with:
@@ -17,21 +17,19 @@ jobs:
         with:
           python-version: "3.8"
       - name: Install dependencies
-        run: pip install -r website/requirements.txt
-      - name: Run Pylint
-        run: pylint website/main.py || true
+        run: pip install pybase64 requests pyyaml geoip2
       - name: Debug directory structure
         run: |
           pwd
           ls -R
       - name: Run config script
-        run: python website/main.py --generate
+        run: python update_raw_configs.py
       - name: Check generated files
-        run: ls -l website/public/configs/
+        run: ls -l configs/
       - name: Commit changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add website/public/configs/
-          git commit -m "Update VLess configs" || echo "No changes to commit"
+          git add configs/
+          git commit -m "Update raw VLess configs" || echo "No changes to commit"
           git push
