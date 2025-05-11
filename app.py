@@ -21,6 +21,23 @@ INDEX_HTML = """
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASTRACAT ShereVPN</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();
+       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(100530848, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/100530848" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     <style>
         .card {
             transition: transform 0.2s;
@@ -95,6 +112,7 @@ INDEX_HTML = """
     </main>
     <footer class="bg-gray-800 p-4 mt-8 text-center">
         <p>Создано <a href="https://github.com/ASTRACAT2022/apiV2ray" class="text-blue-400">ASTRACAT2022</a></p>
+        <p>Telegram: <a href="https://t.me/astracatui" class="text-blue-400">@astracatui</a></p>
     </footer>
 </body>
 </html>
