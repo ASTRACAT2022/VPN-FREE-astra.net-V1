@@ -2,17 +2,18 @@ name: 🚀 Update Raw VPN Configs
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # Каждые 10 минут
-  workflow_dispatch:
+    - cron: "*/10 * * * *"  # Запуск каждые 10 минут
+  workflow_dispatch:         # Возможность ручного запуска
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Право на запись в репозиторий
+      contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -24,33 +25,21 @@ jobs:
       - name: Install dependencies
         run: pip install pybase64 requests pyyaml geoip2
 
-      - name: Debug directory structure
-        run: |
-          pwd
-          ls -R
-
       - name: Run update_raw_configs.py
         run: python update_raw_configs.py
-        working-directory: website  # Переход в папку website
+        working-directory: website
 
       - name: Check generated files
         run: ls -l configs/
-        working-directory: website  # Проверка файлов в папке website
+        working-directory: website
 
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          
-          # Сохраняем текущие изменения в stash, если они есть
-          git stash || echo "No changes to stash"
-
-          # Получаем последние изменения из репозитория
-          git pull --rebase
-
-          # Применяем изменения из stash, если были
-          git stash pop || echo "No changes to apply from stash"
 
           git add website/configs/
           git commit -m "🚀 ASTRACAT 10 min update" || echo "No changes to commit"
-          git push
+
+          git pull --rebase || echo "Nothing to rebase"
+          git push || echo "Nothing to push"
