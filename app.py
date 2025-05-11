@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
-from fastapi.templating import Jinja2Templates
 import pybase64
 import base64
 import requests
@@ -11,14 +10,14 @@ from jinja2 import Environment, BaseLoader
 
 app = FastAPI()
 
-# HTML-шаблон как строка
+# HTML-шаблон с кнопкой копирования и уведомлением
 INDEX_HTML = """
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASTRACAT V2rayS</title>
+    <title>ASTRACAT ShereVPN</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .card {
@@ -27,18 +26,37 @@ INDEX_HTML = """
         .card:hover {
             transform: scale(1.05);
         }
+        #toast {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #10b981;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 1000;
+        }
     </style>
     <script>
         function filterStats() {
             const protocol = document.getElementById('protocol').value;
             window.location.href = `/?protocol=${protocol}`;
         }
+        function copyLink() {
+            const url = window.location.origin + '/public/configs/All_Configs_Sub.txt';
+            navigator.clipboard.writeText(url).then(() => {
+                const toast = document.getElementById('toast');
+                toast.style.display = 'block';
+                setTimeout(() => { toast.style.display = 'none'; }, 2000);
+            });
+        }
     </script>
 </head>
 <body class="bg-gray-900 text-white">
     <header class="bg-gray-800 p-4 shadow-md">
         <nav class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">ASTRACAT V2rayS</h1>
+            <h1 class="text-2xl font-bold">ASTRACAT ShereVPN</h1>
             <ul class="flex space-x-4">
                 <li><a href="/" class="hover:text-blue-400">Главная</a></li>
                 <li><a href="https://github.com/ASTRACAT2022/apiV2ray" class="hover:text-blue-400">GitHub</a></li>
@@ -46,7 +64,7 @@ INDEX_HTML = """
         </nav>
     </header>
     <main class="container mx-auto p-4">
-        <h1 class="text-4xl font-bold text-center mb-8">ASTRACAT V2rayS</h1>
+        <h1 class="text-4xl font-bold text-center mb-8">ASTRACAT ShereVPN</h1>
         <p class="text-center mb-8">Бесплатные VPN-конфигурации с актуальной статистикой</p>
         <div class="mb-8 text-center">
             <label for="protocol" class="mr-2">Выберите протокол:</label>
@@ -67,10 +85,11 @@ INDEX_HTML = """
             {% endfor %}
         </div>
         <div class="text-center mt-8">
-            <a href="/public/configs/All_Configs_Sub.txt" download class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Скачать конфигурации
-            </a>
+            <button onclick="copyLink()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Копировать ссылку
+            </button>
         </div>
+        <div id="toast">Ссылка скопирована!</div>
     </main>
     <footer class="bg-gray-800 p-4 mt-8 text-center">
         <p>Создано <a href="https://github.com/ASTRACAT2022/apiV2ray" class="text-blue-400">ASTRACAT2022</a></p>
@@ -85,7 +104,7 @@ template = env.from_string(INDEX_HTML)
 
 # Конфигурация
 TIMEOUT = 20
-fixed_text = """#profile-title: base64:8J+GkyBBU1RSQUNBVDIwMjIgfCBWMnJheVMg8J+ltw==
+fixed_text = """#profile-title: base64:8J+GkyBBU1RSQUNBVDIwMjIgfCBTaGVyZVZQTiDwn6W3
 #profile-update-interval: 1
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/ASTRACAT2022/apiV2ray
@@ -222,4 +241,4 @@ async def serve_configs(filename: str):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=5000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
