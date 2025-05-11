@@ -41,7 +41,16 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          
+          # Сохраняем текущие изменения в stash, если они есть
+          git stash || echo "No changes to stash"
+
+          # Получаем последние изменения из репозитория
           git pull --rebase
+
+          # Применяем изменения из stash, если были
+          git stash pop || echo "No changes to apply from stash"
+
           git add website/configs/
           git commit -m "ASTRACAT 10 min update" || echo "No changes to commit"
           git push
