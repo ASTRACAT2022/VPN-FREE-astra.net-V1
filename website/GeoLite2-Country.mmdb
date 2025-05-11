@@ -1,0 +1,4 @@
+wget "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=YOUR_LICENSE_KEY&suffix=tar.gz" -O GeoLite2-Country.tar.gz
+tar -xvzf GeoLite2-Country.tar.gz
+mv GeoLite2-Country_*/GeoLite2-Country.mmdb website/
+rm -rf GeoLite2-Country_*
