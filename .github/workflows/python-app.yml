@@ -15,9 +15,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r website/requirements.txt
       - name: Run Pylint
-        run: pylint website/main.py || true # Опционально, не прерывает сборку
+        run: pylint website/main.py || true # Опционально
       - name: Run config script
-        run: python website/main.py
+        run: python website/main.py --generate
       - name: Commit changes
         run: |
           git config user.name "GitHub Actions"
