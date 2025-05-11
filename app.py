@@ -1,11 +1,11 @@
 from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import HTMLResponse
 import pybase64
-import base64
 import requests
 import binascii
 import os
 import json
+import yaml
 from jinja2 import Environment, BaseLoader
 from urllib.parse import urlparse, parse_qs
 
@@ -45,7 +45,7 @@ INDEX_HTML = """
             window.location.href = `/?protocol=${protocol}`;
         }
         function copyLink() {
-            const url = window.location.origin + '/public/configs/vless_configs.json';
+            const url = window.location.origin + '/public/configs/vless_configs.yaml';
             navigator.clipboard.writeText(url).then(() => {
                 const toast = document.getElementById('toast');
                 toast.style.display = 'block';
@@ -174,12 +174,12 @@ def parse_vless_url(vless_url):
     except Exception:
         return None
 
-def format_vless_json(vless_configs):
-    json_configs = []
+def format_vless_yaml(vless_configs):
+    yaml_configs = []
     for config in vless_configs:
         parsed = parse_vless_url(config)
         if parsed:
-            json_config = {
+            yaml_config = {
                 "protocol": "vless",
                 "uuid": parsed["uuid"],
                 "host": parsed["host"],
@@ -188,8 +188,8 @@ def format_vless_json(vless_configs):
                 "params": parsed["params"],
                 "name": parsed["fragment"] or "ASTRACAT ShereVPN"
             }
-            json_configs.append(json_config)
-    return json_configs
+            yaml_configs.append(yaml_config)
+    return {"configs": yaml_configs}
 
 def filter_vless(data):
     vless_configs = []
@@ -212,7 +212,7 @@ def process_configs():
     output_folder = ensure_directories_exist()
     links = [
         "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt",
-        "https:// tides/TVC/main/subscriptions/xray/base64/mix",
+        "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/base64/mix",
         "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt",
         "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
         "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
@@ -238,11 +238,11 @@ def process_configs():
         for config in vless_configs:
             f.write(config + "\n")
 
-    # Save VLess configs as JSON
-    json_configs = format_vless_json(vless_configs)
-    vless_json_file = os.path.join(output_folder, "vless_configs.json")
-    with open(vless_json_file, "w") as f:
-        json.dump({"configs": json_configs}, f, indent=2, ensure_ascii=False)
+    # Save VLess configs as YAML
+    yaml_configs = format_vless_yaml(vless_configs)
+    vless_yaml_file = os.path.join(output_folder, "vless_configs.yaml")
+    with open(vless_yaml_file, "w") as f:
+        yaml.dump(yaml_configs, f, allow_unicode=True, sort_keys=False)
 
     # Save stats
     stats_file = os.path.join(output_folder, "stats.json")
@@ -281,12 +281,10 @@ async def serve_configs(filename: str):
     file_path = os.path.join("public/configs", filename)
     if os.path.exists(file_path):
         with open(file_path, "r") as f:
-            if filename.endswith(".json"):
-                return JSONResponse(content=json.load(f))
             content = f.read()
-        return HTMLResponse(content=content, media_type="text/plain")
+        return HTMLResponse(content=content, media_type="text/yaml" if filename.endswith(".yaml") else "text/plain")
     return {"error": "File not found"}, 404
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=5000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
