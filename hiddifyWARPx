@@ -1,0 +1,188 @@
+{
+  "log": {
+    "level": "warn",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "address": "85.209.2.112",
+        "address_resolver": "dns-direct"
+      },
+      {
+        "tag": "dns-trick-direct",
+        "address": "https://frd4wvnobp.cloudflare-gateway.com/dns-query",
+        "detour": "direct-fragment"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "85.209.2.112",
+        "address_resolver": "dns-local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-local",
+        "address": "local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": "engage.cloudflareclient.com",
+        "server": "dns-direct"
+      }
+    ],
+    "final": "dns-remote",
+    "static_ips": {
+      "sky.rethinkdns.com": [
+        "104.17.147.22",
+        "104.17.148.22",
+        "188.114.96.1",
+        "188.114.97.1",
+        "2606:4700:3030::6815:533e",
+        "2606:4700:3030::ac43:d6f6"
+      ]
+    },
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "mtu": 9000,
+      "inet4_address": "172.19.0.1/28",
+      "auto_route": true,
+      "endpoint_independent_nat": true,
+      "stack": "gvisor",
+      "sniff": true
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 12334,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "127.0.0.1",
+      "listen_port": 16450
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "💦 1 - Warp 🇮🇷 § 0",
+        "💦 1 - WoW 🌍 § 1"
+      ],
+      "default": "auto",
+      "interrupt_exist_connections": true
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "💦 1 - Warp 🇮🇷 § 0",
+        "💦 1 - WoW 🌍 § 1"
+      ],
+      "url": "http://cp.cloudflare.com",
+      "interval": "10m0s",
+      "tolerance": 1,
+      "idle_timeout": "30m0s",
+      "interrupt_exist_connections": true
+    },
+    {
+      "type": "wireguard",
+      "tag": "💦 1 - Warp 🇮🇷 § 0",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8f2f:de7:a263:cece:5a80/128"
+      ],
+      "private_key": "uDu5oVO8gPJqW+TcnzvAp2Vxc5fgp6y7DCJRbaEDQGQ=",
+      "server": "engage.cloudflareclient.com",
+      "server_port": 7103,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "uc+b",
+      "mtu": 1330,
+      "fake_packets": "10-15",
+      "fake_packets_size": "5-10",
+      "fake_packets_delay": "1-1",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "💦 1 - WoW 🌍 § 1",
+      "detour": "💦 1 - Warp 🇮🇷 § 0",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8561:4ed1:d828:b7fe:1c93/128"
+      ],
+      "private_key": "qFXQLRkuWn5uQZfpdHS07Qvo5Xg6LaVW7hPsRiQu8HM=",
+      "server": "162.159.192.1",
+      "server_port": 1002,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "EHGo",
+      "mtu": 1330
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "10-30",
+        "sleep": "2-8"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "port": 53,
+        "outbound": "dns-out"
+      }
+    ],
+    "final": "select",
+    "auto_detect_interface": true,
+    "override_android_vpn": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "clash.db"
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:16756",
+      "secret": "j9jlXLBy5xK-Ge9T"
+    }
+  }
+}
