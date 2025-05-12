@@ -1,0 +1,225 @@
+{
+    "mixed-port": 7890,
+    "ipv6": true,
+    "allow-lan": true,
+    "mode": "rule",
+    "log-level": "warning",
+    "disable-keep-alive": false,
+    "keep-alive-idle": 10,
+    "keep-alive-interval": 15,
+    "unified-delay": false,
+    "geo-auto-update": true,
+    "geo-update-interval": 168,
+    "external-controller": "127.0.0.1:9090",
+    "external-ui-url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+    "external-ui": "ui",
+    "external-controller-cors": {
+        "allow-origins": [
+            "*"
+        ],
+        "allow-private-network": true
+    },
+    "profile": {
+        "store-selected": true,
+        "store-fake-ip": true
+    },
+    "dns": {
+        "enable": true,
+        "listen": "0.0.0.0:1053",
+        "ipv6": true,
+        "respect-rules": true,
+        "use-system-hosts": false,
+        "nameserver": [
+            "1.1.1.1#✅ Selector"
+        ],
+        "proxy-server-nameserver": [
+            "85.209.2.112#DIRECT"
+        ],
+        "nameserver-policy": {
+            "raw.githubusercontent.com": "85.209.2.112#DIRECT",
+            "time.apple.com": "85.209.2.112#DIRECT",
+            "rule-set:ru": [
+                "85.209.2.112#DIRECT"
+            ]
+        },
+        "enhanced-mode": "fake-ip",
+        "fake-ip-range": "198.18.0.1/16",
+        "fake-ip-filter": [
+            "geosite:private"
+        ]
+    },
+    "tun": {
+        "enable": true,
+        "stack": "mixed",
+        "auto-route": true,
+        "strict-route": true,
+        "auto-detect-interface": true,
+        "dns-hijack": [
+            "any:53",
+            "tcp://any:53"
+        ],
+        "mtu": 9000
+    },
+    "sniffer": {
+        "enable": true,
+        "force-dns-mapping": true,
+        "parse-pure-ip": true,
+        "override-destination": false,
+        "sniff": {
+            "HTTP": {
+                "ports": [
+                    80,
+                    8080,
+                    8880,
+                    2052,
+                    2082,
+                    2086,
+                    2095
+                ]
+            },
+            "TLS": {
+                "ports": [
+                    443,
+                    8443,
+                    2053,
+                    2083,
+                    2087,
+                    2096
+                ]
+            }
+        }
+    },
+    "proxies": [
+        {
+            "name": "💦 1 - Warp Pro 🇮🇷",
+            "type": "wireguard",
+            "ip": "172.16.0.2/32",
+            "ipv6": "2606:4700:110:86f1:7334:18f6:69e9:3076/128",
+            "ip-version": "dual",
+            "private-key": "eF9UmXBRZVmXhUKC6lVedtjCmfP+WvX0m03wmv2vOG0=",
+            "server": "engage.cloudflareclient.com",
+            "port": 2408,
+            "public-key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": "S79j",
+            "udp": true,
+            "mtu": 1280,
+            "amnezia-wg-option": {
+                "jc": "5",
+                "jmin": "50",
+                "jmax": "100"
+            }
+        },
+        {
+            "name": "💦 1 - WoW Pro 🌍",
+            "type": "wireguard",
+            "ip": "172.16.0.2/32",
+            "ipv6": "2606:4700:110:8715:d736:ed24:e8cf:56f2/128",
+            "ip-version": "dual",
+            "private-key": "QOeRgPQawpMqdpgLszh3qImE7vuMHH1zoMyMQLL1u2g=",
+            "server": "162.159.192.1",
+            "port": 2408,
+            "public-key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "allowed-ips": [
+                "0.0.0.0/0",
+                "::/0"
+            ],
+            "reserved": "5+Av",
+            "udp": true,
+            "mtu": 1280,
+            "dialer-proxy": "💦 1 - Warp Pro 🇮🇷"
+        }
+    ],
+    "proxy-groups": [
+        {
+            "name": "✅ Selector",
+            "type": "select",
+            "proxies": [
+                "💦 Warp Pro - Best Ping 🚀",
+                "💦 WoW Pro - Best Ping 🚀",
+                "💦 1 - Warp Pro 🇮🇷",
+                "💦 1 - WoW Pro 🌍"
+            ]
+        },
+        {
+            "name": "💦 Warp Pro - Best Ping 🚀",
+            "type": "url-test",
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": 10,
+            "tolerance": 50,
+            "proxies": [
+                "💦 1 - Warp Pro 🇮🇷"
+            ]
+        },
+        {
+            "name": "💦 WoW Pro - Best Ping 🚀",
+            "type": "url-test",
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": 10,
+            "tolerance": 50,
+            "proxies": [
+                "💦 1 - WoW Pro 🌍"
+            ]
+        }
+    ],
+    "rule-providers": {
+        "ru": {
+            "type": "http",
+            "format": "yaml",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ru.yaml",
+            "path": "./ruleset/ru.yaml",
+            "interval": 86400
+        },
+        "ru-cidr": {
+            "type": "http",
+            "format": "yaml",
+            "behavior": "ipcidr",
+            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/ru.yaml",
+            "path": "./ruleset/ru-cidr.yaml",
+            "interval": 86400
+        },
+        "malware": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.txt",
+            "path": "./ruleset/malware.txt",
+            "interval": 86400
+        },
+        "phishing": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.txt",
+            "path": "./ruleset/phishing.txt",
+            "interval": 86400
+        },
+        "cryptominers": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.txt",
+            "path": "./ruleset/cryptominers.txt",
+            "interval": 86400
+        }
+    },
+    "rules": [
+        "AND,((NETWORK,udp),(DST-PORT,443)),REJECT",
+        "RULE-SET,malware,REJECT",
+        "RULE-SET,phishing,REJECT",
+        "RULE-SET,cryptominers,REJECT",
+        "RULE-SET,ru,DIRECT",
+        "RULE-SET,ru-cidr,DIRECT",
+        "MATCH,✅ Selector"
+    ],
+    "ntp": {
+        "enable": true,
+        "server": "time.apple.com",
+        "port": 123,
+        "interval": 30
+    }
+}
