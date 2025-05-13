@@ -7,17 +7,17 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "85.209.2.112",
+        "address": "8.8.8.8",
         "address_resolver": "dns-direct"
       },
       {
         "tag": "dns-trick-direct",
-        "address": "https://frd4wvnobp.cloudflare-gateway.com/dns-query",
+        "address": "https://sky.rethinkdns.com/",
         "detour": "direct-fragment"
       },
       {
         "tag": "dns-direct",
-        "address": "85.209.2.112",
+        "address": "223.5.5.5",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
@@ -42,10 +42,10 @@
       "sky.rethinkdns.com": [
         "104.17.147.22",
         "104.17.148.22",
-        "188.114.96.1",
         "188.114.97.1",
-        "2606:4700:3030::6815:533e",
-        "2606:4700:3030::ac43:d6f6"
+        "188.114.96.1",
+        "2a06:98c1:3121::1",
+        "2a06:98c1:3120::1"
       ]
     },
     "independent_cache": true
@@ -106,13 +106,13 @@
       "tag": "💦 1 - Warp 🇮🇷 § 0",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:8f2f:de7:a263:cece:5a80/128"
+        "2606:4700:110:87e1:2481:e37e:c9f9:787b/128"
       ],
-      "private_key": "uDu5oVO8gPJqW+TcnzvAp2Vxc5fgp6y7DCJRbaEDQGQ=",
+      "private_key": "AD0YPtQExeWYARhQyBkxZUCPIjFG/91cHKr/bTYIwXg=",
       "server": "engage.cloudflareclient.com",
-      "server_port": 7103,
+      "server_port": 2408,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "uc+b",
+      "reserved": "d+Jk",
       "mtu": 1330,
       "fake_packets": "10-15",
       "fake_packets_size": "5-10",
@@ -125,13 +125,13 @@
       "detour": "💦 1 - Warp 🇮🇷 § 0",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:8561:4ed1:d828:b7fe:1c93/128"
+        "2606:4700:110:8264:7a49:a1b1:fec9:daf9/128"
       ],
-      "private_key": "qFXQLRkuWn5uQZfpdHS07Qvo5Xg6LaVW7hPsRiQu8HM=",
+      "private_key": "4OAvYrN1PlzOibtPWh0Ymh8CXt/ORoTGZ2Aa0U4kB24=",
       "server": "162.159.192.1",
-      "server_port": 1002,
+      "server_port": 8742,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "EHGo",
+      "reserved": "DQ9D",
       "mtu": 1330
     },
     {
@@ -169,6 +169,33 @@
       {
         "port": 53,
         "outbound": "dns-out"
+      },
+      {
+        "domain_suffix": ".cn",
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geoip-cn",
+          "geosite-cn"
+        ],
+        "outbound": "direct"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geoip-cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geoip-cn.srs",
+        "update_interval": "120h0m0s"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geosite-cn.srs",
+        "update_interval": "120h0m0s"
       }
     ],
     "final": "select",
@@ -182,7 +209,7 @@
     },
     "clash_api": {
       "external_controller": "127.0.0.1:16756",
-      "secret": "j9jlXLBy5xK-Ge9T"
+      "secret": "-0zcdc4TRvjFiuZs"
     }
   }
 }
