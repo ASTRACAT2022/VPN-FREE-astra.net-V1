@@ -7,12 +7,12 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "8.8.8.8",
+        "address": "85.209.2.122",
         "address_resolver": "dns-direct"
       },
       {
         "tag": "dns-trick-direct",
-        "address": "https://sky.rethinkdns.com/",
+        "address": "https://frd4wvnobp.cloudflare-gateway.com/dns-query",
         "detour": "direct-fragment"
       },
       {
