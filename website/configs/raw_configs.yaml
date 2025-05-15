@@ -1864,6 +1864,14 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
   servername: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-180
+  type: vless
+  server: Everyday-VPN.Telegram-Channel
+  port: 443
+  uuid: 11111111-2222-1111-1111-111111111111
+  cipher: none
+  tls: true
+  network: grpc
 proxy-groups:
 - name: 🚀 ASTRACAT-Tunels-Group
   type: select
@@ -2040,6 +2048,7 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-177
   - 🌍 ASTRACAT-Tunels-178
   - 🌍 ASTRACAT-Tunels-179
+  - 🌍 ASTRACAT-Tunels-180
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
