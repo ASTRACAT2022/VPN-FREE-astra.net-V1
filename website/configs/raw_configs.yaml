@@ -619,6 +619,14 @@ proxies:
   servername: ddFR.191266.XYZ
 - name: 🌍 ASTRACAT-Tunels-69
   type: vless
+  server: ns7.esfahansiman.com
+  port: 2030
+  uuid: e66070a9-049f-42ce-9e14-9752141c3be4
+  cipher: none
+  tls: true
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-70
+  type: vless
   server: wow.quicky.dpdns.org
   port: 443
   uuid: 64aced52-7611-42e5-8725-c6bb47f38555
@@ -630,406 +638,9 @@ proxies:
     headers:
       Host: us.quicky.dpdns.org
   servername: us.quicky.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-70
-  type: vless
-  server: 77.110.100.177
-  port: 2083
-  uuid: 108d0bd4-ed8a-4186-995f-8f49e3127699
-  cipher: none
-  tls: true
-  network: grpc
 - name: 🌍 ASTRACAT-Tunels-71
   type: vless
-  server: 104.18.3.26
-  port: 2083
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /security=tls
-    headers:
-      Host: ex.sue.x10.mx
-- name: 🌍 ASTRACAT-Tunels-72
-  type: vless
-  server: ns7.esfahansiman.com
-  port: 2030
-  uuid: e66070a9-049f-42ce-9e14-9752141c3be4
-  cipher: none
-  tls: true
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-73
-  type: vless
-  server: 104.18.20.69
-  port: 443
-  uuid: 222a1c34-96f5-45fd-bedd-b9ac4b477b98
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /r6PSatuYdS9gZH6L/c2pjLm8wMG8ub29vfp=chrome
-    headers:
-      Host: bp.singbox.ggff.net
-  servername: bp.singbox.ggff.net
-- name: 🌍 ASTRACAT-Tunels-74
-  type: vless
-  server: www.speedtest.net
-  port: 8443
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: KeMn02UcWh.AaAzZzAaA-8129.cOm
-  servername: KeMn02UcWh.AaAzZzAaA-8129.cOm
-- name: 🌍 ASTRACAT-Tunels-75
-  type: vless
-  server: dnschecker.org
-  port: 443
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: zx.ylks0033.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-76
-  type: vless
-  server: 104.17.147.22
-  port: 80
-  uuid: 31944db6-1fad-49aa-b8bc-f23f6436ba6c
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
-    headers:
-      Host: Www.speedtest.net.developsp.ir.vegaskala.com.
-- name: 🌍 ASTRACAT-Tunels-77
-  type: vless
-  server: www.speedtest.net
-  port: 80
-  uuid: 31944db6-1fad-49aa-b8bc-f23f6436ba6c
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
-    headers:
-      Host: Www.speedtest.net.developsp.ir.vegaskala.com.
-- name: 🌍 ASTRACAT-Tunels-78
-  type: vless
-  server: scorpion1.info
-  port: 2087
-  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: Tp418Gi9H1.mOlAnAmAmAlI1.iNfO
-  servername: Tp418Gi9H1.mOlAnAmAmAlI1.iNfO
-- name: 🌍 ASTRACAT-Tunels-79
-  type: vless
-  server: 160.123.255.38
-  port: 443
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-- name: 🌍 ASTRACAT-Tunels-80
-  type: vless
-  server: 104.24.21.212
-  port: 2096
-  uuid: 9c7e9c02-d37a-4f3c-b860-6460a6ff473b
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: fp=chrome
-    headers:
-      Host: vless.vvzxyvv.sbs
-  servername: vless.vvzxyvv.sbs
-- name: 🌍 ASTRACAT-Tunels-81
-  type: vless
-  server: myanmar.visa.com
-  port: 8443
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: ex.sue.x10.mx
-- name: 🌍 ASTRACAT-Tunels-82
-  type: vless
-  server: 160.79.104.108
-  port: 443
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-- name: 🌍 ASTRACAT-Tunels-83
-  type: vless
-  server: 212.183.88.46
-  port: 443
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-84
-  type: vless
-  server: 3.96.179.112
-  port: 443
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-85
-  type: vless
-  server: www.vanboss.work
-  port: 56565
-  uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-86
-  type: vless
-  server: 185.16.110.70
-  port: 443
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-87
-  type: vless
-  server: 27.50.48.18
-  port: 2087
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: edccx.aimercc.filegear-sg.me
-- name: 🌍 ASTRACAT-Tunels-88
-  type: vless
-  server: 91.193.58.58
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-89
-  type: vless
-  server: 104.18.80.243
-  port: 443
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.Oracle.cmliussss.netfp=chrome
-    headers:
-      Host: 0229.patterdeng.pp.ua
-  servername: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-90
-  type: vless
-  server: support.zoom.us
-  port: 8080
-  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /flow=none-udp443
-    headers:
-      Host: xrr.rtxconfigz.xyz
-- name: 🌍 ASTRACAT-Tunels-91
-  type: vless
-  server: 156.238.18.6
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560fp=chrome
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-92
-  type: vless
-  server: 141.193.213.196
-  port: 80
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560fp=chrome
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-93
-  type: vless
-  server: 162.159.153.42
-  port: 443
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.Oracle.cmliussss.netfp=chrome
-    headers:
-      Host: 0229.patterdeng.pp.ua
-  servername: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-94
-  type: vless
-  server: 156.238.18.28
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560fp=chrome
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-95
-  type: vless
-  server: 156.238.18.24
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560fp=chrome
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-96
-  type: vless
-  server: 104.129.166.20
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560fp=chrome
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-97
-  type: vless
-  server: 205.233.181.186
-  port: 8443
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: CiR346yL3b.DeRaKhT.iNfO
-  servername: CiR346yL3b.DeRaKhT.iNfO
-- name: 🌍 ASTRACAT-Tunels-98
-  type: vless
-  server: 162.159.152.2
-  port: 2087
-  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: Tp4290U4z7.JoLi90.CoM
-  servername: Tp4290U4z7.JoLi90.CoM
-- name: 🌍 ASTRACAT-Tunels-99
-  type: vless
-  server: 212.183.88.51
-  port: 443
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-100
-  type: vless
-  server: 212.183.88.26
-  port: 443
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560fp=random
-    headers:
-      Host: 0229.patterdeng.pp.ua
-  servername: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-101
-  type: vless
-  server: 77.74.228.20
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-102
-  type: vless
-  server: 185.133.35.36
-  port: 443
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-103
-  type: vless
-  server: 185.133.35.244
-  port: 443
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-104
-  type: vless
-  server: 190.93.247.172
+  server: 103.21.244.17
   port: 443
   uuid: f055d270-0e76-4a41-a53f-871bbb51b003
   cipher: none
@@ -1039,280 +650,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: what.zhonghuoxing.top
-- name: 🌍 ASTRACAT-Tunels-105
-  type: vless
-  server: 91.193.58.214
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-106
-  type: vless
-  server: 91.193.58.156
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-107
-  type: vless
-  server: 91.193.58.170
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-108
-  type: vless
-  server: 91.193.58.84
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-109
-  type: vless
-  server: 91.193.58.215
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-110
-  type: vless
-  server: 91.193.58.59
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-111
-  type: vless
-  server: 91.193.58.205
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-112
-  type: vless
-  server: 91.193.58.44
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-113
-  type: vless
-  server: 91.193.58.213
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-114
-  type: vless
-  server: 91.193.58.83
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-115
-  type: vless
-  server: 91.193.58.198
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-116
-  type: vless
-  server: hkt-ty-line-1.sudatech.store
-  port: 20550
-  uuid: 2d317da5-47c5-4db4-933f-16d1094668db
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-117
-  type: vless
-  server: 5.10.246.231
-  port: 443
-  uuid: 9af46703-64fa-4d42-b87b-656372e517ae
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /9af46703-64fa-4d42-b87b-656372e517ae-vless?ed=2048security=tls
-    headers:
-      Host: seen-israel-dining-sure.trycloudflare.com
-- name: 🌍 ASTRACAT-Tunels-118
-  type: vless
-  server: 5.10.247.255
-  port: 443
-  uuid: 9af46703-64fa-4d42-b87b-656372e517ae
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /9af46703-64fa-4d42-b87b-656372e517ae-vless?ed=2048security=tls
-    headers:
-      Host: seen-israel-dining-sure.trycloudflare.com
-- name: 🌍 ASTRACAT-Tunels-119
-  type: vless
-  server: 45.67.215.168
-  port: 443
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-120
-  type: vless
-  server: 92.243.74.20
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-121
-  type: vless
-  server: 92.53.190.20
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-122
-  type: vless
-  server: 185.148.106.20
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-123
-  type: vless
-  server: 104.129.166.20
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-124
-  type: vless
-  server: 156.238.18.45
-  port: 8880
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-125
-  type: vless
-  server: 141.193.213.135
-  port: 80
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    headers:
-      Host: us.laoyoutiao.link
-- name: 🌍 ASTRACAT-Tunels-126
-  type: vless
-  server: 104.18.2.26
-  port: 2083
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560fp=chrome
-    headers:
-      Host: ex.sue.x10.mx
-  servername: ex.sue.x10.mx
-- name: 🌍 ASTRACAT-Tunels-127
-  type: vless
-  server: 216.24.57.202
-  port: 443
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-128
+- name: 🌍 ASTRACAT-Tunels-72
   type: vless
   server: 104.24.137.227
   port: 2096
@@ -1325,46 +663,7 @@ proxies:
     headers:
       Host: 4534295.dpdns.org
   servername: 4534295.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-129
-  type: vless
-  server: 104.16.239.207
-  port: 443
-  uuid: d1b29ae3-cea2-496f-b2a5-28753d4cdec2
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560fp=random
-    headers:
-      Host: cf.zhaoyin.wang
-  servername: cf.zhaoyin.wang
-- name: 🌍 ASTRACAT-Tunels-130
-  type: vless
-  server: 104.16.138.167
-  port: 2083
-  uuid: d3c62dea-ac54-4163-ab3f-20d6ef9f8420
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560fp=random
-    headers:
-      Host: 1.659118019.uk
-  servername: 1.659118019.uk
-- name: 🌍 ASTRACAT-Tunels-131
-  type: vless
-  server: 172.66.40.87
-  port: 2083
-  uuid: 8f320d6a-9953-4065-b61c-d62f89a6767f
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048fp=chrome
-    headers:
-      Host: e.exedu.ip-ddns.com
-  servername: e.exedu.ip-ddns.com
-- name: 🌍 ASTRACAT-Tunels-132
+- name: 🌍 ASTRACAT-Tunels-73
   type: vless
   server: 160.79.104.113
   port: 443
@@ -1377,9 +676,695 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
   servername: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-74
+  type: vless
+  server: 212.183.88.26
+  port: 443
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=random
+    headers:
+      Host: 0229.patterdeng.pp.ua
+  servername: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-75
+  type: vless
+  server: 104.16.65.128
+  port: 443
+  uuid: d1b29ae3-cea2-496f-b2a5-28753d4cdec2
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=random
+    headers:
+      Host: cf.zhaoyin.wang
+  servername: cf.zhaoyin.wang
+- name: 🌍 ASTRACAT-Tunels-76
+  type: vless
+  server: 185.133.35.244
+  port: 443
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-77
+  type: vless
+  server: www.vanboss.work
+  port: 56565
+  uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-78
+  type: vless
+  server: 91.193.58.205
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-79
+  type: vless
+  server: 45.67.215.168
+  port: 443
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-80
+  type: vless
+  server: 104.16.239.207
+  port: 443
+  uuid: d1b29ae3-cea2-496f-b2a5-28753d4cdec2
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=random
+    headers:
+      Host: cf.zhaoyin.wang
+  servername: cf.zhaoyin.wang
+- name: 🌍 ASTRACAT-Tunels-81
+  type: vless
+  server: 156.238.18.45
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-82
+  type: vless
+  server: 104.18.2.26
+  port: 2083
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=chrome
+    headers:
+      Host: ex.sue.x10.mx
+  servername: ex.sue.x10.mx
+- name: 🌍 ASTRACAT-Tunels-83
+  type: vless
+  server: 141.193.213.135
+  port: 80
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-84
+  type: vless
+  server: 42.2.55.150
+  port: 20550
+  uuid: 2d317da5-47c5-4db4-933f-16d1094668db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-85
+  type: vless
+  server: 104.18.83.92
+  port: 443
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: 0229.patterdeng.pp.ua
+  servername: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-86
+  type: vless
+  server: 195.201.101.121
+  port: 22000
+  uuid: 8c8873fb-6e68-4359-8d67-092d399612c9
+  cipher: none
+  tls: true
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-87
+  type: vless
+  server: 104.17.147.22
+  port: 8443
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: CiR346yL3b.DeRaKhT.iNfO
+  servername: CiR346yL3b.DeRaKhT.iNfO
+- name: 🌍 ASTRACAT-Tunels-88
+  type: vless
+  server: 138.199.234.168
+  port: 4040
+  uuid: aa77ab4d-31d3-4603-8b14-ec8363b2a615
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-89
+  type: vless
+  server: 141.193.213.253
+  port: 80
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-90
+  type: vless
+  server: 162.159.153.72
+  port: 443
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: fp=chrome
+    headers:
+      Host: 0229.patterdeng.pp.ua
+  servername: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-91
+  type: vless
+  server: 172.67.205.22
+  port: 443
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /XcQF058rNJ3gc4ajfp=chrome
+    headers:
+      Host: 1ssdddffffhhhjjjj.20220420.pp.ua
+  servername: 1SsdDdfFffHhHJjJJ.20220420.PP.ua
+- name: 🌍 ASTRACAT-Tunels-92
+  type: vless
+  server: 35.157.5.33
+  port: 22224
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /telegram-channel-vlessconfigfp=chrome
+  servername: trojan.burgerip.co.uk
+- name: 🌍 ASTRACAT-Tunels-93
+  type: vless
+  server: 172.67.208.155
+  port: 443
+  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ok1UBnf7txQ8YJFJxzfp=chrome
+    headers:
+      Host: 2werty.2030.pp.ua
+  servername: 2werty.2030.pp.ua
+- name: 🌍 ASTRACAT-Tunels-94
+  type: vless
+  server: 35.181.182.220
+  port: 22224
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /telegram-channel-vlessconfigfp=chrome
+  servername: trojan.burgerip.co.uk
+- name: 🌍 ASTRACAT-Tunels-95
+  type: vless
+  server: src.primzoeron.ir
+  port: 20500
+  uuid: JoinTel--SRCVPN
+  cipher: none
+  tls: true
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-96
+  type: vless
+  server: www.speedtest.net
+  port: 2096
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: FdEuQxFq0.ZuMiNhO.InFo
+  servername: FdEuQxFq0.ZuMiNhO.InFo
+- name: 🌍 ASTRACAT-Tunels-97
+  type: vless
+  server: www.speedtest.net
+  port: 2096
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: FdEuQxFq3.ZuMiNhO.InFo
+  servername: FdEuQxFq3.ZuMiNhO.InFo
+- name: 🌍 ASTRACAT-Tunels-98
+  type: vless
+  server: 89.208.104.70
+  port: 443
+  uuid: e2286c5e-d910-405f-9bcb-b0e81188ad53
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-99
+  type: vless
+  server: 190.93.245.137
+  port: 443
+  uuid: e66070a9-049f-42ce-9e14-9752141c3be4
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_configfp=chrome
+    headers:
+      Host: WWW.pegAh-Esfahan.De.
+  servername: WWW.pegAh-Esfahan.De.
+- name: 🌍 ASTRACAT-Tunels-100
+  type: vless
+  server: 104.21.71.205
+  port: 443
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /XcQF058rNJ3gc4ajfp=chrome
+    headers:
+      Host: 7d33510a-5da0-4f85-b1d5-5321a9eaa72a.890603.pp.ua
+  servername: 7d33510a-5dA0-4F85-b1d5-5321a9eaA72a.890603.pP.uA
+- name: 🌍 ASTRACAT-Tunels-101
+  type: vless
+  server: 104.24.152.190
+  port: 443
+  uuid: f055d270-0e76-4a41-a53f-871bbb51b003
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: what.zhonghuoxing.top
+  servername: what.zhonghuoxing.top
+- name: 🌍 ASTRACAT-Tunels-102
+  type: vless
+  server: 74.220.23.227
+  port: 2030
+  uuid: 98e5553e-abcc-4c9a-941a-8f0e9741d541
+  cipher: none
+  tls: true
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-103
+  type: vless
+  server: 104.21.88.226
+  port: 443
+  uuid: 895552fa-6284-4c1d-ba00-3944e0c7c626
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /C1SukvGdr58yeduy9AOGfp=chrome
+    headers:
+      Host: 5er.www890604.dpdns.org
+  servername: 5eR.WWW890604.dPDNS.OrG
+- name: 🌍 ASTRACAT-Tunels-104
+  type: vless
+  server: zula.ir
+  port: 443
+  uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?edfp=chrome
+    headers:
+      Host: cr77.hedieh.dpdns.org
+  servername: cr77.hedieh.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-105
+  type: vless
+  server: www.speedtest.net
+  port: 2082
+  uuid: 367c8489-27e5-4d88-e413-2f212d96d9e6
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+- name: 🌍 ASTRACAT-Tunels-106
+  type: vless
+  server: 141.193.213.10
+  port: 80
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-107
+  type: vless
+  server: 13.216.214.183
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-108
+  type: vless
+  server: 91.193.58.69
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-109
+  type: vless
+  server: 13.217.86.162
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-110
+  type: vless
+  server: 54.175.77.76
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-111
+  type: vless
+  server: 185.251.83.20
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-112
+  type: vless
+  server: 176.223.66.8
+  port: 39948
+  uuid: 2558c819-1363-4859-8fb9-f8cb104d49d2
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-113
+  type: vless
+  server: 54.145.53.77
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-114
+  type: vless
+  server: 18.208.226.170
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-115
+  type: vless
+  server: 3.87.11.247
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-116
+  type: vless
+  server: www.visaeurope.ch
+  port: 2083
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+- name: 🌍 ASTRACAT-Tunels-117
+  type: vless
+  server: 98.81.177.222
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-118
+  type: vless
+  server: 35.174.11.119
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-119
+  type: vless
+  server: 3.87.242.239
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-120
+  type: vless
+  server: 13.217.2.236
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-121
+  type: vless
+  server: 54.162.234.196
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-122
+  type: vless
+  server: 141.193.213.46
+  port: 80
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-123
+  type: vless
+  server: 54.146.50.45
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-124
+  type: vless
+  server: 52.90.224.203
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-125
+  type: vless
+  server: 100.24.71.29
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-126
+  type: vless
+  server: 3.81.35.73
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-127
+  type: vless
+  server: 141.193.213.53
+  port: 80
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-128
+  type: vless
+  server: 35.173.183.117
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-129
+  type: vless
+  server: 3.90.28.176
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-130
+  type: vless
+  server: 52.87.86.210
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-131
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: Ds807Ay6Vc.MaKeFoRlEsS.iNfO
+  servername: Ds807Ay6Vc.MaKeFoRlEsS.iNfO
+- name: 🌍 ASTRACAT-Tunels-132
+  type: vless
+  server: 172.67.204.84
+  port: 443
+  uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=chrome
+    headers:
+      Host: cr77.hedieh.dpdns.org
+  servername: cr77.hedieh.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-133
   type: vless
-  server: 103.21.244.17
+  server: www.speedtest.net
+  port: 2052
+  uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=1080
+    headers:
+      Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
+- name: 🌍 ASTRACAT-Tunels-134
+  type: vless
+  server: 212.183.88.51
+  port: 443
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-135
+  type: vless
+  server: 212.183.88.46
+  port: 443
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-136
+  type: vless
+  server: 77.74.228.20
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-137
+  type: vless
+  server: 185.133.35.36
+  port: 443
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-138
+  type: vless
+  server: 3.96.179.112
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-139
+  type: vless
+  server: 190.93.247.172
   port: 443
   uuid: f055d270-0e76-4a41-a53f-871bbb51b003
   cipher: none
@@ -1389,7 +1374,281 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: what.zhonghuoxing.top
-- name: 🌍 ASTRACAT-Tunels-134
+- name: 🌍 ASTRACAT-Tunels-140
+  type: vless
+  server: 185.16.110.70
+  port: 443
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-141
+  type: vless
+  server: 91.193.58.214
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-142
+  type: vless
+  server: 91.193.58.156
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-143
+  type: vless
+  server: 91.193.58.170
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-144
+  type: vless
+  server: 91.193.58.84
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-145
+  type: vless
+  server: 91.193.58.215
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-146
+  type: vless
+  server: 91.193.58.58
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-147
+  type: vless
+  server: 91.193.58.59
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-148
+  type: vless
+  server: 91.193.58.44
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-149
+  type: vless
+  server: 91.193.58.213
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-150
+  type: vless
+  server: 91.193.58.83
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-151
+  type: vless
+  server: 91.193.58.198
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-152
+  type: vless
+  server: hkt-ty-line-1.sudatech.store
+  port: 20550
+  uuid: 2d317da5-47c5-4db4-933f-16d1094668db
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-153
+  type: vless
+  server: 5.10.246.231
+  port: 443
+  uuid: 9af46703-64fa-4d42-b87b-656372e517ae
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /9af46703-64fa-4d42-b87b-656372e517ae-vless?ed=2048security=tls
+    headers:
+      Host: seen-israel-dining-sure.trycloudflare.com
+- name: 🌍 ASTRACAT-Tunels-154
+  type: vless
+  server: 5.10.247.255
+  port: 443
+  uuid: 9af46703-64fa-4d42-b87b-656372e517ae
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /9af46703-64fa-4d42-b87b-656372e517ae-vless?ed=2048security=tls
+    headers:
+      Host: seen-israel-dining-sure.trycloudflare.com
+- name: 🌍 ASTRACAT-Tunels-155
+  type: vless
+  server: 92.243.74.20
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-156
+  type: vless
+  server: 27.50.48.18
+  port: 2087
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: edccx.aimercc.filegear-sg.me
+- name: 🌍 ASTRACAT-Tunels-157
+  type: vless
+  server: 92.53.190.20
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-158
+  type: vless
+  server: 185.148.106.20
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-159
+  type: vless
+  server: 104.129.166.20
+  port: 8880
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      Host: us.laoyoutiao.link
+- name: 🌍 ASTRACAT-Tunels-160
+  type: vless
+  server: 216.24.57.202
+  port: 443
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 0229.patterdeng.pp.ua
+- name: 🌍 ASTRACAT-Tunels-161
+  type: vless
+  server: 104.16.138.167
+  port: 2083
+  uuid: d3c62dea-ac54-4163-ab3f-20d6ef9f8420
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=random
+    headers:
+      Host: 1.659118019.uk
+  servername: 1.659118019.uk
+- name: 🌍 ASTRACAT-Tunels-162
+  type: vless
+  server: 172.66.40.87
+  port: 2083
+  uuid: 8f320d6a-9953-4065-b61c-d62f89a6767f
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048fp=chrome
+    headers:
+      Host: e.exedu.ip-ddns.com
+  servername: e.exedu.ip-ddns.com
+- name: 🌍 ASTRACAT-Tunels-163
   type: vless
   server: 98.83.151.140
   port: 443
@@ -1397,7 +1656,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-135
+- name: 🌍 ASTRACAT-Tunels-164
   type: vless
   server: 103.21.244.105
   port: 8443
@@ -1410,7 +1669,7 @@ proxies:
     headers:
       Host: vless.vvzxyvv.sbs
   servername: vless.vvzxyvv.sbs
-- name: 🌍 ASTRACAT-Tunels-136
+- name: 🌍 ASTRACAT-Tunels-165
   type: vless
   server: 54.167.227.42
   port: 443
@@ -1418,7 +1677,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-137
+- name: 🌍 ASTRACAT-Tunels-166
   type: vless
   server: 52.90.208.244
   port: 443
@@ -1426,7 +1685,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-138
+- name: 🌍 ASTRACAT-Tunels-167
   type: vless
   server: 3.85.88.16
   port: 443
@@ -1434,7 +1693,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-139
+- name: 🌍 ASTRACAT-Tunels-168
   type: vless
   server: 18.212.150.211
   port: 443
@@ -1442,7 +1701,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-140
+- name: 🌍 ASTRACAT-Tunels-169
   type: vless
   server: 3.89.181.48
   port: 443
@@ -1450,7 +1709,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-141
+- name: 🌍 ASTRACAT-Tunels-170
   type: vless
   server: 54.84.94.99
   port: 443
@@ -1458,7 +1717,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-142
+- name: 🌍 ASTRACAT-Tunels-171
   type: vless
   server: 100.24.49.8
   port: 443
@@ -1466,7 +1725,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-143
+- name: 🌍 ASTRACAT-Tunels-172
   type: vless
   server: 3.91.101.219
   port: 443
@@ -1474,7 +1733,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-144
+- name: 🌍 ASTRACAT-Tunels-173
   type: vless
   server: 3.93.7.145
   port: 443
@@ -1482,7 +1741,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-145
+- name: 🌍 ASTRACAT-Tunels-174
   type: vless
   server: 54.196.91.196
   port: 443
@@ -1490,7 +1749,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-146
+- name: 🌍 ASTRACAT-Tunels-175
   type: vless
   server: 34.228.235.1
   port: 443
@@ -1498,7 +1757,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-147
+- name: 🌍 ASTRACAT-Tunels-176
   type: vless
   server: 34.207.200.181
   port: 443
@@ -1506,7 +1765,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-148
+- name: 🌍 ASTRACAT-Tunels-177
   type: vless
   server: 3.85.48.110
   port: 443
@@ -1514,7 +1773,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-149
+- name: 🌍 ASTRACAT-Tunels-178
   type: vless
   server: 160.79.104.113
   port: 443
@@ -1526,7 +1785,7 @@ proxies:
     path: /security=tls
     headers:
       Host: 0229.patterdeng.pp.ua
-- name: 🌍 ASTRACAT-Tunels-150
+- name: 🌍 ASTRACAT-Tunels-179
   type: vless
   server: 3.82.63.134
   port: 443
@@ -1534,7 +1793,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-151
+- name: 🌍 ASTRACAT-Tunels-180
   type: vless
   server: 18.232.100.196
   port: 443
@@ -1542,7 +1801,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-152
+- name: 🌍 ASTRACAT-Tunels-181
   type: vless
   server: 54.198.216.168
   port: 443
@@ -1550,7 +1809,19 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-153
+- name: 🌍 ASTRACAT-Tunels-182
+  type: vless
+  server: support.zoom.us
+  port: 8080
+  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xrr.rtxconfigz.xyz
+- name: 🌍 ASTRACAT-Tunels-183
   type: vless
   server: 170.114.46.6
   port: 8080
@@ -1562,7 +1833,7 @@ proxies:
     path: /
     headers:
       Host: xrr.rtxconfigz.xyz
-- name: 🌍 ASTRACAT-Tunels-154
+- name: 🌍 ASTRACAT-Tunels-184
   type: vless
   server: 104.25.253.197
   port: 8443
@@ -1575,7 +1846,7 @@ proxies:
     headers:
       Host: oracle-sg.777999.lol
   servername: oracle-sg.777999.lol
-- name: 🌍 ASTRACAT-Tunels-155
+- name: 🌍 ASTRACAT-Tunels-185
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -1735,6 +2006,36 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-153
   - 🌍 ASTRACAT-Tunels-154
   - 🌍 ASTRACAT-Tunels-155
+  - 🌍 ASTRACAT-Tunels-156
+  - 🌍 ASTRACAT-Tunels-157
+  - 🌍 ASTRACAT-Tunels-158
+  - 🌍 ASTRACAT-Tunels-159
+  - 🌍 ASTRACAT-Tunels-160
+  - 🌍 ASTRACAT-Tunels-161
+  - 🌍 ASTRACAT-Tunels-162
+  - 🌍 ASTRACAT-Tunels-163
+  - 🌍 ASTRACAT-Tunels-164
+  - 🌍 ASTRACAT-Tunels-165
+  - 🌍 ASTRACAT-Tunels-166
+  - 🌍 ASTRACAT-Tunels-167
+  - 🌍 ASTRACAT-Tunels-168
+  - 🌍 ASTRACAT-Tunels-169
+  - 🌍 ASTRACAT-Tunels-170
+  - 🌍 ASTRACAT-Tunels-171
+  - 🌍 ASTRACAT-Tunels-172
+  - 🌍 ASTRACAT-Tunels-173
+  - 🌍 ASTRACAT-Tunels-174
+  - 🌍 ASTRACAT-Tunels-175
+  - 🌍 ASTRACAT-Tunels-176
+  - 🌍 ASTRACAT-Tunels-177
+  - 🌍 ASTRACAT-Tunels-178
+  - 🌍 ASTRACAT-Tunels-179
+  - 🌍 ASTRACAT-Tunels-180
+  - 🌍 ASTRACAT-Tunels-181
+  - 🌍 ASTRACAT-Tunels-182
+  - 🌍 ASTRACAT-Tunels-183
+  - 🌍 ASTRACAT-Tunels-184
+  - 🌍 ASTRACAT-Tunels-185
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
