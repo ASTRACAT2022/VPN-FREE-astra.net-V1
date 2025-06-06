@@ -2366,6 +2366,14 @@ proxies:
       Host: Bpalanenok.org
 - name: 🌍 ASTRACAT-Tunels-226
   type: vless
+  server: freem.vidalith.com
+  port: 21141
+  uuid: d61cb39f-9a93-478d-80af-fe28b20ec4a7
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-227
+  type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
   uuid: 11111111-2222-1111-1111-111111111111
@@ -2595,6 +2603,7 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-224
   - 🌍 ASTRACAT-Tunels-225
   - 🌍 ASTRACAT-Tunels-226
+  - 🌍 ASTRACAT-Tunels-227
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
