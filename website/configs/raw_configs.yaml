@@ -156,22 +156,17 @@ proxies:
       Host: sib.sibzamini.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-16
   type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 38046915-6d82-4d86-8510-b5bcc569d0ea
+  server: 185.231.205.248
+  port: 8880
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
   cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /@Prime_Verse?ed=2560
-    headers:
-      Host: MydigiKala.pAges.dEv
-  servername: PaGes.deV
+  tls: false
+  network: grpc
 - name: 🌍 ASTRACAT-Tunels-17
   type: vless
-  server: tnl4.lalash.ir
-  port: 58519
-  uuid: db99effc-adc7-458c-ba49-8fb22d2af363
+  server: 91.107.150.172
+  port: 443
+  uuid: 9767a982-d18d-4634-ad2b-c93489cbffae
   cipher: none
   tls: false
   network: tcp
