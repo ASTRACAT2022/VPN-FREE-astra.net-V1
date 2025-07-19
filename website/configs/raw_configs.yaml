@@ -136,41 +136,31 @@ proxies:
       Host: sib.sibzamini.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-14
   type: vless
-  server: 172.67.169.132
-  port: 2087
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  server: 172.67.92.147
+  port: 443
+  uuid: 75fde681-ec64-4654-86fa-30732e8e179c
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /
+    path: /assets
     headers:
-      Host: smart.v2plusify.org
-  servername: smart.v2plusify.org
+      Host: nginx.nscl.ir
+  servername: NGINX.NSCl.IR
 - name: 🌍 ASTRACAT-Tunels-15
   type: vless
-  server: PRActiCaL-CoMPlaint.SEoToolsFoRYOu.cO.uK
-  port: 80
-  uuid: aadbf0d6-6a32-4473-8a87-5b17db90e035
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🌍 ASTRACAT-Tunels-16
-  type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 00b4785b-6ae1-496c-ad87-9dc4f89b7b3e
+  server: 104.21.80.252
+  port: 443
+  uuid: 289a4e03-317f-4bf8-97d3-e33200df6a3b
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /gflzprws
+    path: /OvFDUa0OIcxzDtAe/MjEzLjE0OC4xMC4xNzc
     headers:
-      Host: 638879176706376779.amsterdam-prx-dnraaal.info
-  servername: 638879176706376779.amsterdam-prx-dnraaal.info
-- name: 🌍 ASTRACAT-Tunels-17
+      Host: simowebsitespeedtest.ir
+  servername: simOwebsiTeSPeedTEsT.IR
+- name: 🌍 ASTRACAT-Tunels-16
   type: vless
   server: 103.160.204.50
   port: 443
@@ -183,19 +173,31 @@ proxies:
     headers:
       Host: vless8-ekh.pages.dev
   servername: vless8-ekh.pages.dev
+- name: 🌍 ASTRACAT-Tunels-17
+  type: vless
+  server: 91.206.71.162
+  port: 8880
+  uuid: 26bc13af-e442-4956-afd4-b8f85744d26f
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Barayeiranmahsang/----@-?ed=2560
+    headers:
+      Host: barayeiran-mahsang.gerald81.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-18
   type: vless
-  server: 172.67.136.91
-  port: 443
-  uuid: 289a4e03-317f-4bf8-97d3-e33200df6a3b
+  server: 172.66.47.61
+  port: 8443
+  uuid: a396b860-11b7-4af3-9950-146caf79735e
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /eqjMU4jditZU4l8h/MjE3LjE5NS4yMDAuMTM4?ed=2560
+    path: /8WuhXm4QjK0L68Uf?ed=2560
     headers:
-      Host: simowebsitespeedtest.ir
-  servername: sImoWEBSIteSPEEDteSt.Ir
+      Host: gghdfa.pages.dev
+  servername: gGHDFa.pAgeS.Dev
 - name: 🌍 ASTRACAT-Tunels-19
   type: vless
   server: 34.228.235.1
