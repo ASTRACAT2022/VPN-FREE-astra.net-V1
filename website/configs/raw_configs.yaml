@@ -5,28 +5,14 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🌍 ASTRACAT-Tunels-1
-  type: vless
-  server: 92.118.233.41
-  port: 2096
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-  servername: 92.118.233.41
 - name: 🌍 ASTRACAT-Tunels-2
   type: vless
-  server: 185.234.66.94
-  port: 443
-  uuid: 2b25cdb0-ecb2-4caa-910d-b2e5b2309ca3
+  server: www.visa.com.sg
+  port: 2087
+  uuid: 90c7ad5e-cd15-4314-b39b-aeabd397d592
   cipher: none
   tls: true
-  network: ws
-  ws-opts:
-    path: /tqjkmwws
-  servername: 185.234.66.94
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
   server: power.dlmoviz.ir
@@ -6563,7 +6549,6 @@ proxy-groups:
 - name: 🚀 ASTRACAT-Tunels-Group
   type: select
   proxies:
-  - 🌍 ASTRACAT-Tunels-1
   - 🌍 ASTRACAT-Tunels-2
   - 🌍 ASTRACAT-Tunels-3
   - 🌍 ASTRACAT-Tunels-4
