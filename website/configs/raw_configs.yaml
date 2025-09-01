@@ -415,17 +415,17 @@ proxies:
   network: grpc
 - name: 🌍 ASTRACAT-Tunels-38
   type: vless
-  server: gzyd.cg.xxality.cn
-  port: 35000
-  uuid: 5c1bf6a3-d378-45c8-b1fa-f94a256380cf
+  server: vpnhub.shop
+  port: 8443
+  uuid: 714d0dcd-17f8-4495-ba35-5f04d2d92c0f
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-39
   type: vless
-  server: 158.41.110.94
-  port: 34045
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+  server: deu246.bypassall.org
+  port: 443
+  uuid: b4b8aa1f-77d2-4851-a5a4-f78886f3e997
   cipher: none
   tls: true
   network: tcp
@@ -439,142 +439,37 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-41
   type: vless
-  server: hybrid.arvancloud.online
-  port: 44443
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+  server: cdn28.saloonak.ir
+  port: 8443
+  uuid: 789d4f30-c31b-4762-8116-ed42574d5e85
   cipher: none
-  tls: true
+  tls: false
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-42
   type: vless
-  server: 1.177.49.132
-  port: 50000
-  uuid: 689e5c9c-3c97-4eaf-9716-287dffa6afe0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /proxyip=1.177.49.132:50000fp=random
-    headers:
-      Host: test1.testspeed.sbs
-  servername: test1.testspeed.sbs
-- name: 🌍 ASTRACAT-Tunels-43
-  type: vless
-  server: 45.149.12.26
-  port: 2095
-  uuid: 85b82e66-e9cb-49c7-be5b-81b3ae1bda90
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    headers:
-      Host: mehdiama.vpntestvpn794.workers.dev
-- name: 🌍 ASTRACAT-Tunels-44
-  type: vless
-  server: Holn.xmonys.com
-  port: 625
-  uuid: 6c8f15df-cd15-4002-abfd-3902ceffb5b9
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-45
-  type: vless
-  server: 45.149.12.166
-  port: 8880
-  uuid: 85b82e66-e9cb-49c7-be5b-81b3ae1bda90
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    headers:
-      Host: mehdiama.vpntestvpn794.workers.dev
-- name: 🌍 ASTRACAT-Tunels-46
-  type: vless
-  server: 185.36.145.227
-  port: 8888
-  uuid: 48b81d34-df01-4c94-9e34-0ccb4c40c547
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-47
-  type: vless
-  server: uk.hotspoto.news
-  port: 625
-  uuid: 6c8f15df-cd15-4002-abfd-3902ceffb5b9
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-48
-  type: vless
-  server: 85.239.53.46
-  port: 443
-  uuid: 18ce358e-b507-4cde-8c83-94806aedf467
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-49
-  type: vless
-  server: 45.159.218.17
+  server: 63.141.128.26
   port: 80
-  uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /🔒
-    headers:
-      Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
-- name: 🌍 ASTRACAT-Tunels-50
-  type: vless
-  server: 63.141.128.2
-  port: 8080
-  uuid: 78927eda-79c3-40d1-bb55-f0671939089b
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    headers:
-      Host: b.jOin.zEdMoDeOn.oNl.
-- name: 🌍 ASTRACAT-Tunels-51
-  type: vless
-  server: 63.141.128.16
-  port: 80
-  uuid: 15f2b73d-9790-4092-bb4b-e38a4feb1b56
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    headers:
-      Host: e.jOin.zEdMoDeOn.oNl.
-- name: 🌍 ASTRACAT-Tunels-52
-  type: vless
-  server: 63.141.128.22
-  port: 80
-  uuid: ff0d9e6c-6b4c-40c2-9254-f602b21aa836
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    headers:
-      Host: f.jOin.zEdMoDeOn.oNl.
-- name: 🌍 ASTRACAT-Tunels-53
-  type: vless
-  server: 63.141.128.14
-  port: 8080
-  uuid: e68bc33e-7222-4125-b064-8209d71f29d9
+  uuid: c032bdcd-bcd6-4d85-99ee-e12a9458ba62
   cipher: none
   tls: false
   network: ws
   ws-opts:
     path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
     headers:
-      Host: a.joIn.zEdMoDeOn.oNl.
-- name: 🌍 ASTRACAT-Tunels-54
+      Host: f.jOin.zEdMoDeOn.oNl.
+- name: 🌍 ASTRACAT-Tunels-43
+  type: vless
+  server: 63.141.128.13
+  port: 8080
+  uuid: c8919b30-1117-405d-9e0f-9577c7e0f0ff
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    headers:
+      Host: c.jOin.zEdMoDeOn.oNl.
+- name: 🌍 ASTRACAT-Tunels-44
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -630,16 +525,6 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-42
   - 🌍 ASTRACAT-Tunels-43
   - 🌍 ASTRACAT-Tunels-44
-  - 🌍 ASTRACAT-Tunels-45
-  - 🌍 ASTRACAT-Tunels-46
-  - 🌍 ASTRACAT-Tunels-47
-  - 🌍 ASTRACAT-Tunels-48
-  - 🌍 ASTRACAT-Tunels-49
-  - 🌍 ASTRACAT-Tunels-50
-  - 🌍 ASTRACAT-Tunels-51
-  - 🌍 ASTRACAT-Tunels-52
-  - 🌍 ASTRACAT-Tunels-53
-  - 🌍 ASTRACAT-Tunels-54
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
