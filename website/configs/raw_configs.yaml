@@ -304,6 +304,58 @@ proxies:
   network: grpc
 - name: 🌍 ASTRACAT-Tunels-28
   type: vless
+  server: 178.17.58.126
+  port: 443
+  uuid: 6035325d-399a-5148-9126-29cedfd5966a
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-29
+  type: vless
+  server: deu246.bypassall.org
+  port: 443
+  uuid: b4b8aa1f-77d2-4851-a5a4-f78886f3e997
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-30
+  type: vless
+  server: 5.61.50.192
+  port: 34045
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-31
+  type: vless
+  server: ru-nl01-vlr01.tcp-reset-club.net
+  port: 443
+  uuid: ee67c9fd-0dc1-4fca-ad59-4dfac221a9f2
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-32
+  type: vless
+  server: 63.141.128.34
+  port: 80
+  uuid: 2f2327bd-ff1b-4ce5-bf86-fe0565334138
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    headers:
+      Host: b.jOin.zEdMoDeOn.oNl.
+- name: 🌍 ASTRACAT-Tunels-33
+  type: vless
+  server: 64.81.117.172
+  port: 443
+  uuid: 0cd07402-0edb-4890-808d-cd6f0e2625ee
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-34
+  type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
   uuid: 11111111-2222-1111-1111-111111111111
@@ -342,6 +394,12 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-26
   - 🌍 ASTRACAT-Tunels-27
   - 🌍 ASTRACAT-Tunels-28
+  - 🌍 ASTRACAT-Tunels-29
+  - 🌍 ASTRACAT-Tunels-30
+  - 🌍 ASTRACAT-Tunels-31
+  - 🌍 ASTRACAT-Tunels-32
+  - 🌍 ASTRACAT-Tunels-33
+  - 🌍 ASTRACAT-Tunels-34
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
