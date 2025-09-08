@@ -337,43 +337,6 @@ proxies:
   network: grpc
 - name: 🌍 ASTRACAT-Tunels-31
   type: vless
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  port: 443
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-32
-  type: vless
-  server: ftp2.tehran-park.com
-  port: 443
-  uuid: cbf71a74-9e18-4b6f-b4b1-28299c61a1bd
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_configCANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_configfp=chrome
-    headers:
-      Host: Sup.tEhran-Park.inFo.
-  servername: Sup.tEhran-Park.inFo.
-- name: 🌍 ASTRACAT-Tunels-33
-  type: vless
-  server: hybrid.arvancloud.online
-  port: 44443
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-34
-  type: vless
-  server: 193.151.135.21
-  port: 44443
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-35
-  type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
   uuid: 11111111-2222-1111-1111-111111111111
@@ -415,10 +378,6 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-29
   - 🌍 ASTRACAT-Tunels-30
   - 🌍 ASTRACAT-Tunels-31
-  - 🌍 ASTRACAT-Tunels-32
-  - 🌍 ASTRACAT-Tunels-33
-  - 🌍 ASTRACAT-Tunels-34
-  - 🌍 ASTRACAT-Tunels-35
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
