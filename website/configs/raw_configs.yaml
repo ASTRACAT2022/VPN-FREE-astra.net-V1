@@ -246,97 +246,85 @@ proxies:
   network: grpc
 - name: 🌍 ASTRACAT-Tunels-23
   type: vless
-  server: 82.29.71.43
-  port: 17226
-  uuid: efd0a410-30a0-4a4a-ca9f-10e1dcf00e30
+  server: 185.39.207.121
+  port: 443
+  uuid: 6035325d-399a-5148-9126-29cedfd5966a
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-24
   type: vless
-  server: 45.78.17.19
-  port: 50641
-  uuid: 8f84869b-f601-44b6-a3a6-707c4a4195a6
+  server: 185.152.94.10
+  port: 443
+  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /huisdghfdfhfggsecurity=tls
-    headers:
-      Host: sg.alice.cloudns.pro
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-25
   type: vless
-  server: 45.78.17.19
-  port: 50641
-  uuid: 8f84869b-f601-44b6-a3a6-707c4a4195a6
+  server: 185.152.94.10
+  port: 1443
+  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /hudjfnjodhnfkdfdfdfdfsecurity=tls
-    headers:
-      Host: sg.alice.cloudns.pro
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-26
   type: vless
-  server: 185.18.184.66
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 213.232.120.10
+  port: 1443
+  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048fp=chrome
-    headers:
-      Host: hello.96xckkzx.workers.dev
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-27
   type: vless
-  server: 185.18.184.66
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 147.78.180.10
+  port: 1443
+  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /🔒
-    headers:
-      Host: hello.96xckkzx.workers.dev
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-28
   type: vless
-  server: 154.17.10.111
-  port: 47051
-  uuid: 8f84869b-f601-44b6-a3a6-707c4a4195a6
+  server: 147.78.180.10
+  port: 443
+  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /sdiohfiosdhfuiosghfuhsesecurity=tls
-    headers:
-      Host: us.alice.cloudns.pro
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-29
   type: vless
-  server: 92.112.124.23
-  port: 10012
-  uuid: a799dcce-7b7f-492d-a2c5-10acb8514995
+  server: 213.232.123.10
+  port: 1443
+  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-30
   type: vless
-  server: 23.95.231.71
-  port: 1024
-  uuid: d6468d4e-f9f2-4b36-88f5-02677f222f5b
+  server: 213.232.123.10
+  port: 443
+  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-31
   type: vless
-  server: 156.244.46.198
-  port: 44746
-  uuid: f89b31c8-07f8-4aa3-f8f7-ae5172e03bd6
+  server: 92.118.112.83
+  port: 443
+  uuid: 6035325d-399a-5148-9126-29cedfd5966a
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-32
+  type: vless
+  server: 85.239.56.10
+  port: 443
+  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-33
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -380,6 +368,7 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-30
   - 🌍 ASTRACAT-Tunels-31
   - 🌍 ASTRACAT-Tunels-32
+  - 🌍 ASTRACAT-Tunels-33
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
