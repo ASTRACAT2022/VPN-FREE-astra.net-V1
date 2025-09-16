@@ -585,13 +585,21 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-58
   type: vless
+  server: 188.68.53.100
+  port: 6666
+  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-59
+  type: vless
   server: 185.39.207.121
   port: 443
   uuid: 6035325d-399a-5148-9126-29cedfd5966a
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-59
+- name: 🌍 ASTRACAT-Tunels-60
   type: vless
   server: 45.148.233.10
   port: 443
@@ -599,7 +607,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-60
+- name: 🌍 ASTRACAT-Tunels-61
   type: vless
   server: 45.148.233.10
   port: 1443
@@ -607,7 +615,23 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-61
+- name: 🌍 ASTRACAT-Tunels-62
+  type: vless
+  server: poland20.clearorbitllc.com
+  port: 443
+  uuid: e3847ec6-b2fc-4eb2-b919-174d986f882c
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-63
+  type: vless
+  server: tw131.taichu.icu
+  port: 29889
+  uuid: 03d6e092-dd9b-45dc-ae8e-bf312ef95371
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-64
   type: vless
   server: 141.101.120.100
   port: 2053
@@ -620,54 +644,68 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
   servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
-- name: 🌍 ASTRACAT-Tunels-62
-  type: vless
-  server: 104.18.14.201
-  port: 2096
-  uuid: 67c662fa-cd6a-474a-b55f-d50dc0a7e210
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: iamdt.pages.dev
-  servername: iamdt.pages.dev
-- name: 🌍 ASTRACAT-Tunels-63
-  type: vless
-  server: 141.101.120.100
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /telegram@V2ray_Alphafp=chrome
-    headers:
-      Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
-  servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
-- name: 🌍 ASTRACAT-Tunels-64
-  type: vless
-  server: 104.18.15.201
-  port: 2096
-  uuid: 67c662fa-cd6a-474a-b55f-d50dc0a7e210
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: iamdt.pages.dev
-  servername: iamdt.pages.dev
 - name: 🌍 ASTRACAT-Tunels-65
   type: vless
-  server: 172.245.251.10
-  port: 8443
-  uuid: 9b3d65ab-576c-4750-9cb3-bb41c12c085e
+  server: 155.117.19.221
+  port: 8880
+  uuid: f2f00a89-cc9d-450f-b8bb-0d5b2d4c5a65
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-66
+  type: vless
+  server: 1002.952326.xyz
+  port: 10001
+  uuid: e5fdf52f-fc09-4196-a588-008926767195
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-67
+  type: vless
+  server: crazy-identity.oneeat.co
+  port: 80
+  uuid: 64d6d0d4-3706-4837-b154-cda2816adcc5
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: crazy-identity.oneeat.co
+- name: 🌍 ASTRACAT-Tunels-68
+  type: vless
+  server: www.visa.com.sg
+  port: 8880
+  uuid: ce3fd4b2-2300-45ac-bf90-7082ff95abfe
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: odd-sun-be36.linqiang-d8e.workers.dev
+- name: 🌍 ASTRACAT-Tunels-69
+  type: vless
+  server: freev2.cloudflare.182682.xyz
+  port: 443
+  uuid: aac03257-ebba-494a-a2a2-dc529a7d4395
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /freev2.netfp=random
+    headers:
+      Host: do-sgp1.008883.xyz
+  servername: do-sgp1.008883.xyz
+- name: 🌍 ASTRACAT-Tunels-70
+  type: vless
+  server: 1002.952326.xyz
+  port: 10001
+  uuid: 0a9bc681-342e-4af7-a06b-1bf4e637288b
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-71
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -745,6 +783,11 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-64
   - 🌍 ASTRACAT-Tunels-65
   - 🌍 ASTRACAT-Tunels-66
+  - 🌍 ASTRACAT-Tunels-67
+  - 🌍 ASTRACAT-Tunels-68
+  - 🌍 ASTRACAT-Tunels-69
+  - 🌍 ASTRACAT-Tunels-70
+  - 🌍 ASTRACAT-Tunels-71
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
