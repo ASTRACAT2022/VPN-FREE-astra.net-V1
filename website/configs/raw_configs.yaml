@@ -585,13 +585,21 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-58
   type: vless
-  server: deu44.unlockedworld.org
-  port: 443
-  uuid: b32d0323-b12b-4b63-aff3-00de09817f9d
+  server: 140.238.147.101
+  port: 42557
+  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-59
+  type: vless
+  server: 188.68.53.100
+  port: 6666
+  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-60
   type: vless
   server: 51.195.31.95
   port: 80
@@ -603,7 +611,7 @@ proxies:
     path: /wslinws
     headers:
       Host: wWw.speEDtEST.NeT
-- name: 🌍 ASTRACAT-Tunels-60
+- name: 🌍 ASTRACAT-Tunels-61
   type: vless
   server: 51.38.168.151
   port: 8080
@@ -615,7 +623,7 @@ proxies:
     path: /wslinka
     headers:
       Host: wWw.SpeEDTeSt.nEt
-- name: 🌍 ASTRACAT-Tunels-61
+- name: 🌍 ASTRACAT-Tunels-62
   type: vless
   server: 185.39.207.121
   port: 443
@@ -623,37 +631,29 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-62
-  type: vless
-  server: 45.130.214.192
-  port: 20992
-  uuid: e0042666-497b-4fde-bf4a-c5281df24d15
-  cipher: none
-  tls: false
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-63
   type: vless
-  server: 45.148.233.10
-  port: 1443
-  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+  server: hybrid.arvancloud.online
+  port: 44443
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-64
   type: vless
-  server: 45.148.233.10
+  server: usa4.worldunlocked.org
   port: 443
-  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+  uuid: 5187e249-b0dc-490e-ab89-cb3bbff55cb3
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-65
   type: vless
-  server: 159.223.209.139
-  port: 46964
-  uuid: 4bb35928-40bb-4bf3-95f1-9efdc4169147
+  server: 192.142.18.40
+  port: 2589
+  uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa
   cipher: none
-  tls: false
+  tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-66
   type: vless
@@ -665,107 +665,114 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-67
   type: vless
+  server: 185.105.111.50
+  port: 443
+  uuid: 6035325d-399a-5148-9126-29cedfd5966a
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-68
+  type: vless
+  server: deu196.unboundaccess.org
+  port: 443
+  uuid: f788e136-b245-4617-9d41-b505c7f41ef9
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-69
+  type: vless
+  server: 188.132.183.15
+  port: 2589
+  uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-70
+  type: vless
   server: 500770.xyz
   port: 34074
   uuid: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-68
-  type: vless
-  server: 155.117.19.221
-  port: 8880
-  uuid: f2f00a89-cc9d-450f-b8bb-0d5b2d4c5a65
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-69
-  type: vless
-  server: 141.101.120.100
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /telegram@V2ray_Alpha/?ed=2048fp=chrome
-    headers:
-      Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
-  servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
-- name: 🌍 ASTRACAT-Tunels-70
-  type: vless
-  server: 172.245.251.10
-  port: 8443
-  uuid: 9b3d65ab-576c-4750-9cb3-bb41c12c085e
-  cipher: none
-  tls: true
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-71
   type: vless
-  server: 141.101.121.34
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: uisacorp1yl7nz9xw6mt3vk8qd5rp2gj4bs1jcoruisa.outline360bot.com
+  port: 443
+  uuid: aca8c3b9-9637-4c90-937b-64d30b6dcb45
   cipher: none
   tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048fp=randomized
-    headers:
-      Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
-  servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-72
   type: vless
-  server: 141.101.120.15
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 172.66.40.99
+  port: 8880
+  uuid: 934ad667-dce8-402a-aa45-3c3b52252c0a
   cipher: none
-  tls: true
+  tls: false
   network: ws
   ws-opts:
-    path: /?ed=2048fp=randomized
+    path: /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048
     headers:
-      Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
-  servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.elmahstyle.xyz.
 - name: 🌍 ASTRACAT-Tunels-73
   type: vless
   server: www.speedtest.net
-  port: 8443
-  uuid: 244fff6a-adfc-45b8-b797-5ccb23f64e40
+  port: 2082
+  uuid: 64060858-31b4-4fcd-f2c3-0dba9f93c959
   cipher: none
-  tls: true
+  tls: false
   network: ws
   ws-opts:
-    path: /@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config?ed=2048fp=chrome
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
     headers:
-      Host: www.speedtest24.ir
-  servername: www.speedtest24.ir
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
 - name: 🌍 ASTRACAT-Tunels-74
   type: vless
-  server: 141.101.121.107
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: light-presence.oneeat.co
+  port: 80
+  uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4
   cipher: none
-  tls: true
+  tls: false
   network: ws
   ws-opts:
-    path: /fp=randomized
+    path: /
     headers:
-      Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
-  servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
+      Host: light-presence.oneeat.co
 - name: 🌍 ASTRACAT-Tunels-75
   type: vless
-  server: 141.101.121.62
+  server: 104.16.53.11
   port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /fp=randomized
+    path: /?ed=2048fp=chrome
     headers:
-      Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
-  servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
+      Host: frAgeU2.cpI2HIdd.eu.ORG
+  servername: frAgeU2.cpI2HIdd.eu.ORG
 - name: 🌍 ASTRACAT-Tunels-76
+  type: vless
+  server: 104.21.36.57
+  port: 443
+  uuid: 4c835bff-4f4d-4608-bb21-120099089688
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /wsv/4c835bff-4f4d-4608-bb21-120099089688?ed=2048security=tls
+    headers:
+      Host: orange.fullmargintraders.com
+- name: 🌍 ASTRACAT-Tunels-77
+  type: vless
+  server: 172.233.153.209
+  port: 10001
+  uuid: e4412006-94f2-4f3c-b568-22a3e31dc264
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-78
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -853,6 +860,8 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-74
   - 🌍 ASTRACAT-Tunels-75
   - 🌍 ASTRACAT-Tunels-76
+  - 🌍 ASTRACAT-Tunels-77
+  - 🌍 ASTRACAT-Tunels-78
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
