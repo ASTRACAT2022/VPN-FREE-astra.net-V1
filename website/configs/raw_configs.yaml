@@ -593,13 +593,26 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-59
   type: vless
-  server: 171.22.16.161
+  server: 185.133.35.106
   port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: e22d2366-ac58-47e0-8362-89df9aa6349f
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /djjc/de1fp=ios
+    headers:
+      Host: d-de1.djwstlsweb.top
+  servername: d-de1.djwstlsweb.top
+- name: 🌍 ASTRACAT-Tunels-60
+  type: vless
+  server: 37.156.44.111
+  port: 443
+  uuid: 0b2b00c2-be56-4be6-abda-5e329afb7bce
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-60
+- name: 🌍 ASTRACAT-Tunels-61
   type: vless
   server: 188.68.53.100
   port: 6666
@@ -607,15 +620,15 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-61
+- name: 🌍 ASTRACAT-Tunels-62
   type: vless
-  server: 185.39.207.121
+  server: am.unibot.monster
   port: 443
-  uuid: 6035325d-399a-5148-9126-29cedfd5966a
+  uuid: 9ff70fc1-e675-4edb-8328-db52a267458d
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-62
+- name: 🌍 ASTRACAT-Tunels-63
   type: vless
   server: 147.45.51.160
   port: 443
@@ -623,55 +636,15 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-63
-  type: vless
-  server: 147.45.51.67
-  port: 443
-  uuid: 6035325d-399a-5148-9126-29cedfd5966a
-  cipher: none
-  tls: true
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-64
   type: vless
-  server: 193.122.120.203
+  server: poland20.clearorbitllc.com
   port: 443
-  uuid: 747c62da-109f-4add-8e67-c66e1af7d255
+  uuid: e3847ec6-b2fc-4eb2-b919-174d986f882c
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-65
-  type: vless
-  server: 160.187.111.222
-  port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-66
-  type: vless
-  server: 104.18.109.147
-  port: 80
-  uuid: c29d39bd-92a4-45db-bb61-56013998617c
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram-XV2ry2?ed=2048
-    headers:
-      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
-- name: 🌍 ASTRACAT-Tunels-67
-  type: vless
-  server: 159.112.235.174
-  port: 2082
-  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: workerr.schodog1.workers.dev
-- name: 🌍 ASTRACAT-Tunels-68
   type: vless
   server: m44a.vip784.com
   port: 33801
@@ -679,40 +652,23 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-69
+- name: 🌍 ASTRACAT-Tunels-66
   type: vless
-  server: 146.235.193.81
-  port: 443
-  uuid: 747c62da-109f-4add-8e67-c66e1af7d255
+  server: 172.233.153.209
+  port: 10001
+  uuid: e4412006-94f2-4f3c-b568-22a3e31dc264
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-70
+- name: 🌍 ASTRACAT-Tunels-67
   type: vless
-  server: cafearz.com
-  port: 8080
-  uuid: 5218f249-128d-40bf-d9b9-64004622b502
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /olem/ws?ed=1024
-    headers:
-      Host: shad.ir.de.test.digicyber.click.
-- name: 🌍 ASTRACAT-Tunels-71
-  type: vless
-  server: www.speedtest.net
-  port: 2053
-  uuid: 20d98fd8-b472-4574-eeae-b1ecc9082eb9
+  server: 103.9.77.61
+  port: 46922
+  uuid: ac2474ac-6716-458a-a301-bce29698186a
   cipher: none
   tls: true
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: 2020.dnss-mobile.ir
-  servername: 2020.dnss-mobile.ir
-- name: 🌍 ASTRACAT-Tunels-72
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-68
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -792,10 +748,6 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-66
   - 🌍 ASTRACAT-Tunels-67
   - 🌍 ASTRACAT-Tunels-68
-  - 🌍 ASTRACAT-Tunels-69
-  - 🌍 ASTRACAT-Tunels-70
-  - 🌍 ASTRACAT-Tunels-71
-  - 🌍 ASTRACAT-Tunels-72
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
