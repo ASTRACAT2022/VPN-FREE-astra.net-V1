@@ -593,21 +593,77 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-59
   type: vless
+  server: 154.90.55.174
+  port: 443
+  uuid: f47b5d3c-4051-476d-8280-89b1125b4467
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-60
+  type: vless
+  server: 185.207.197.253
+  port: 2096
+  uuid: 6e433a29-22ac-4061-ae8b-f1731715d0d9
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@freecodes/?ed=2560security=tls
+    headers:
+      Host: vlesspro.llengcugit.sbs
+- name: 🌍 ASTRACAT-Tunels-61
+  type: vless
+  server: dl5-au4-cdn.fastfilecdn.org
+  port: 2052
+  uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl5-au4-cdn.fastfilecdn.org
+- name: 🌍 ASTRACAT-Tunels-62
+  type: vless
+  server: 185.207.197.253
+  port: 2096
+  uuid: 6e433a29-22ac-4061-ae8b-f1731715d0d9
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram@freecodessecurity=tls
+    headers:
+      Host: vlesspro.llengcugit.sbs
+- name: 🌍 ASTRACAT-Tunels-63
+  type: vless
+  server: noads.torprospeed.ir
+  port: 223
+  uuid: d358f512-5789-464e-b8ae-da6ee9543ff5
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-64
+  type: vless
+  server: dl5-uae4-cdn.fastfilecdn.org
+  port: 2052
+  uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl5-uae4-cdn.fastfilecdn.org
+- name: 🌍 ASTRACAT-Tunels-65
+  type: vless
   server: 37.156.44.111
   port: 443
   uuid: 0b2b00c2-be56-4be6-abda-5e329afb7bce
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-60
-  type: vless
-  server: 185.126.255.180
-  port: 443
-  uuid: 387d6d9a-5594-4b2a-a60d-5b2cb1f57638
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-61
+- name: 🌍 ASTRACAT-Tunels-66
   type: vless
   server: swit.amirconfigpaanelllll.com
   port: 223
@@ -615,7 +671,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-62
+- name: 🌍 ASTRACAT-Tunels-67
   type: vless
   server: 188.68.53.100
   port: 6666
@@ -623,7 +679,39 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-63
+- name: 🌍 ASTRACAT-Tunels-68
+  type: vless
+  server: 89.169.53.131
+  port: 2053
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-69
+  type: vless
+  server: 91.149.223.242
+  port: 443
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-70
+  type: vless
+  server: 185.126.255.180
+  port: 443
+  uuid: 387d6d9a-5594-4b2a-a60d-5b2cb1f57638
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-71
   type: vless
   server: 91.108.241.188
   port: 443
@@ -635,7 +723,15 @@ proxies:
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
     headers:
       Host: kejiland.freewarp.eu.org
-- name: 🌍 ASTRACAT-Tunels-64
+- name: 🌍 ASTRACAT-Tunels-72
+  type: vless
+  server: lii.bliscorp.org
+  port: 30849
+  uuid: dca511f0-f98c-45d3-a0ff-1ba61c651374
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-73
   type: vless
   server: 132.145.65.20
   port: 9931
@@ -647,15 +743,79 @@ proxies:
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tlssecurity=tls
     headers:
       Host: kejiland.freewarp.eu.org
-- name: 🌍 ASTRACAT-Tunels-65
+- name: 🌍 ASTRACAT-Tunels-74
   type: vless
-  server: get.gemton.ir
+  server: 132.145.65.20
+  port: 9931
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-75
+  type: vless
+  server: 154.211.8.220
+  port: 2096
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippetssecurity=tls
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+- name: 🌍 ASTRACAT-Tunels-76
+  type: vless
+  server: 154.211.8.18
+  port: 2083
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippetssecurity=tls
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+- name: 🌍 ASTRACAT-Tunels-77
+  type: vless
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
   port: 443
-  uuid: cc08ceae-7608-47c4-9a6a-23e041db8b90
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-66
+- name: 🌍 ASTRACAT-Tunels-78
+  type: vless
+  server: 65.20.74.136
+  port: 2053
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-79
+  type: vless
+  server: hybrid.arvancloud.online
+  port: 44443
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-80
+  type: vless
+  server: 193.151.135.21
+  port: 44443
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-81
   type: vless
   server: 147.45.51.160
   port: 443
@@ -663,15 +823,175 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-67
+- name: 🌍 ASTRACAT-Tunels-82
   type: vless
-  server: poland20.clearorbitllc.com
-  port: 443
-  uuid: e3847ec6-b2fc-4eb2-b919-174d986f882c
+  server: 152.70.82.101
+  port: 18650
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
   cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-68
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippetssecurity=tls
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+- name: 🌍 ASTRACAT-Tunels-83
+  type: vless
+  server: 138.2.32.76
+  port: 15821
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-84
+  type: vless
+  server: 140.83.57.183
+  port: 22735
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-85
+  type: vless
+  server: 140.238.62.82
+  port: 1443
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-86
+  type: vless
+  server: 138.2.32.76
+  port: 15821
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-87
+  type: vless
+  server: 138.2.10.149
+  port: 45638
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-88
+  type: vless
+  server: 43.203.199.76
+  port: 443
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippetssecurity=tls
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+- name: 🌍 ASTRACAT-Tunels-89
+  type: vless
+  server: 158.180.82.203
+  port: 8443
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-90
+  type: vless
+  server: 118.131.232.132
+  port: 30063
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-91
+  type: vless
+  server: 138.124.182.204
+  port: 443
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-92
+  type: vless
+  server: 176.222.53.140
+  port: 8000
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-93
+  type: vless
+  server: 147.45.69.222
+  port: 8443
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-94
+  type: vless
+  server: 176.222.53.140
+  port: 8000
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-95
+  type: vless
+  server: 147.45.69.222
+  port: 8443
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-96
   type: vless
   server: 188.225.80.183
   port: 443
@@ -679,23 +999,43 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-69
+- name: 🌍 ASTRACAT-Tunels-97
   type: vless
-  server: 176.114.86.241
+  server: 89.169.160.84
+  port: 2053
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-98
+  type: vless
+  server: 147.45.143.22
   port: 443
-  uuid: 6fae85ca-395a-4f27-9eb2-75123befc475
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
   cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-70
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-99
   type: vless
-  server: 500770.xyz
-  port: 34074
-  uuid: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
+  server: 27.50.48.186
+  port: 2083
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
   cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-71
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippetssecurity=tls
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+- name: 🌍 ASTRACAT-Tunels-100
   type: vless
   server: m24a.vip784.com
   port: 33801
@@ -703,15 +1043,43 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-72
+- name: 🌍 ASTRACAT-Tunels-101
   type: vless
-  server: 146.235.193.81
-  port: 443
-  uuid: 747c62da-109f-4add-8e67-c66e1af7d255
+  server: 152.70.113.150
+  port: 52125
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
   cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-73
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-102
+  type: vless
+  server: 107.173.147.41
+  port: 35398
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-103
+  type: vless
+  server: 107.173.147.41
+  port: 35398
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-104
   type: vless
   server: 142.171.85.230
   port: 28034
@@ -724,7 +1092,120 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
   servername: kejiland.freewarp.eu.org
-- name: 🌍 ASTRACAT-Tunels-74
+- name: 🌍 ASTRACAT-Tunels-105
+  type: vless
+  server: 142.171.166.116
+  port: 8443
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-106
+  type: vless
+  server: 500770.xyz
+  port: 34074
+  uuid: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-107
+  type: vless
+  server: 137.175.6.234
+  port: 1443
+  uuid: 7a169e43-ff85-4572-9843-ba7207d07319
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-108
+  type: vless
+  server: dl5-us4-cdn.fastfilecdn.org
+  port: 2052
+  uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl5-us4-cdn.fastfilecdn.org
+- name: 🌍 ASTRACAT-Tunels-109
+  type: vless
+  server: pvt.moonop.tech
+  port: 443
+  uuid: 45be1c2b-4bb1-44f4-89e4-c026ad211d04
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /aws5security=tls
+    headers:
+      Host: pvt.moonop.tech
+- name: 🌍 ASTRACAT-Tunels-110
+  type: vless
+  server: snipaste4.speedip.eu.org
+  port: 2087
+  uuid: 01996e2d-b638-4e9f-2b24-38a6379f68a2
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /snippetsfp=chrome
+    headers:
+      Host: 00009xvyaetskbv0nfmo.3b0.3sedk8a0p.dxreh7ot7qv.iellib6.bkquusew.iwd1r.2zf0qdgs3rwb.clnj9s.74ck.yh1f9r4u636c5muf997u21lnvw.neib.cn
+  servername: 00009xvyaetskbv0nfmo.3b0.3sedk8a0p.dxreh7ot7qv.iellib6.bkquusew.iwd1r.2zf0qdgs3rwb.clnj9s.74ck.yh1f9r4u636c5muf997u21lnvw.neib.cn
+- name: 🌍 ASTRACAT-Tunels-111
+  type: vless
+  server: 142.171.156.182
+  port: 15801
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-112
+  type: vless
+  server: 152.70.113.150
+  port: 52125
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-113
+  type: vless
+  server: 198.46.143.134
+  port: 443
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-114
+  type: vless
+  server: 138.2.235.230
+  port: 22731
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+    headers:
+      Host: kejiland.freewarp.eu.org
+- name: 🌍 ASTRACAT-Tunels-115
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -810,6 +1291,47 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-72
   - 🌍 ASTRACAT-Tunels-73
   - 🌍 ASTRACAT-Tunels-74
+  - 🌍 ASTRACAT-Tunels-75
+  - 🌍 ASTRACAT-Tunels-76
+  - 🌍 ASTRACAT-Tunels-77
+  - 🌍 ASTRACAT-Tunels-78
+  - 🌍 ASTRACAT-Tunels-79
+  - 🌍 ASTRACAT-Tunels-80
+  - 🌍 ASTRACAT-Tunels-81
+  - 🌍 ASTRACAT-Tunels-82
+  - 🌍 ASTRACAT-Tunels-83
+  - 🌍 ASTRACAT-Tunels-84
+  - 🌍 ASTRACAT-Tunels-85
+  - 🌍 ASTRACAT-Tunels-86
+  - 🌍 ASTRACAT-Tunels-87
+  - 🌍 ASTRACAT-Tunels-88
+  - 🌍 ASTRACAT-Tunels-89
+  - 🌍 ASTRACAT-Tunels-90
+  - 🌍 ASTRACAT-Tunels-91
+  - 🌍 ASTRACAT-Tunels-92
+  - 🌍 ASTRACAT-Tunels-93
+  - 🌍 ASTRACAT-Tunels-94
+  - 🌍 ASTRACAT-Tunels-95
+  - 🌍 ASTRACAT-Tunels-96
+  - 🌍 ASTRACAT-Tunels-97
+  - 🌍 ASTRACAT-Tunels-98
+  - 🌍 ASTRACAT-Tunels-99
+  - 🌍 ASTRACAT-Tunels-100
+  - 🌍 ASTRACAT-Tunels-101
+  - 🌍 ASTRACAT-Tunels-102
+  - 🌍 ASTRACAT-Tunels-103
+  - 🌍 ASTRACAT-Tunels-104
+  - 🌍 ASTRACAT-Tunels-105
+  - 🌍 ASTRACAT-Tunels-106
+  - 🌍 ASTRACAT-Tunels-107
+  - 🌍 ASTRACAT-Tunels-108
+  - 🌍 ASTRACAT-Tunels-109
+  - 🌍 ASTRACAT-Tunels-110
+  - 🌍 ASTRACAT-Tunels-111
+  - 🌍 ASTRACAT-Tunels-112
+  - 🌍 ASTRACAT-Tunels-113
+  - 🌍 ASTRACAT-Tunels-114
+  - 🌍 ASTRACAT-Tunels-115
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
