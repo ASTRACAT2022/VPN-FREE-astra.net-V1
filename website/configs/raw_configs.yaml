@@ -657,13 +657,37 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-67
   type: vless
+  server: ae1-5.9966662.xyz
+  port: 20223
+  uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-68
+  type: vless
+  server: sunstar.astracat.ru
+  port: 433
+  uuid: ea8a4fac-8b8a-4fa5-a7b4-63575499fffb
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-69
+  type: vless
+  server: 216.133.149.235
+  port: 30227
+  uuid: 9a54bad8-538d-4744-b7bc-640629840490
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-70
+  type: vless
   server: signetprxyynode01.su
   port: 443
   uuid: eef519d2-4a74-465d-9576-c1bbc23c89a3
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-68
+- name: 🌍 ASTRACAT-Tunels-71
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -743,6 +767,9 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-66
   - 🌍 ASTRACAT-Tunels-67
   - 🌍 ASTRACAT-Tunels-68
+  - 🌍 ASTRACAT-Tunels-69
+  - 🌍 ASTRACAT-Tunels-70
+  - 🌍 ASTRACAT-Tunels-71
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
