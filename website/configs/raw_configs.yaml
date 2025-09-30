@@ -657,57 +657,13 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-67
   type: vless
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  port: 443
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-68
-  type: vless
-  server: 193.151.135.21
-  port: 44443
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-69
-  type: vless
-  server: hybrid.arvancloud.online
-  port: 44443
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-70
-  type: vless
-  server: 141.11.138.192
-  port: 36003
-  uuid: 6a08090f-4e15-49c8-c442-b9c4ab26d196
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🌍 ASTRACAT-Tunels-71
-  type: vless
-  server: 103.93.76.157
-  port: 28008
-  uuid: ba11eedf-b03f-452e-b7cb-b1bf92c82b49
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🌍 ASTRACAT-Tunels-72
-  type: vless
   server: signetprxyynode01.su
   port: 443
   uuid: eef519d2-4a74-465d-9576-c1bbc23c89a3
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-73
+- name: 🌍 ASTRACAT-Tunels-68
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -787,11 +743,6 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-66
   - 🌍 ASTRACAT-Tunels-67
   - 🌍 ASTRACAT-Tunels-68
-  - 🌍 ASTRACAT-Tunels-69
-  - 🌍 ASTRACAT-Tunels-70
-  - 🌍 ASTRACAT-Tunels-71
-  - 🌍 ASTRACAT-Tunels-72
-  - 🌍 ASTRACAT-Tunels-73
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
