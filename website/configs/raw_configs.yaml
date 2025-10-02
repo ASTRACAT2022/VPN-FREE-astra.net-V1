@@ -657,13 +657,21 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-67
   type: vless
-  server: gr1-2.9966662.xyz
-  port: 20223
-  uuid: a24c6851-2055-42c1-9c20-2d3bad97334f
+  server: 5.44.42.60
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-68
+  type: vless
+  server: 94.228.169.221
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-69
   type: vless
   server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
   port: 443
@@ -671,68 +679,103 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-69
-  type: vless
-  server: hybrid.arvancloud.online
-  port: 44443
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  cipher: none
-  tls: true
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-70
   type: vless
-  server: 193.151.135.21
-  port: 44443
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+  server: 103.88.242.119
+  port: 443
+  uuid: 9d0d265d-0df6-4bcd-b029-9407a88ec2d8
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-71
   type: vless
-  server: 94.182.137.12
-  port: 20532
-  uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
+  server: 62.60.232.40
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
   cipher: none
-  tls: false
+  tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-72
   type: vless
-  server: 162.159.43.92
-  port: 443
-  uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: juzi.634676.xyz
-- name: 🌍 ASTRACAT-Tunels-73
-  type: vless
-  server: mstr.fastly80.hosting-ip.com
-  port: 80
-  uuid: d46fbe10-7982-4229-b461-4afef5c690fa
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /admin
-    headers:
-      Host: gm195.io
-- name: 🌍 ASTRACAT-Tunels-74
-  type: vless
-  server: 104.16.53.11
-  port: 2053
-  uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
+  server: 147.45.49.17
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
   cipher: none
   tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048fp=chrome
-    headers:
-      Host: frAgeU2.cpI2HIdd.eu.ORG
-  servername: frAgeU2.cpI2HIdd.eu.ORG
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-73
+  type: vless
+  server: 38.107.234.93
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-74
+  type: vless
+  server: 77.110.114.1
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  cipher: none
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-75
+  type: vless
+  server: 194.87.31.155
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-76
+  type: vless
+  server: 77.246.100.169
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-77
+  type: vless
+  server: 45.144.51.23
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-78
+  type: vless
+  server: 77.83.245.220
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-79
+  type: vless
+  server: 31.129.22.117
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-80
+  type: vless
+  server: 84.22.150.195
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-81
+  type: vless
+  server: 5.181.2.51
+  port: 8080
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-82
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -819,6 +862,13 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-73
   - 🌍 ASTRACAT-Tunels-74
   - 🌍 ASTRACAT-Tunels-75
+  - 🌍 ASTRACAT-Tunels-76
+  - 🌍 ASTRACAT-Tunels-77
+  - 🌍 ASTRACAT-Tunels-78
+  - 🌍 ASTRACAT-Tunels-79
+  - 🌍 ASTRACAT-Tunels-80
+  - 🌍 ASTRACAT-Tunels-81
+  - 🌍 ASTRACAT-Tunels-82
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
