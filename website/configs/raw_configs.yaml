@@ -543,14 +543,6 @@ proxies:
       Host: kssepa.sabzipolobamahi.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-56
   type: vless
-  server: 103.253.43.210
-  port: 8443
-  uuid: b958b703-9ee8-407e-b2ce-a9706bb713d7
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-57
-  type: vless
   server: 104.16.0.113
   port: 80
   uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
@@ -561,6 +553,14 @@ proxies:
     path: /?ed=2560/?JOKERRVPN
     headers:
       Host: barayeiran.nastaranh.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-57
+  type: vless
+  server: 103.253.43.210
+  port: 8443
+  uuid: c1fb35cb-27ca-4c15-a54d-cfcc483092c9
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-58
   type: vless
   server: 185.239.48.109
