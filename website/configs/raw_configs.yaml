@@ -389,13 +389,21 @@ proxies:
       Host: pamchall.com.
 - name: 🌍 ASTRACAT-Tunels-40
   type: vless
+  server: 85.158.110.62
+  port: 8443
+  uuid: 5afc607e-1198-4025-b751-1b055f7856f7
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-41
+  type: vless
   server: aturka.alcatelindan.com
   port: 32986
   uuid: 680eb606-0a50-4758-a75f-7d17ddeaf28a
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-41
+- name: 🌍 ASTRACAT-Tunels-42
   type: vless
   server: 99.199.73.27
   port: 8060
@@ -408,19 +416,11 @@ proxies:
     headers:
       Host: sport-shop-online-02.cyberscaler.com
   servername: sport-shop-online-02.cyberscaler.com
-- name: 🌍 ASTRACAT-Tunels-42
-  type: vless
-  server: 80.74.29.212
-  port: 8443
-  uuid: 768eb5f7-283f-4024-8ee7-3f3dcf21a719
-  cipher: none
-  tls: false
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-43
   type: vless
   server: 80.74.29.212
   port: 8443
-  uuid: 78ca9bfd-8920-423c-a6a9-9e9a3afe84df
+  uuid: 768eb5f7-283f-4024-8ee7-3f3dcf21a719
   cipher: none
   tls: false
   network: tcp
