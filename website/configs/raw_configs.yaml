@@ -279,13 +279,21 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-28
   type: vless
+  server: 95.164.68.37
+  port: 8443
+  uuid: 098a5e98-a8c5-490c-9738-476f31e0a165
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-29
+  type: vless
   server: germany1.fiogoir-germany1.site
   port: 8080
   uuid: 098f4eac-39fd-4c91-9bf3-dfe55e47e1ee
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-29
+- name: 🌍 ASTRACAT-Tunels-30
   type: vless
   server: 104.17.147.22
   port: 443
@@ -298,7 +306,7 @@ proxies:
     headers:
       Host: hOZori.iR
   servername: hOZori.iR
-- name: 🌍 ASTRACAT-Tunels-30
+- name: 🌍 ASTRACAT-Tunels-31
   type: vless
   server: www.speedtest.net
   port: 443
@@ -311,7 +319,7 @@ proxies:
     headers:
       Host: hozori.ir
   servername: hOZori.iR
-- name: 🌍 ASTRACAT-Tunels-31
+- name: 🌍 ASTRACAT-Tunels-32
   type: vless
   server: 109.237.99.63
   port: 54899
@@ -319,7 +327,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-32
+- name: 🌍 ASTRACAT-Tunels-33
   type: vless
   server: sir.serverpower657.fun
   port: 26810
@@ -327,7 +335,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-33
+- name: 🌍 ASTRACAT-Tunels-34
   type: vless
   server: 194.110.246.61
   port: 8443
@@ -335,19 +343,11 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-34
+- name: 🌍 ASTRACAT-Tunels-35
   type: vless
   server: 103.175.79.10
   port: 443
   uuid: 49ed01ad-3bb4-204f-b0ff-a58f658fd618
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-35
-  type: vless
-  server: 194.110.246.61
-  port: 8443
-  uuid: 4cff0d10-0f45-4c8c-9034-a0268b0f4e90
   cipher: none
   tls: false
   network: tcp
