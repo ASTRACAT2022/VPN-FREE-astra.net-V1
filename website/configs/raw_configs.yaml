@@ -405,6 +405,14 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-42
   type: vless
+  server: 151.101.3.8
+  port: 80
+  uuid: 6d182554-9c83-4148-a819-25c0422c4cf9
+  cipher: none
+  tls: false
+  network: splithttp
+- name: 🌍 ASTRACAT-Tunels-43
+  type: vless
   server: 99.199.73.27
   port: 8060
   uuid: 6d5d6143-2daa-41d5-c51f-cb7b64783b68
@@ -416,7 +424,18 @@ proxies:
     headers:
       Host: sport-shop-online-02.cyberscaler.com
   servername: sport-shop-online-02.cyberscaler.com
-- name: 🌍 ASTRACAT-Tunels-43
+- name: 🌍 ASTRACAT-Tunels-44
+  type: vless
+  server: www.wodophonex.blog
+  port: 55877
+  uuid: 7700b732-5f2e-4d8e-8008-66159ed53fbf
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+  servername: www.wodophonex.blog
+- name: 🌍 ASTRACAT-Tunels-45
   type: vless
   server: 51.44.208.42
   port: 443
@@ -424,7 +443,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-44
+- name: 🌍 ASTRACAT-Tunels-46
   type: vless
   server: 62.60.164.192
   port: 927
@@ -434,7 +453,7 @@ proxies:
   network: ws
   ws-opts:
     path: /Poshtiban
-- name: 🌍 ASTRACAT-Tunels-45
+- name: 🌍 ASTRACAT-Tunels-47
   type: vless
   server: 85.158.110.62
   port: 8443
@@ -442,7 +461,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-46
+- name: 🌍 ASTRACAT-Tunels-48
   type: vless
   server: 104.17.148.22
   port: 443
@@ -455,7 +474,7 @@ proxies:
     headers:
       Host: UuhUHYygESDfgh.uYhJhGVgfCjgujhbUiLbVFdXDXM.XyZ
   servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-- name: 🌍 ASTRACAT-Tunels-47
+- name: 🌍 ASTRACAT-Tunels-49
   type: vless
   server: 104.26.5.57
   port: 443
@@ -468,7 +487,7 @@ proxies:
     headers:
       Host: UuhUHYygESDfgh.uYhJhGVgfCjgujhbUiLbVFdXDXM.XyZ
   servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-- name: 🌍 ASTRACAT-Tunels-48
+- name: 🌍 ASTRACAT-Tunels-50
   type: vless
   server: customers.tele-shop-too.studio
   port: 44
@@ -476,7 +495,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-49
+- name: 🌍 ASTRACAT-Tunels-51
   type: vless
   server: 194.110.246.61
   port: 8443
@@ -484,7 +503,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-50
+- name: 🌍 ASTRACAT-Tunels-52
   type: vless
   server: 185.146.173.39
   port: 8880
@@ -492,7 +511,7 @@ proxies:
   cipher: none
   tls: false
   network: httpupgrade
-- name: 🌍 ASTRACAT-Tunels-51
+- name: 🌍 ASTRACAT-Tunels-53
   type: vless
   server: iP.BadZat.Space
   port: 443
@@ -500,7 +519,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-52
+- name: 🌍 ASTRACAT-Tunels-54
   type: vless
   server: vp.helsvptun.m2ring.sbs
   port: 6666
@@ -508,7 +527,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-53
+- name: 🌍 ASTRACAT-Tunels-55
   type: vless
   server: 104.24.34.94
   port: 443
@@ -521,7 +540,7 @@ proxies:
     headers:
       Host: kssepa.sabzipolobamahi.dpdns.org
   servername: kssepa.sabzipolobamahi.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-54
+- name: 🌍 ASTRACAT-Tunels-56
   type: vless
   server: 172.67.11.138
   port: 80
@@ -533,7 +552,7 @@ proxies:
     path: /?ed=2560/?JOKERRVPN
     headers:
       Host: kssepa.sabzipolobamahi.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-55
+- name: 🌍 ASTRACAT-Tunels-57
   type: vless
   server: 103.253.43.210
   port: 8443
@@ -541,7 +560,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-56
+- name: 🌍 ASTRACAT-Tunels-58
   type: vless
   server: 185.239.48.109
   port: 8443
@@ -549,7 +568,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-57
+- name: 🌍 ASTRACAT-Tunels-59
   type: vless
   server: 104.16.0.113
   port: 80
@@ -561,7 +580,7 @@ proxies:
     path: /?ed=2560/?JOKERRVPN
     headers:
       Host: barayeiran.nastaranh.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-58
+- name: 🌍 ASTRACAT-Tunels-60
   type: vless
   server: afranlo.alcatelindan.com
   port: 45980
@@ -569,7 +588,18 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-59
+- name: 🌍 ASTRACAT-Tunels-61
+  type: vless
+  server: www.wodophonex.blog
+  port: 55877
+  uuid: d3dcce29-fc0f-4320-9cd9-795d0afd00b8
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+  servername: www.wodophonex.blog
+- name: 🌍 ASTRACAT-Tunels-62
   type: vless
   server: www.speedtest.net
   port: 80
@@ -581,7 +611,7 @@ proxies:
     path: /Channel-ELiV2RAY---ELiV2RAY---ELiV2RAY---ELiV2RAY----Channel-ELiV2RAY---ELiV2RAY?ed=2048
     headers:
       Host: PaMCHALL.cOM.
-- name: 🌍 ASTRACAT-Tunels-60
+- name: 🌍 ASTRACAT-Tunels-63
   type: vless
   server: 104.18.0.191
   port: 443
@@ -594,7 +624,7 @@ proxies:
     headers:
       Host: am.digikala-aparat-zula.com
   servername: am.digikala-aparat-zula.com
-- name: 🌍 ASTRACAT-Tunels-61
+- name: 🌍 ASTRACAT-Tunels-64
   type: vless
   server: 62.60.193.74
   port: 443
@@ -602,7 +632,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-62
+- name: 🌍 ASTRACAT-Tunels-65
   type: vless
   server: 91.242.241.45
   port: 8443
@@ -610,7 +640,15 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-63
+- name: 🌍 ASTRACAT-Tunels-66
+  type: vless
+  server: 151.101.3.8
+  port: 80
+  uuid: eb4f4498-ef97-4b6a-ae26-9bf9645d99d1
+  cipher: none
+  tls: false
+  network: splithttp
+- name: 🌍 ASTRACAT-Tunels-67
   type: vless
   server: 172.67.164.1
   port: 443
@@ -623,7 +661,7 @@ proxies:
     headers:
       Host: verina.ccantarella.dns-dynamic.net
   servername: verina.ccantarella.dns-dynamic.net
-- name: 🌍 ASTRACAT-Tunels-64
+- name: 🌍 ASTRACAT-Tunels-68
   type: vless
   server: speedtest.net
   port: 80
@@ -635,7 +673,7 @@ proxies:
     path: /olem/ws?ed=1024
     headers:
       Host: foffmelo.com
-- name: 🌍 ASTRACAT-Tunels-65
+- name: 🌍 ASTRACAT-Tunels-69
   type: vless
   server: zmaoz.faculty.ucdavis.edu
   port: 80
@@ -647,7 +685,7 @@ proxies:
     path: /olem/ws?ed=1024
     headers:
       Host: foffmelo.com
-- name: 🌍 ASTRACAT-Tunels-66
+- name: 🌍 ASTRACAT-Tunels-70
   type: vless
   server: 37.27.220.198
   port: 2001
@@ -655,7 +693,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-67
+- name: 🌍 ASTRACAT-Tunels-71
   type: vless
   server: 85.158.110.62
   port: 8443
@@ -663,7 +701,18 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-68
+- name: 🌍 ASTRACAT-Tunels-72
+  type: vless
+  server: www.wodophonex.blog
+  port: 55877
+  uuid: f911d96e-0d6a-41bf-9997-04011d0f4f62
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+  servername: www.wodophonex.blog
+- name: 🌍 ASTRACAT-Tunels-73
   type: vless
   server: 5.44.42.60
   port: 8080
@@ -671,7 +720,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-69
+- name: 🌍 ASTRACAT-Tunels-74
   type: vless
   server: 93.127.180.102
   port: 8880
@@ -679,7 +728,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-70
+- name: 🌍 ASTRACAT-Tunels-75
   type: vless
   server: 185.207.197.253
   port: 2096
@@ -691,7 +740,7 @@ proxies:
     path: /Telegram@freecodes/?ed=2560security=tls
     headers:
       Host: vlesspro.llengcugit.sbs
-- name: 🌍 ASTRACAT-Tunels-71
+- name: 🌍 ASTRACAT-Tunels-76
   type: vless
   server: 185.207.197.253
   port: 2096
@@ -703,7 +752,7 @@ proxies:
     path: /Telegramsecurity=tls
     headers:
       Host: vlesspro.llengcugit.sbs
-- name: 🌍 ASTRACAT-Tunels-72
+- name: 🌍 ASTRACAT-Tunels-77
   type: vless
   server: 40.233.81.116
   port: 59303
@@ -711,7 +760,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-73
+- name: 🌍 ASTRACAT-Tunels-78
   type: vless
   server: 45.95.232.10
   port: 8080
@@ -719,7 +768,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-74
+- name: 🌍 ASTRACAT-Tunels-79
   type: vless
   server: vfast7.hvitrin.ir
   port: 49330
@@ -727,7 +776,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-75
+- name: 🌍 ASTRACAT-Tunels-80
   type: vless
   server: 188.68.53.100
   port: 6666
@@ -735,7 +784,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-76
+- name: 🌍 ASTRACAT-Tunels-81
   type: vless
   server: 38.54.122.118
   port: 443
@@ -743,7 +792,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-77
+- name: 🌍 ASTRACAT-Tunels-82
   type: vless
   server: 178.20.215.2
   port: 443
@@ -751,7 +800,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-78
+- name: 🌍 ASTRACAT-Tunels-83
   type: vless
   server: 213.176.94.129
   port: 443
@@ -759,7 +808,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-79
+- name: 🌍 ASTRACAT-Tunels-84
   type: vless
   server: 62.60.232.40
   port: 8080
@@ -767,7 +816,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-80
+- name: 🌍 ASTRACAT-Tunels-85
   type: vless
   server: 77.110.114.1
   port: 8080
@@ -775,7 +824,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-81
+- name: 🌍 ASTRACAT-Tunels-86
   type: vless
   server: 194.87.31.155
   port: 8080
@@ -783,7 +832,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-82
+- name: 🌍 ASTRACAT-Tunels-87
   type: vless
   server: 94.198.218.41
   port: 443
@@ -791,7 +840,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-83
+- name: 🌍 ASTRACAT-Tunels-88
   type: vless
   server: 84.22.150.195
   port: 8080
@@ -799,7 +848,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-84
+- name: 🌍 ASTRACAT-Tunels-89
   type: vless
   server: bridge.iskra-connect.xyz
   port: 443
@@ -807,7 +856,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-85
+- name: 🌍 ASTRACAT-Tunels-90
   type: vless
   server: 66.90.90.10
   port: 443
@@ -815,7 +864,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-86
+- name: 🌍 ASTRACAT-Tunels-91
   type: vless
   server: wa.sfasti.ru
   port: 443
@@ -823,7 +872,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-87
+- name: 🌍 ASTRACAT-Tunels-92
   type: vless
   server: 146.19.90.10
   port: 443
@@ -831,7 +880,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-88
+- name: 🌍 ASTRACAT-Tunels-93
   type: vless
   server: 206.189.83.23
   port: 25288
@@ -839,7 +888,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-89
+- name: 🌍 ASTRACAT-Tunels-94
   type: vless
   server: 188.114.97.11
   port: 2087
@@ -852,7 +901,7 @@ proxies:
     headers:
       Host: Xlz767V2Ray.PAGEs.DEv
   servername: Xlz767V2Ray.PAGEs.DEv
-- name: 🌍 ASTRACAT-Tunels-90
+- name: 🌍 ASTRACAT-Tunels-95
   type: vless
   server: 104.16.246.85
   port: 443
@@ -865,7 +914,7 @@ proxies:
     headers:
       Host: juzi.634676.xyz
   servername: juzi.634676.xyz
-- name: 🌍 ASTRACAT-Tunels-91
+- name: 🌍 ASTRACAT-Tunels-96
   type: vless
   server: 188.114.97.3
   port: 443
@@ -878,7 +927,7 @@ proxies:
     headers:
       Host: pas-kale-agha.pages.dev
   servername: paS-kaLE-AGhA.pageS.deV
-- name: 🌍 ASTRACAT-Tunels-92
+- name: 🌍 ASTRACAT-Tunels-97
   type: vless
   server: 172.66.47.15
   port: 443
@@ -891,7 +940,7 @@ proxies:
     headers:
       Host: GgGgr.PaGES.dEV
   servername: GgGgr.PaGES.dEV
-- name: 🌍 ASTRACAT-Tunels-93
+- name: 🌍 ASTRACAT-Tunels-98
   type: vless
   server: 172.66.44.118
   port: 443
@@ -904,7 +953,7 @@ proxies:
     headers:
       Host: configmr.pages.dev
   servername: ConFIgmr.PaGeS.dEV
-- name: 🌍 ASTRACAT-Tunels-94
+- name: 🌍 ASTRACAT-Tunels-99
   type: vless
   server: registry.cyou
   port: 443
@@ -917,7 +966,7 @@ proxies:
     headers:
       Host: sni.wwxgxn.cfd
   servername: sni.wwxgxn.cfd
-- name: 🌍 ASTRACAT-Tunels-95
+- name: 🌍 ASTRACAT-Tunels-100
   type: vless
   server: 162.159.43.92
   port: 443
@@ -930,7 +979,7 @@ proxies:
     headers:
       Host: juzi.634676.xyz
   servername: juzi.634676.xyz
-- name: 🌍 ASTRACAT-Tunels-96
+- name: 🌍 ASTRACAT-Tunels-101
   type: vless
   server: creativecommons.org
   port: 443
@@ -943,7 +992,7 @@ proxies:
     headers:
       Host: nigan.pages.dev
   servername: nigan.pages.dev
-- name: 🌍 ASTRACAT-Tunels-97
+- name: 🌍 ASTRACAT-Tunels-102
   type: vless
   server: 172.66.47.15
   port: 443
@@ -956,7 +1005,7 @@ proxies:
     headers:
       Host: GgGgr.PaGES.dEV
   servername: GgGgr.PaGES.dEV
-- name: 🌍 ASTRACAT-Tunels-98
+- name: 🌍 ASTRACAT-Tunels-103
   type: vless
   server: 162.159.142.252
   port: 2083
@@ -969,7 +1018,7 @@ proxies:
     headers:
       Host: fei.634676.xyz
   servername: fei.634676.xyz
-- name: 🌍 ASTRACAT-Tunels-99
+- name: 🌍 ASTRACAT-Tunels-104
   type: vless
   server: 104.16.43.245
   port: 443
@@ -982,7 +1031,7 @@ proxies:
     headers:
       Host: kawaiifreevpn-7ds.pages.dev
   servername: kawaiifreevpn-7ds.pages.dev
-- name: 🌍 ASTRACAT-Tunels-100
+- name: 🌍 ASTRACAT-Tunels-105
   type: vless
   server: www.speedtest.net
   port: 2082
@@ -994,7 +1043,7 @@ proxies:
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
     headers:
       Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-- name: 🌍 ASTRACAT-Tunels-101
+- name: 🌍 ASTRACAT-Tunels-106
   type: vless
   server: mstr.fastly80.hosting-ip.com
   port: 80
@@ -1006,7 +1055,7 @@ proxies:
     path: /admin
     headers:
       Host: Gn8656.io
-- name: 🌍 ASTRACAT-Tunels-102
+- name: 🌍 ASTRACAT-Tunels-107
   type: vless
   server: 172.66.156.81
   port: 80
@@ -1018,7 +1067,7 @@ proxies:
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
     headers:
       Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.
-- name: 🌍 ASTRACAT-Tunels-103
+- name: 🌍 ASTRACAT-Tunels-108
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -1133,6 +1182,11 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-101
   - 🌍 ASTRACAT-Tunels-102
   - 🌍 ASTRACAT-Tunels-103
+  - 🌍 ASTRACAT-Tunels-104
+  - 🌍 ASTRACAT-Tunels-105
+  - 🌍 ASTRACAT-Tunels-106
+  - 🌍 ASTRACAT-Tunels-107
+  - 🌍 ASTRACAT-Tunels-108
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
