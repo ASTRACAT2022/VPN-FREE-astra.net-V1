@@ -695,13 +695,24 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-71
   type: vless
+  server: www.wodophonex.blog
+  port: 55877
+  uuid: fc859b7f-4a1e-4f59-be63-d77235d9b3a0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+  servername: www.wodophonex.blog
+- name: 🌍 ASTRACAT-Tunels-72
+  type: vless
   server: 188.68.53.100
   port: 6666
   uuid: 0abf9050-c7be-464d-80af-24094c2b97de
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-72
+- name: 🌍 ASTRACAT-Tunels-73
   type: vless
   server: 185.39.207.121
   port: 443
@@ -709,7 +720,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-73
+- name: 🌍 ASTRACAT-Tunels-74
   type: vless
   server: 188.42.145.253
   port: 2096
@@ -721,7 +732,7 @@ proxies:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560security=tls
     headers:
       Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-74
+- name: 🌍 ASTRACAT-Tunels-75
   type: vless
   server: 212.18.104.19
   port: 443
@@ -729,7 +740,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-75
+- name: 🌍 ASTRACAT-Tunels-76
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -816,6 +827,7 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-73
   - 🌍 ASTRACAT-Tunels-74
   - 🌍 ASTRACAT-Tunels-75
+  - 🌍 ASTRACAT-Tunels-76
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
