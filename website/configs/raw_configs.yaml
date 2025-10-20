@@ -682,17 +682,21 @@ proxies:
   servername: www.wodophonex.blog
 - name: 🌍 ASTRACAT-Tunels-69
   type: vless
-  server: 81.19.140.131
-  port: 443
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+  server: 217.60.38.191
+  port: 2053
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
-  tls: true
-  network: tcp
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/?ed=2560security=tls
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-70
   type: vless
-  server: 185.39.207.121
-  port: 443
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+  server: 80.75.218.223
+  port: 33333
+  uuid: 51a6b7d2-6909-4bda-8bd3-49b478a4e058
   cipher: none
   tls: true
   network: tcp
@@ -705,7 +709,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: /X@节点狂魔/?ed=2560security=tls
+    path: /Telegram🇨🇳@WangCai2/?ed=2560security=tls
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-72
@@ -717,37 +721,73 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: /Telegram🇨🇳@WangCai2/?ed=2560security=tls
+    path: /X@节点狂魔/?ed=2560security=tls
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-73
   type: vless
-  server: 47.76.218.163
+  server: 38.252.8.208
+  port: 12143
+  uuid: 87023a88-d08f-419e-9100-bf4b99d29d54
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-74
+  type: vless
+  server: 217.60.248.66
   port: 443
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    path: /Telegram@freecodes/?ed=2560security=tls
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
     headers:
       Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-74
-  type: vless
-  server: 175.208.202.41
-  port: 20583
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /telegram @freecodessecurity=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
+  servername: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-75
   type: vless
-  server: 211.48.77.114
-  port: 12312
+  server: 118.45.152.231
+  port: 50001
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /X@节点狂魔/?ed=2560fp=chrome
+    headers:
+      Host: gaosir.unfeeling.sbs
+  servername: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-76
+  type: vless
+  server: 118.41.28.45
+  port: 50000
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560fp=chrome
+    headers:
+      Host: gaosir.unfeeling.sbs
+  servername: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-77
+  type: vless
+  server: 59.30.203.246
+  port: 50000
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /Telegram@freecodes/?ed=2560fp=chrome
+    headers:
+      Host: gaosir.unfeeling.sbs
+  servername: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-78
+  type: vless
+  server: 218.155.245.69
+  port: 50003
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
   tls: false
@@ -756,7 +796,44 @@ proxies:
     path: /telegram @freecodessecurity=tls
     headers:
       Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-76
+- name: 🌍 ASTRACAT-Tunels-79
+  type: vless
+  server: 218.146.200.8
+  port: 50001
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /x @节点狂魔security=tls
+    headers:
+      Host: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-80
+  type: vless
+  server: 118.45.152.231
+  port: 50001
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /X@节点狂魔fp=chrome
+    headers:
+      Host: gaosir.unfeeling.sbs
+  servername: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-81
+  type: vless
+  server: 59.30.5.169
+  port: 50002
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/?ed=2560security=tls
+    headers:
+      Host: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-82
   type: vless
   server: 118.41.28.45
   port: 50001
@@ -768,127 +845,7 @@ proxies:
     path: /telegram @freecodessecurity=tls
     headers:
       Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-77
-  type: vless
-  server: 175.201.95.5
-  port: 30051
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /telegram @freecodessecurity=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-78
-  type: vless
-  server: 222.101.91.204
-  port: 50000
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /telegram @freecodessecurity=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-79
-  type: vless
-  server: 211.48.77.114
-  port: 12312
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /x @节点狂魔security=tlssecurity=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-80
-  type: vless
-  server: 119.201.195.135
-  port: 10001
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /x @节点狂魔security=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-81
-  type: vless
-  server: 211.48.77.114
-  port: 12312
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /x @节点狂魔security=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-82
-  type: vless
-  server: 121.145.253.124
-  port: 50002
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /telegram @freecodessecurity=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-83
-  type: vless
-  server: 122.47.74.139
-  port: 50001
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /X@节点狂魔/?ed=2560security=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-84
-  type: vless
-  server: 119.65.139.101
-  port: 60001
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /x@节点狂魔security=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-85
-  type: vless
-  server: 222.109.206.218
-  port: 50003
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /X@节点狂魔/?ed=2560security=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-86
-  type: vless
-  server: 119.195.219.150
-  port: 10065
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /telegram @freecodessecurity=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-87
   type: vless
   server: 211.219.241.28
   port: 31337
@@ -900,34 +857,71 @@ proxies:
     path: /X@节点狂魔/?ed=2560security=tls
     headers:
       Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-88
+- name: 🌍 ASTRACAT-Tunels-84
   type: vless
-  server: 188.42.145.253
-  port: 2096
+  server: 106.252.245.199
+  port: 50001
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /Telegram🇨🇳@WangCai2/?ed=2560security=tls
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2security=tls
+    headers:
+      Host: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-85
+  type: vless
+  server: 112.173.185.16
+  port: 30010
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /X@节点狂魔fp=chrome
+    headers:
+      Host: gaosir.unfeeling.sbs
+  servername: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-86
+  type: vless
+  server: 118.41.28.45
+  port: 50001
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /telegram @freecodessecurity=tlssecurity=tls
+    headers:
+      Host: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-87
+  type: vless
+  server: 121.182.150.149
+  port: 50001
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /X@节点狂魔/?ed=2560security=tls
+    headers:
+      Host: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-88
+  type: vless
+  server: 218.151.91.131
+  port: 12151
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /x @节点狂魔security=tls
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-89
   type: vless
-  server: 188.42.145.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560security=tls
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-90
-  type: vless
-  server: 188.42.145.253
-  port: 2096
+  server: 222.113.89.142
+  port: 12105
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
   tls: false
@@ -936,64 +930,77 @@ proxies:
     path: /Telegram@freecodes/?ed=2560security=tls
     headers:
       Host: gaosir.unfeeling.sbs
-- name: 🌍 ASTRACAT-Tunels-91
+- name: 🌍 ASTRACAT-Tunels-90
   type: vless
-  server: 188.42.145.253
-  port: 2096
+  server: 116.93.199.28
+  port: 30012
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560security=tls
+    path: /X@节点狂魔/?ed=2560security=tls
     headers:
       Host: gaosir.unfeeling.sbs
+- name: 🌍 ASTRACAT-Tunels-91
+  type: vless
+  server: 118.41.28.45
+  port: 50000
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2fp=chrome
+    headers:
+      Host: gaosir.unfeeling.sbs
+  servername: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-92
   type: vless
-  server: 188.42.145.253
-  port: 2096
+  server: 175.201.95.5
+  port: 30051
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /freecodes@节点狂魔/?ed=2560security=tls
+    path: /telegram @freecodessecurity=tls
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-93
   type: vless
-  server: 188.42.145.253
-  port: 2096
+  server: 182.31.70.92
+  port: 12147
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2security=tls
+    path: /X@节点狂魔security=tls
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-94
   type: vless
-  server: 188.42.145.253
-  port: 2096
+  server: 14.32.12.235
+  port: 10008
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /security=tlssecurity=tls
+    path: /X@节点狂魔security=tls
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-95
   type: vless
-  server: 167.179.27.92
-  port: 443
+  server: 112.156.154.95
+  port: 30067
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /Telegram🇨🇳@WangCai2/?ed=2560security=tls
+    path: /x @节点狂魔security=tlssecurity=tls
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-96
@@ -1005,30 +1012,33 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560security=tls
+    path: /Telegram🇨🇳@WangCai2/?ed=2560security=tls
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-97
   type: vless
-  server: 54.219.42.163
+  server: ktff.tencentapp.cn
   port: 443
-  uuid: da640c05-1831-4c6f-a2c8-ff8ff9c18b0c
+  uuid: 9c8b8aec-7a20-4271-8a4f-a87bb029dae9
   cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-98
-  type: vless
-  server: 104.20.2.221
-  port: 8443
-  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
-  cipher: none
-  tls: true
+  tls: false
   network: ws
   ws-opts:
-    path: /?ed=2560fp=chrome
+    path: /security=tls
     headers:
-      Host: bycf.lzjnb.shop
-  servername: bycf.lzjnb.shop
+      Host: sp5.sutu.eu.org
+- name: 🌍 ASTRACAT-Tunels-98
+  type: vless
+  server: 195.13.45.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /x @节点狂魔security=tlssecurity=tls
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-99
   type: vless
   server: 195.13.45.253
