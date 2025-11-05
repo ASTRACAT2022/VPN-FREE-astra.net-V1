@@ -2987,13 +2987,37 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-341
   type: vless
-  server: usa32.clearorbitllc.com
-  port: 443
-  uuid: 9daf8f3e-089b-4989-9502-dd3d727edb6c
+  server: usvless.yydzx.xyz
+  port: 17597
+  uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-342
+  type: vless
+  server: linux.do
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fangbinxingnmsl.pusytroller.cf
+- name: 🌍 ASTRACAT-Tunels-343
+  type: vless
+  server: www.npmjs.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fangbinxingnmsl.pusytroller.cf
+- name: 🌍 ASTRACAT-Tunels-344
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -3347,6 +3371,8 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-340
   - 🌍 ASTRACAT-Tunels-341
   - 🌍 ASTRACAT-Tunels-342
+  - 🌍 ASTRACAT-Tunels-343
+  - 🌍 ASTRACAT-Tunels-344
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
