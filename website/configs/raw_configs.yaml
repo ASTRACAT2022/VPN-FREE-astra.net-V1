@@ -2735,22 +2735,6 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-311
   type: vless
-  server: g72oiqhd.tun.nodeflex.cc
-  port: 30865
-  uuid: d43bc5b9-21f8-42a7-adf8-8db943de75eb
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-312
-  type: vless
-  server: g72oiqhd.tun.nodeflex.cc
-  port: 30866
-  uuid: 1922fd72-8ebf-44f8-86ea-a032be1d26d7
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-313
-  type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
   uuid: 11111111-2222-1111-1111-111111111111
@@ -3072,8 +3056,6 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-309
   - 🌍 ASTRACAT-Tunels-310
   - 🌍 ASTRACAT-Tunels-311
-  - 🌍 ASTRACAT-Tunels-312
-  - 🌍 ASTRACAT-Tunels-313
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
