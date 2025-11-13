@@ -2770,21 +2770,49 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-310
   type: vless
-  server: cdn.cloudconvert.top
-  port: 10012
-  uuid: 258a5f07-d07e-4de4-90b6-69a0ca34bab7
+  server: ges.jykvpn.com
+  port: 443
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-311
   type: vless
-  server: 104.167.199.50
+  server: fis.jykvpn.com
   port: 443
-  uuid: b25e3c62-f4eb-45df-adda-eb738959b845
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-312
+  type: vless
+  server: sws.jykvpn.com
+  port: 443
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-313
+  type: vless
+  server: cdn.cloudconvert.top
+  port: 10007
+  uuid: 258a5f07-d07e-4de4-90b6-69a0ca34bab7
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-314
+  type: vless
+  server: br.pouriau.com
+  port: 2052
+  uuid: bc4ee22b-87f5-4bc0-b0f5-3cd802d716e2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /---ping---www.speedtest.net?ed=2080
+    headers:
+      Host: rosiassn.digikala.com.snnapfood.ir.varzesh3.com.shobb.ir.kdvhgkri558rvhnfjrdghriuygfkrdhihifjdfjssiedhfgjung2.bonyadedocker.ir.2.xziba.com.
+- name: 🌍 ASTRACAT-Tunels-315
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -3108,6 +3136,9 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-310
   - 🌍 ASTRACAT-Tunels-311
   - 🌍 ASTRACAT-Tunels-312
+  - 🌍 ASTRACAT-Tunels-313
+  - 🌍 ASTRACAT-Tunels-314
+  - 🌍 ASTRACAT-Tunels-315
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
