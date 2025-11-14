@@ -128,12 +128,17 @@ proxies:
       Host: sib.sibzamini.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-13
   type: vless
-  server: 185.153.183.183
-  port: 8880
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+  server: speedtest.org
+  port: 443
+  uuid: c7158ca6-7c6c-4701-bf7d-df0f98a9ca33
   cipher: none
-  tls: false
-  network: grpc
+  tls: true
+  network: ws
+  ws-opts:
+    path: /harman
+    headers:
+      Host: pqjeb.noah-shabane.com
+  servername: pqjeb.noah-shabane.com
 - name: 🌍 ASTRACAT-Tunels-14
   type: vless
   server: iran.mr-cloud.ir
