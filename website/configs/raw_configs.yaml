@@ -2166,77 +2166,13 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-238
   type: vless
-  server: shadowshaman.fonixapp.org
-  port: 26861
-  uuid: 04db6938-72dc-42b4-a096-cc6a5e8316d2
+  server: nl.nodes.rocketnetwork.ru
+  port: 443
+  uuid: bccbecc9-c1d2-45d1-b3fa-771a19b9831c
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-239
-  type: vless
-  server: graygoat.fonixapp.org
-  port: 12645
-  uuid: 8d5bca78-f49f-4e49-ad7b-bb58da44d40b
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-240
-  type: vless
-  server: windrunner.fonixapp.org
-  port: 27274
-  uuid: f07cb7d9-36d3-4b65-b4dd-186be58218dd
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-241
-  type: vless
-  server: silverzebra.fonixapp.org
-  port: 31502
-  uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-242
-  type: vless
-  server: facelessvoid.fonixapp.org
-  port: 22155
-  uuid: 1d83ca4e-9708-4338-b177-403aa258488b
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-243
-  type: vless
-  server: 140.238.100.35
-  port: 40721
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-244
-  type: vless
-  server: 185.242.84.182
-  port: 443
-  uuid: 3c0e49cb-8940-561a-83b8-1efbb17f7cf7
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-245
-  type: vless
-  server: 77.110.127.105
-  port: 443
-  uuid: 72239cbc-5a25-411c-b4f5-b9167a10f5e1
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-246
-  type: vless
-  server: 77.110.119.225
-  port: 443
-  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-247
   type: vless
   server: 81.161.98.228
   port: 1443
@@ -2248,7 +2184,7 @@ proxies:
     path: /websocketplsecurity=tls
     headers:
       Host: cdn.filterai.ru
-- name: 🌍 ASTRACAT-Tunels-248
+- name: 🌍 ASTRACAT-Tunels-240
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -2500,14 +2436,6 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-238
   - 🌍 ASTRACAT-Tunels-239
   - 🌍 ASTRACAT-Tunels-240
-  - 🌍 ASTRACAT-Tunels-241
-  - 🌍 ASTRACAT-Tunels-242
-  - 🌍 ASTRACAT-Tunels-243
-  - 🌍 ASTRACAT-Tunels-244
-  - 🌍 ASTRACAT-Tunels-245
-  - 🌍 ASTRACAT-Tunels-246
-  - 🌍 ASTRACAT-Tunels-247
-  - 🌍 ASTRACAT-Tunels-248
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
