@@ -1729,6 +1729,22 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-191
   type: vless
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  port: 443
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-192
+  type: vless
+  server: ru-msk.shvurgceo.online
+  port: 51224
+  uuid: 14305246-dc93-4b3c-9f6c-d0b29fa7e4fa
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-193
+  type: vless
   server: 81.161.98.228
   port: 1443
   uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
@@ -1739,7 +1755,7 @@ proxies:
     path: /websocketplsecurity=tls
     headers:
       Host: cdn.filterai.ru
-- name: 🌍 ASTRACAT-Tunels-192
+- name: 🌍 ASTRACAT-Tunels-194
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -1943,6 +1959,8 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-190
   - 🌍 ASTRACAT-Tunels-191
   - 🌍 ASTRACAT-Tunels-192
+  - 🌍 ASTRACAT-Tunels-193
+  - 🌍 ASTRACAT-Tunels-194
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
