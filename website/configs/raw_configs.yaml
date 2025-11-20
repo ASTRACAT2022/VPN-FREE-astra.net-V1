@@ -1602,27 +1602,32 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-170
   type: vless
-  server: nl.nodes.rocketnetwork.ru
-  port: 443
-  uuid: bccbecc9-c1d2-45d1-b3fa-771a19b9831c
+  server: 178.239.123.216
+  port: 24443
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
   cipher: none
   tls: true
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=chrome
+    headers:
+      Host: vless3.datatestvless.click
+  servername: vless3.datatestvless.click
 - name: 🌍 ASTRACAT-Tunels-171
   type: vless
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  port: 443
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+  server: hl.kunlun01.com
+  port: 18000
+  uuid: 2f1b82ea-7186-4655-88d3-b06478519fef
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-172
   type: vless
-  server: ru-msk.shvurgceo.online
-  port: 51224
-  uuid: 14305246-dc93-4b3c-9f6c-d0b29fa7e4fa
+  server: 94.182.137.12
+  port: 20532
+  uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
   cipher: none
-  tls: true
+  tls: false
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-173
   type: vless
@@ -1637,6 +1642,54 @@ proxies:
     headers:
       Host: cdn.filterai.ru
 - name: 🌍 ASTRACAT-Tunels-174
+  type: vless
+  server: ru-msk.shvurgceo.online
+  port: 51224
+  uuid: 14305246-dc93-4b3c-9f6c-d0b29fa7e4fa
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-175
+  type: vless
+  server: tw.kunlun01.com
+  port: 14090
+  uuid: 2f1b82ea-7186-4655-88d3-b06478519fef
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-176
+  type: vless
+  server: hinet2.gzcloud.shop
+  port: 20519
+  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-177
+  type: vless
+  server: www.speedtest.net
+  port: 80
+  uuid: e1f6bc5b-cbc2-49bb-8f26-1bf8bb85d18a
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+- name: 🌍 ASTRACAT-Tunels-178
+  type: vless
+  server: 172.66.156.81
+  port: 80
+  uuid: e1f6bc5b-cbc2-49bb-8f26-1bf8bb85d18a
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+- name: 🌍 ASTRACAT-Tunels-179
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -1822,6 +1875,11 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-172
   - 🌍 ASTRACAT-Tunels-173
   - 🌍 ASTRACAT-Tunels-174
+  - 🌍 ASTRACAT-Tunels-175
+  - 🌍 ASTRACAT-Tunels-176
+  - 🌍 ASTRACAT-Tunels-177
+  - 🌍 ASTRACAT-Tunels-178
+  - 🌍 ASTRACAT-Tunels-179
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
