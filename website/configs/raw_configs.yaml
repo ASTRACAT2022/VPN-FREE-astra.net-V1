@@ -1642,54 +1642,63 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-180
   type: vless
-  server: 178.239.123.216
-  port: 24443
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  server: de2.srv.oplcdn.link
+  port: 8443
+  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
   cipher: none
   tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560fp=chrome
-    headers:
-      Host: vless3.datatestvless.click
-  servername: vless3.datatestvless.click
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-181
   type: vless
-  server: 178.239.123.216
-  port: 24443
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  server: fi3.srv.oplcdn.link
+  port: 8443
+  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /security=tls
-    headers:
-      Host: vless3.datatestvless.click
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-182
   type: vless
-  server: 178.239.125.31
-  port: 39735
-  uuid: 60e7e018-ee6a-48b1-9625-c4d4276935b3
+  server: nl3.srv.oplcdn.link
+  port: 8443
+  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-183
   type: vless
-  server: de.shvurgceo.online
-  port: 14357
-  uuid: 006f752c-42fe-41dd-a224-e2f7c48b72a9
+  server: 176.124.206.205
+  port: 443
+  uuid: 3ced94cb-7df6-44e5-b0c9-2cb2d7ec1688
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-184
   type: vless
-  server: 81.19.140.202
-  port: 60552
-  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
+  server: nl4.srv.oplcdn.link
+  port: 8443
+  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-185
+  type: vless
+  server: 185.97.119.25
+  port: 80
+  uuid: 34155f4a-b42f-4961-9268-df5069fca1ff
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🌍 ASTRACAT-Tunels-186
+  type: vless
+  server: 188.253.21.106
+  port: 443
+  uuid: 9936ae5c-91cd-4c8a-80e9-5118a209a7e4
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-187
   type: vless
   server: nld26.luckernld.org
   port: 443
@@ -1697,7 +1706,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-186
+- name: 🌍 ASTRACAT-Tunels-188
   type: vless
   server: 81.161.98.228
   port: 1443
@@ -1709,76 +1718,67 @@ proxies:
     path: /websocketplsecurity=tls
     headers:
       Host: cdn.filterai.ru
-- name: 🌍 ASTRACAT-Tunels-187
-  type: vless
-  server: 92.51.38.205
-  port: 443
-  uuid: acb2c1bd-8f2e-4567-bd06-9243feaacfdc
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-188
-  type: vless
-  server: 85.192.24.131
-  port: 443
-  uuid: 07e0d9f5-6ed1-4bfb-8c19-311a312cba7d
-  cipher: none
-  tls: true
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-189
   type: vless
-  server: hinet2.gzcloud.shop
-  port: 20519
-  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+  server: spb.ru.srv.oplcdn.link
+  port: 8443
+  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-190
   type: vless
-  server: 95.134.130.68
-  port: 53132
-  uuid: b4acafb4-d262-4fd6-95b6-0aa9a953e4ac
+  server: 193.233.244.196
+  port: 8443
+  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
   cipher: none
-  tls: false
+  tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-191
   type: vless
-  server: 95.134.130.68
-  port: 49361
-  uuid: aa88ce12-24ce-4e8b-8d16-a99e09725fce
+  server: 2-germany.geodema.network
+  port: 8443
+  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
   cipher: none
   tls: true
-  network: ws
-  ws-opts:
-    path: /@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----fp=chrome
-    headers:
-      Host: telewebion.com
-  servername: telegram-armanstore2.dynv6.net
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-192
   type: vless
-  server: 95.134.130.68
-  port: 33839
-  uuid: 912fdd15-a62e-4c49-b01c-d551799a6a08
+  server: se.srv.oplcdn.link
+  port: 8443
+  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----
-    headers:
-      Host: telewebion.com
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-193
   type: vless
-  server: www.speedtest.net
-  port: 2082
-  uuid: d52ecc10-1c89-4d95-d12a-61bc48c4024c
+  server: 70.34.214.175
+  port: 13369
+  uuid: 70ec317d-d66d-4f9d-955a-fcd58678ce4c
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-194
+  type: vless
+  server: 62.60.177.167
+  port: 443
+  uuid: 6670529b-265a-4ee9-b944-bdaee2638ef2
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-195
+  type: vless
+  server: 104.16.53.11
+  port: 8443
+  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+    path: /?ed=2048security=tls
     headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-- name: 🌍 ASTRACAT-Tunels-194
+      Host: hetzner-9.cfuk.name.ng
+- name: 🌍 ASTRACAT-Tunels-196
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -1983,6 +1983,8 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-192
   - 🌍 ASTRACAT-Tunels-193
   - 🌍 ASTRACAT-Tunels-194
+  - 🌍 ASTRACAT-Tunels-195
+  - 🌍 ASTRACAT-Tunels-196
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
