@@ -128,43 +128,49 @@ proxies:
       Host: sib.sibzamini.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-13
   type: vless
-  server: delilah.ns.cloudflare.com
-  port: 443
-  uuid: c3fec147-2189-4447-a590-2edcc0484ee8
+  server: red-ocean-bright-happy-nova.dlcnamatike7.com
+  port: 19771
+  uuid: 30068a8d-3351-48a1-923c-1793de0a376f
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🌍 ASTRACAT-Tunels-14
+  type: vless
+  server: bridge-quick-logic-forest-zone.dlcnamatike7.com
+  port: 19771
+  uuid: e998eb52-4de4-450f-ae9b-6d0ed9089e4c
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🌍 ASTRACAT-Tunels-15
+  type: vless
+  server: 104.25.123.80
+  port: 2096
+  uuid: fa93e643-ed01-40c4-b82b-f38e9c2a841c
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /qhxqyxws
+    path: /
     headers:
-      Host: 638992899243672646.stinger-amsid.info
-  servername: 638992899243672646.stinger-amsid.info
-- name: 🌍 ASTRACAT-Tunels-14
-  type: vless
-  server: m86a.vip784.com
-  port: 33801
-  uuid: 346a072d-36d8-427f-912c-8756c1c53e1b
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-15
-  type: vless
-  server: m75a.vip784.com
-  port: 33801
-  uuid: 45b3b7e0-7847-4c35-affa-f776cf4759b9
-  cipher: none
-  tls: false
-  network: tcp
+      Host: BAt.zuLAir.siTe.
+  servername: BAt.zuLAir.siTe.
 - name: 🌍 ASTRACAT-Tunels-16
   type: vless
-  server: 149.248.58.105
-  port: 80
-  uuid: e819cfb1-3c30-48b0-957d-e479bace661b
+  server: 51.79.102.243
+  port: 443
+  uuid: 63d650dc-f6cd-48bc-9303-dec2f8af4cc6
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /rfvtgws
+    path: /linkws?ed=2560
+    headers:
+      Host: 51.79.102.243
 - name: 🌍 ASTRACAT-Tunels-17
   type: vless
   server: 104.17.147.22
