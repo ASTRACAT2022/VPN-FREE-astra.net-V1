@@ -2114,55 +2114,133 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-222
   type: vless
-  server: de2.srv.oplcdn.link
-  port: 8443
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-223
-  type: vless
-  server: fi3.srv.oplcdn.link
-  port: 8443
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-224
-  type: vless
-  server: nl3.srv.oplcdn.link
-  port: 8443
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-225
-  type: vless
-  server: 176.124.206.205
+  server: 193.124.18.13
   port: 443
-  uuid: 3ced94cb-7df6-44e5-b0c9-2cb2d7ec1688
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-226
-  type: vless
-  server: nl4.srv.oplcdn.link
-  port: 8443
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-227
-  type: vless
-  server: 185.97.119.25
-  port: 80
-  uuid: 34155f4a-b42f-4961-9268-df5069fca1ff
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-223
+  type: vless
+  server: 80.76.32.12
+  port: 443
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-224
+  type: vless
+  server: 185.103.252.54
+  port: 2053
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-225
+  type: vless
+  server: 77.221.157.32
+  port: 443
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-226
+  type: vless
+  server: 206.189.25.65
+  port: 443
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-227
+  type: vless
+  server: 167.99.86.115
+  port: 443
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-228
+  type: vless
+  server: 5.144.182.111
+  port: 2053
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-229
+  type: vless
+  server: 18.183.89.240
+  port: 443
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-230
+  type: vless
+  server: 23.249.25.53
+  port: 12378
+  uuid: abcca489-d0ad-4d77-a6ce-5b633118b9ad
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-231
+  type: vless
+  server: 54.249.169.40
+  port: 443
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-232
+  type: vless
+  server: 52.68.194.189
+  port: 443
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-233
   type: vless
   server: 188.253.21.106
   port: 443
@@ -2170,87 +2248,124 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-229
-  type: vless
-  server: nld26.luckernld.org
-  port: 443
-  uuid: 40d7798a-6c76-4298-a9d4-9e6181cd2dd7
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-230
-  type: vless
-  server: 81.161.98.228
-  port: 1443
-  uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /websocketplsecurity=tls
-    headers:
-      Host: cdn.filterai.ru
-- name: 🌍 ASTRACAT-Tunels-231
-  type: vless
-  server: spb.ru.srv.oplcdn.link
-  port: 8443
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-232
-  type: vless
-  server: 193.233.244.196
-  port: 8443
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-233
-  type: vless
-  server: 2-germany.geodema.network
-  port: 8443
-  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
-  cipher: none
-  tls: true
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-234
   type: vless
-  server: se.srv.oplcdn.link
-  port: 8443
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
+  server: 188.253.21.106
+  port: 443
+  uuid: 247a22e1-0795-4852-9bdd-a65ac1078034
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-235
   type: vless
-  server: 70.34.214.175
-  port: 13369
-  uuid: 70ec317d-d66d-4f9d-955a-fcd58678ce4c
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-236
-  type: vless
-  server: 62.60.177.167
-  port: 443
-  uuid: 6670529b-265a-4ee9-b944-bdaee2638ef2
-  cipher: none
-  tls: true
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-237
-  type: vless
-  server: 104.16.53.11
+  server: 89.19.211.109
   port: 8443
-  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /?ed=2048security=tls
+    path: /?ed=2560security=tls
     headers:
-      Host: hetzner-9.cfuk.name.ng
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-236
+  type: vless
+  server: 85.193.92.242
+  port: 2053
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-237
+  type: vless
+  server: 85.193.95.220
+  port: 8443
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-238
+  type: vless
+  server: 85.193.95.220
+  port: 2053
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-239
+  type: vless
+  server: 91.149.253.249
+  port: 443
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-240
+  type: vless
+  server: 80.90.187.190
+  port: 2053
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-241
+  type: vless
+  server: 194.35.119.49
+  port: 2053
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-242
+  type: vless
+  server: 194.35.119.135
+  port: 2053
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-243
+  type: vless
+  server: 69.84.182.13
+  port: 443
+  uuid: 312d3555-d7a3-4674-869a-0e5b7ee03a35
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /kbjc/fr1fp=random
+    headers:
+      Host: fr-1-fr-1.aiopen.sbs
+  servername: fr-1-fr-1.aiopen.sbs
+- name: 🌍 ASTRACAT-Tunels-244
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -2499,6 +2614,12 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-236
   - 🌍 ASTRACAT-Tunels-237
   - 🌍 ASTRACAT-Tunels-238
+  - 🌍 ASTRACAT-Tunels-239
+  - 🌍 ASTRACAT-Tunels-240
+  - 🌍 ASTRACAT-Tunels-241
+  - 🌍 ASTRACAT-Tunels-242
+  - 🌍 ASTRACAT-Tunels-243
+  - 🌍 ASTRACAT-Tunels-244
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
