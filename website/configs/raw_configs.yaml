@@ -1701,19 +1701,15 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-177
   type: vless
-  server: 193.124.18.13
+  server: swe-0001-xr.packet-drop-society.net
   port: 443
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  uuid: 6115979e-7852-4632-9f85-8a2eabfbd764
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-178
   type: vless
-  server: 80.76.32.12
+  server: 193.124.18.13
   port: 443
   uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   cipher: none
@@ -1725,6 +1721,14 @@ proxies:
       Host: kuangbao.xiejiang.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-179
   type: vless
+  server: youtube.happvpn.com
+  port: 443
+  uuid: 9a12e2e5-7038-4ed8-91f3-a94d9b2d465f
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-180
+  type: vless
   server: 185.103.252.54
   port: 2053
   uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -1735,7 +1739,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: kuangbao.xiejiang.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-180
+- name: 🌍 ASTRACAT-Tunels-181
   type: vless
   server: 77.221.157.32
   port: 443
@@ -1747,21 +1751,9 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: kuangbao.xiejiang.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-181
-  type: vless
-  server: 206.189.25.65
-  port: 443
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-182
   type: vless
-  server: 167.99.86.115
+  server: 68.221.24.211
   port: 443
   uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   cipher: none
@@ -1773,8 +1765,8 @@ proxies:
       Host: kuangbao.xiejiang.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-183
   type: vless
-  server: 5.144.182.111
-  port: 2053
+  server: 206.189.25.65
+  port: 443
   uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   cipher: none
   tls: false
@@ -1785,68 +1777,113 @@ proxies:
       Host: kuangbao.xiejiang.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-184
   type: vless
-  server: 18.183.89.240
+  server: fin.monkeyisland.xyz
   port: 443
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  uuid: 6184fcfb-52e0-40bb-a271-bbd097b70a8e
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-185
   type: vless
-  server: 23.249.25.53
-  port: 12378
-  uuid: abcca489-d0ad-4d77-a6ce-5b633118b9ad
+  server: 150.230.4.210
+  port: 40721
+  uuid: e0aafde7-37e2-486b-eb30-efa71166bf7e
   cipher: none
   tls: true
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-186
   type: vless
-  server: 54.249.169.40
-  port: 443
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  server: 125.141.4.132
+  port: 50001
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
   cipher: none
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /proxyip=tw.sni2025.netlib.refp=chrome
     headers:
-      Host: kuangbao.xiejiang.dpdns.org
+      Host: s3.sni565.netlib.re
+  servername: s3.sni565.netlib.re
 - name: 🌍 ASTRACAT-Tunels-187
   type: vless
-  server: 52.68.194.189
-  port: 443
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  server: 106.245.165.137
+  port: 50001
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
   cipher: none
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /proxyip=tw.sni2025.netlib.refp=chrome
     headers:
-      Host: kuangbao.xiejiang.dpdns.org
+      Host: s3.sni565.netlib.re
+  servername: s3.sni565.netlib.re
 - name: 🌍 ASTRACAT-Tunels-188
   type: vless
-  server: 188.253.21.106
-  port: 443
-  uuid: 9936ae5c-91cd-4c8a-80e9-5118a209a7e4
+  server: 115.90.84.220
+  port: 50001
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
   cipher: none
   tls: true
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: s3.sni565.netlib.re
+  servername: s3.sni565.netlib.re
 - name: 🌍 ASTRACAT-Tunels-189
   type: vless
-  server: 188.253.21.106
+  server: 121.131.104.228
+  port: 50001
+  uuid: 6923b959-c65f-764c-b072-94711382d716
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /proxyip=tw.sni2025.netlib.refp=chrome
+    headers:
+      Host: s2.sni565.netlib.re
+  servername: s2.sni565.netlib.re
+- name: 🌍 ASTRACAT-Tunels-190
+  type: vless
+  server: 175.210.217.204
+  port: 50001
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /proxyip=tw.sni2025.netlib.refp=chrome
+    headers:
+      Host: s3.sni565.netlib.re
+  servername: s3.sni565.netlib.re
+- name: 🌍 ASTRACAT-Tunels-191
+  type: vless
+  server: 77.110.127.105
   port: 443
-  uuid: 247a22e1-0795-4852-9bdd-a65ac1078034
+  uuid: 72239cbc-5a25-411c-b4f5-b9167a10f5e1
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-190
+- name: 🌍 ASTRACAT-Tunels-192
   type: vless
-  server: 89.19.211.109
-  port: 8443
+  server: 77.110.119.225
+  port: 443
+  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-193
+  type: vless
+  server: ru1.monkeyisland.xyz
+  port: 443
+  uuid: 6184fcfb-52e0-40bb-a271-bbd097b70a8e
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-194
+  type: vless
+  server: 81.200.154.2
+  port: 2053
   uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   cipher: none
   tls: false
@@ -1855,7 +1892,19 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: kuangbao.xiejiang.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-191
+- name: 🌍 ASTRACAT-Tunels-195
+  type: vless
+  server: 193.124.41.29
+  port: 443
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-196
   type: vless
   server: 85.193.92.242
   port: 2053
@@ -1867,9 +1916,9 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: kuangbao.xiejiang.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-192
+- name: 🌍 ASTRACAT-Tunels-197
   type: vless
-  server: 85.193.95.220
+  server: 85.193.95.23
   port: 8443
   uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   cipher: none
@@ -1879,31 +1928,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: kuangbao.xiejiang.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-193
-  type: vless
-  server: 85.193.95.220
-  port: 2053
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-194
-  type: vless
-  server: 91.149.253.249
-  port: 443
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-195
+- name: 🌍 ASTRACAT-Tunels-198
   type: vless
   server: 80.90.187.190
   port: 2053
@@ -1915,19 +1940,15 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: kuangbao.xiejiang.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-196
+- name: 🌍 ASTRACAT-Tunels-199
   type: vless
-  server: 194.35.119.49
-  port: 2053
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  server: at.monkeyisland.xyz
+  port: 443
+  uuid: 6184fcfb-52e0-40bb-a271-bbd097b70a8e
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-197
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-200
   type: vless
   server: 194.35.119.135
   port: 2053
@@ -1939,20 +1960,88 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: kuangbao.xiejiang.dpdns.org
-- name: 🌍 ASTRACAT-Tunels-198
+- name: 🌍 ASTRACAT-Tunels-201
   type: vless
-  server: 69.84.182.13
-  port: 443
-  uuid: 312d3555-d7a3-4674-869a-0e5b7ee03a35
+  server: 194.35.119.49
+  port: 2053
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-202
+  type: vless
+  server: zcreat.ethervpn.fun
+  port: 8443
+  uuid: a47595a8-1add-401a-8189-e6799f8d8628
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /kbjc/fr1fp=random
+    path: /websocketpl?ed=2047fp=chrome
     headers:
-      Host: fr-1-fr-1.aiopen.sbs
-  servername: fr-1-fr-1.aiopen.sbs
-- name: 🌍 ASTRACAT-Tunels-199
+      Host: zcreat.ethervpn.fun
+  servername: zcreat.ethervpn.fun
+- name: 🌍 ASTRACAT-Tunels-203
+  type: vless
+  server: 91.224.74.177
+  port: 443
+  uuid: bca5cfe1-3d2a-45dc-b66a-96298e0051f5
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-204
+  type: vless
+  server: auto.happvpn.com
+  port: 443
+  uuid: 9a12e2e5-7038-4ed8-91f3-a94d9b2d465f
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-205
+  type: vless
+  server: 47.90.223.187
+  port: 443
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-206
+  type: vless
+  server: usa29.unlockmatrix.org
+  port: 443
+  uuid: 9b0c1d6e-7f6e-4b06-96ba-b8a397a69166
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-207
+  type: vless
+  server: 47.252.75.203
+  port: 443
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-208
+  type: vless
+  server: uuk5v.tok8888.com
+  port: 8443
+  uuid: 593d1652-6022-4893-b756-0c9b86885dad
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-209
+  type: vless
+  server: 159.89.87.21
+  port: 28190
+  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-210
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -2163,6 +2252,17 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-197
   - 🌍 ASTRACAT-Tunels-198
   - 🌍 ASTRACAT-Tunels-199
+  - 🌍 ASTRACAT-Tunels-200
+  - 🌍 ASTRACAT-Tunels-201
+  - 🌍 ASTRACAT-Tunels-202
+  - 🌍 ASTRACAT-Tunels-203
+  - 🌍 ASTRACAT-Tunels-204
+  - 🌍 ASTRACAT-Tunels-205
+  - 🌍 ASTRACAT-Tunels-206
+  - 🌍 ASTRACAT-Tunels-207
+  - 🌍 ASTRACAT-Tunels-208
+  - 🌍 ASTRACAT-Tunels-209
+  - 🌍 ASTRACAT-Tunels-210
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
