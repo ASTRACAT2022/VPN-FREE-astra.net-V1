@@ -5,6 +5,14 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+- name: 🌍 ASTRACAT-Tunels-1
+  type: vless
+  server: wangcai157.cloudflare.182682.xyz
+  port: 443
+  uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
+  cipher: none
+  tls: true
+  network: xhttp
 - name: 🌍 ASTRACAT-Tunels-2
   type: vless
   server: 104.18.26.90
@@ -1903,6 +1911,7 @@ proxy-groups:
 - name: 🚀 ASTRACAT-Tunels-Group
   type: select
   proxies:
+  - 🌍 ASTRACAT-Tunels-1
   - 🌍 ASTRACAT-Tunels-2
   - 🌍 ASTRACAT-Tunels-3
   - 🌍 ASTRACAT-Tunels-4
