@@ -128,20 +128,30 @@ proxies:
       Host: sib.sibzamini.dpdns.org
 - name: 🌍 ASTRACAT-Tunels-13
   type: vless
-  server: all.tellmethetrue.shop
+  server: diana.ns.cloudflare.com
   port: 443
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  uuid: 289f0d70-5985-46e9-b05a-9f66f821f47d
   cipher: none
   tls: true
-  network: grpc
+  network: ws
+  ws-opts:
+    path: /assets?ed=512
+    headers:
+      Host: all1azar.darolmajanin.com
+  servername: all1azar.darolmajanin.com
 - name: 🌍 ASTRACAT-Tunels-14
   type: vless
-  server: 45.82.251.250
-  port: 80
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
+  server: 167.179.27.92
+  port: 443
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   cipher: none
-  tls: false
-  network: grpc
+  tls: true
+  network: ws
+  ws-opts:
+    path: telegram🇨🇳@wangcai2/?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
+  servername: gaosir.unfeeling.sbs
 - name: 🌍 ASTRACAT-Tunels-15
   type: vless
   server: 104.17.147.22
