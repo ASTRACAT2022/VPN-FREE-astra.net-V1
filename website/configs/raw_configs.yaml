@@ -7,29 +7,21 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-1
   type: vless
-  server: fr.nextseesion.ir
-  port: 35789
-  uuid: be72cd92-92d2-4543-9bef-1673fcd03b45
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-2
-  type: vless
   server: 62.113.42.65
   port: 27121
   uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-3
+- name: 🌍 ASTRACAT-Tunels-2
   type: vless
-  server: huskar.fonixapp.org
-  port: 2083
-  uuid: da24257a-aff3-4a1b-8834-779e685983bd
+  server: london.fonixapp.org
+  port: 2053
+  uuid: dc47d505-7c7b-4991-9e8e-2edfe167a3ae
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-4
+- name: 🌍 ASTRACAT-Tunels-3
   type: vless
   server: 91.98.46.169
   port: 10100
@@ -37,7 +29,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-5
+- name: 🌍 ASTRACAT-Tunels-4
   type: vless
   server: 91.98.46.169
   port: 10200
@@ -47,7 +39,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🌍 ASTRACAT-Tunels-6
+- name: 🌍 ASTRACAT-Tunels-5
   type: vless
   server: digitalocean.com
   port: 443
@@ -60,7 +52,7 @@ proxies:
     headers:
       Host: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
   servername: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
-- name: 🌍 ASTRACAT-Tunels-7
+- name: 🌍 ASTRACAT-Tunels-6
   type: vless
   server: 128.140.14.218
   port: 123
@@ -68,18 +60,26 @@ proxies:
   cipher: none
   tls: false
   network: tcpr♡ya
-- name: 🌍 ASTRACAT-Tunels-8
+- name: 🌍 ASTRACAT-Tunels-7
   type: vless
-  server: brenna.ns.cloudflare.com
-  port: 2095
-  uuid: 3-TEL-JKVPN--JKVPN
+  server: 159.112.235.174
+  port: 2082
+  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN?ed=2048
+    path: /🔒 [By EbraSha]
     headers:
-      Host: joKer.mEmBerGolaBi.IR
+      Host: workerr.schodog1.workers.dev
+- name: 🌍 ASTRACAT-Tunels-8
+  type: vless
+  server: 46.224.13.187
+  port: 39550
+  uuid: 52c20009-37cf-4c1e-a02e-184de67596f7
+  cipher: none
+  tls: false
+  network: 'tcp '
 - name: 🌍 ASTRACAT-Tunels-9
   type: vless
   server: 104.18.26.90
