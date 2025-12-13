@@ -8,11 +8,13 @@ proxies:
 - name: 🌍 ASTRACAT-Tunels-1
   type: vless
   server: 91.98.46.169
-  port: 10100
-  uuid: 0c6fc388-2d1b-450b-a232-9df7dd56cd6b
+  port: 10200
+  uuid: b786d9bd-b9f7-4587-a580-eb8a219f19f3
   cipher: none
   tls: false
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /
 - name: 🌍 ASTRACAT-Tunels-2
   type: vless
   server: 104.18.26.90
