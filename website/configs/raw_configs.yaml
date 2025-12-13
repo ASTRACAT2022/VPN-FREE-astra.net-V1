@@ -7,12 +7,17 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-1
   type: vless
-  server: V2ngfast.heloisfood.ir
-  port: 2718
-  uuid: 0d25085e-b6c4-410a-b206-4dde607cff6c
+  server: www.speedtest.net
+  port: 2087
+  uuid: d95a6d1b-936c-4a51-bf46-9af8ba88b67d
   cipher: none
-  tls: false
-  network: grpc
+  tls: true
+  network: ws
+  ws-opts:
+    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+    headers:
+      Host: dl4.hajalwi.ir.
+  servername: dl4.hajalwi.ir.
 - name: 🌍 ASTRACAT-Tunels-2
   type: vless
   server: uk.api-music-fa.com
@@ -26,15 +31,18 @@ proxies:
   servername: uk.api-music-fa.com
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
-  server: 91.98.46.169
-  port: 8880
-  uuid: e100a774-bd63-4d61-8a43-6db1acfa89fb
+  server: uk.api-music-fa.com
+  port: 2053
+  uuid: 1588ca4b-d27a-4447-9dfc-a772c3fe2baf
   cipher: none
-  tls: false
-  network: tcp
+  tls: true
+  network: ws
+  ws-opts:
+    path: /J5aLQOY1R9ONWYCM
+  servername: uk.api-music-fa.com
 - name: 🌍 ASTRACAT-Tunels-4
   type: vless
-  server: max18.musicdoon.ir
+  server: max14.musicdoon.ir
   port: 8080
   uuid: 817e76f9-0107-42bb-9552-979ddde5ff77
   cipher: none
@@ -42,21 +50,17 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
-  server: max33.musicdoon.ir
-  port: 8080
-  uuid: 817e76f9-0107-42bb-9552-979ddde5ff77
+  server: www.speedtest.net
+  port: 2082
+  uuid: 28dd421f-7d9f-444b-e4a1-1d84d0137b40
   cipher: none
   tls: false
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
 - name: 🌍 ASTRACAT-Tunels-6
-  type: vless
-  server: max17.musicdoon.ir
-  port: 8080
-  uuid: 817e76f9-0107-42bb-9552-979ddde5ff77
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: max27.musicdoon.ir
   port: 8080
@@ -64,43 +68,51 @@ proxies:
   cipher: none
   tls: false
   network: tcp
+- name: 🌍 ASTRACAT-Tunels-7
+  type: vless
+  server: max25.musicdoon.ir
+  port: 8080
+  uuid: 817e76f9-0107-42bb-9552-979ddde5ff77
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-8
   type: vless
-  server: 54.247.148.227
-  port: 443
-  uuid: 4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4
+  server: deusup.dashping1.ir
+  port: 8101
+  uuid: 859c78e1-c77b-426c-8599-e7f6019607ed
   cipher: none
   tls: false
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-9
   type: vless
-  server: 83.222.23.113
-  port: 443
-  uuid: 9a8a52d6-f24b-4f03-bf6f-f4854717f54e
+  server: wolfy.ufavpn.ru
+  port: 27121
+  uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
   cipher: none
   tls: false
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-10
   type: vless
-  server: 217.16.24.170
+  server: 89.106.69.161
   port: 443
-  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+  uuid: fa6cdf9f-cfac-4ca8-9b91-555a1d2eb0ba
   cipher: none
   tls: false
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-11
   type: vless
-  server: dl.darkterror.fonixapp.org
-  port: 2053
-  uuid: 1784f4f5-7749-4e6d-9bfd-85fa07f87d4c
+  server: 147.45.230.128
+  port: 4443
+  uuid: 1859f2db-e6e8-4dc4-b21e-99da517e2e62
   cipher: none
   tls: false
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-12
   type: vless
-  server: 5.181.21.72
+  server: 51.250.20.121
   port: 443
-  uuid: e4b8df56-b680-4a34-ab47-5bf5738ed718
+  uuid: 20cf5921-f7fa-47c5-81ae-947fbef83a4d
   cipher: none
   tls: false
   network: tcp
