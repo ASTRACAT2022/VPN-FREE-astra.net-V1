@@ -7,28 +7,20 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-1
   type: vless
-  server: www.visaeurope.at
-  port: 2082
-  uuid: 53b9fd0c-f577-4b22-81f0-9999dafea0e1
+  server: 46.224.13.187
+  port: 39550
+  uuid: 52c20009-37cf-4c1e-a02e-184de67596f7
   cipher: none
   tls: false
-  network: ws
-  ws-opts:
-    path: /🔒 [By EbraSha]
-    headers:
-      Host: assistantdonkeyryfn-5zfnjz.assistant-donkey-ryfn.workers.dev
+  network: 'tcp '
 - name: 🌍 ASTRACAT-Tunels-2
   type: vless
-  server: 159.112.235.174
-  port: 2082
-  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
+  server: my-fr-raiv2mmr-telegram-join.koyeb.app
+  port: 443
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
   cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /🔒 [By EbraSha]
-    headers:
-      Host: workerr.schodog1.workers.dev
+  tls: true
+  network: grpc
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
   server: 104.18.26.90
