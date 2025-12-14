@@ -7,13 +7,41 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-1
   type: vless
+  server: 209.38.168.122
+  port: 21249
+  uuid: 45040c4c-81b3-43c7-bd81-9cc9ebc3456b
+  cipher: none
+  tls: false
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-2
+  type: vless
   server: 91.98.80.2
   port: 8880
   uuid: e100a774-bd63-4d61-8a43-6db1acfa89fb
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-2
+- name: 🌍 ASTRACAT-Tunels-3
+  type: vless
+  server: Ded.vspess.store
+  port: 4040
+  uuid: 2163d112-4a09-4889-b095-eed65a9d1293
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Ded.vspess.store
+- name: 🌍 ASTRACAT-Tunels-4
+  type: vless
+  server: 162.248.166.156
+  port: 2083
+  uuid: 36fa1f92-b02f-4ab1-86fb-2cb84d642ae0
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-5
   type: vless
   server: zula.ir
   port: 443
@@ -26,20 +54,7 @@ proxies:
     headers:
       Host: terazhedi.info
   servername: terazhedi.info
-- name: 🌍 ASTRACAT-Tunels-3
-  type: vless
-  server: 104.17.148.22
-  port: 443
-  uuid: 7648af05-f18f-4d16-ad53-1781370b3596
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lingering-scene-42dd.bolij51053.workers.dev
-  servername: lingering-scene-42dd.bolij51053.workers.dev
-- name: 🌍 ASTRACAT-Tunels-4
+- name: 🌍 ASTRACAT-Tunels-6
   type: vless
   server: 172.67.193.88
   port: 443
@@ -52,31 +67,6 @@ proxies:
     headers:
       Host: hemmat.iranmap.workers.dev
   servername: hemmat.iranmap.workers.dev
-- name: 🌍 ASTRACAT-Tunels-5
-  type: vless
-  server: usaa.fastlynew.hosting-ip.com
-  port: 80
-  uuid: fe61af02-d4e2-4131-d263-592a89f35204
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /telegeam-@v2_city--?ed=2048
-    headers:
-      Host: mojhsjd.global.ssl.fastly.net
-- name: 🌍 ASTRACAT-Tunels-6
-  type: vless
-  server: 188.114.96.7
-  port: 443
-  uuid: 5050e255-4919-4d7f-96c8-30b13d06fdf6
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 1mcijea74uykccq2mzrx-mnghducyf0b.damav48375.workers.dev
-  servername: 1mCijea74uYkCcQ2mZrX-MNGHduCyF0B.DAMav48375.wORKErs.DeV
 - name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: movivoolom.movementvip.ir
@@ -88,16 +78,16 @@ proxies:
 - name: 🌍 ASTRACAT-Tunels-8
   type: vless
   server: www.speedtest.net
-  port: 443
-  uuid: ed7f3703-29d7-42ca-b8bd-a4b291422921
+  port: 2087
+  uuid: d95a6d1b-936c-4a51-bf46-9af8ba88b67d
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /tr----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join---EXPRESSVPN_420---Join----EXPRESSVPN_420---Join---EXPRESSVPN_420/
+    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
     headers:
-      Host: spring-dream-2210.votapi4213.workers.dev
-  servername: spring-dream-2210.votapi4213.workers.dev
+      Host: dl4.hajalwi.ir.
+  servername: dl4.hajalwi.ir.
 - name: 🌍 ASTRACAT-Tunels-9
   type: vless
   server: deu378.worldunlocker.org
@@ -113,14 +103,17 @@ proxies:
   servername: deu378.worldunlocker.org
 - name: 🌍 ASTRACAT-Tunels-10
   type: vless
-  server: 65.109.205.214
+  server: www.speedtest.net
   port: 443
-  uuid: 244f2e29-e849-4498-b441-f5d3288c161c
+  uuid: ed7f3703-29d7-42ca-b8bd-a4b291422921
   cipher: none
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    path: /
+    path: /tr----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join---EXPRESSVPN_420---Join----EXPRESSVPN_420---Join---EXPRESSVPN_420/
+    headers:
+      Host: spring-dream-2210.votapi4213.workers.dev
+  servername: spring-dream-2210.votapi4213.workers.dev
 - name: 🌍 ASTRACAT-Tunels-11
   type: vless
   server: 65.109.205.214
@@ -133,25 +126,25 @@ proxies:
     path: /
 - name: 🌍 ASTRACAT-Tunels-12
   type: vless
-  server: 83.222.23.113
-  port: 443
-  uuid: 9a8a52d6-f24b-4f03-bf6f-f4854717f54e
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-13
-  type: vless
-  server: 188.114.96.7
-  port: 443
-  uuid: 5050e255-4919-4d7f-96c8-30b13d06fdf6
+  server: japan.com
+  port: 2096
+  uuid: 1b6c1745-992e-4aac-8685-266c090e50ea
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /nXWz3i2XoxHvOGI4?ed
+    path: /?ed=2048@V2Gatee--V2Gatee--V2Gatee--V2Gatee-V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee
     headers:
-      Host: 1mcijea74uykccq2mzrx-mnghducyf0b.damav48375.workers.dev
-  servername: 1mcijea74uykccq2mzrx-mnghducyf0b.damav48375.workers.dev
+      Host: cf-worker-ws-dev.kingo1923.workers.dev
+  servername: cf-worker-ws-dev.kingo1923.workers.dev
+- name: 🌍 ASTRACAT-Tunels-13
+  type: vless
+  server: 5.181.21.72
+  port: 443
+  uuid: e4b8df56-b680-4a34-ab47-5bf5738ed718
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-14
   type: vless
   server: 104.18.26.90
