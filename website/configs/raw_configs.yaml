@@ -15,14 +15,6 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-4
   type: vless
-  server: de-dp-01.com
-  port: 8443
-  uuid: 50121464-4549-4d52-b4c8-32f7a5d3be0f
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-5
-  type: vless
   server: 25.26.27.158
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
@@ -34,6 +26,14 @@ proxies:
     headers:
       Host: sni.111000.de5.net
   servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-5
+  type: vless
+  server: fr.sbrf-cdn342.ru
+  port: 4241
+  uuid: 8619e4c1-0984-4dce-83e3-419e2d7f5079
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-6
   type: vless
   server: 25.129.197.138
@@ -49,9 +49,9 @@ proxies:
   servername: sni.111000.de5.net
 - name: 🌍 ASTRACAT-Tunels-7
   type: vless
-  server: maxa21.gatesrev.ir
-  port: 8080
-  uuid: bf42a400-1cbd-49a8-a7d6-97844b33d3a0
+  server: 217.16.16.251
+  port: 8443
+  uuid: d63129ab-04a5-4797-8a70-84f4ab610ca9
   cipher: none
   tls: false
   network: tcp
