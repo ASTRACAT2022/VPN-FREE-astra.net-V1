@@ -15,14 +15,6 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-4
   type: vless
-  server: DEADSEECtelegram.fast.hosting-ip.com
-  port: 80
-  uuid: 70557107-0ca9-4c37-f02c-09c333a3d219
-  cipher: none
-  tls: false
-  network: xhttp
-- name: 🌍 ASTRACAT-Tunels-5
-  type: vless
   server: 25.129.197.138
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
@@ -31,6 +23,19 @@ proxies:
   network: ws
   ws-opts:
     path: /Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN----Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN?ed=2560
+    headers:
+      Host: sni.111000.de5.net
+  servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-5
+  type: vless
+  server: 25.26.27.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560&Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
     headers:
       Host: sni.111000.de5.net
   servername: sni.111000.de5.net
@@ -43,111 +48,11 @@ proxies:
   tls: true
   network: ws
   ws-opts:
-    path: /Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN----Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN?ed=2560
-    headers:
-      Host: sni.111000.de5.net
-  servername: sni.111000.de5.net
-- name: 🌍 ASTRACAT-Tunels-7
-  type: vless
-  server: 202.133.88.161
-  port: 20146
-  uuid: 4d9a6f21-6f31-43b5-88e0-17474f0b2b75
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🌍 ASTRACAT-Tunels-8
-  type: vless
-  server: godteam15.srvrgod.xyz
-  port: 47488
-  uuid: 94d95500-9f18-4018-8c81-7d883a5965eb
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-9
-  type: vless
-  server: godteam15.srvrgod.xyz
-  port: 47488
-  uuid: b3a2e2e2-4282-4e2e-9f33-72a759bec053
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-10
-  type: vless
-  server: maxb17.musicdoon.ir
-  port: 8080
-  uuid: 2c7a2b04-ad16-484b-b0e4-739cd06b650f
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-11
-  type: vless
-  server: ir894ag1733r.n33jdhj81a2s.e95v0h9lle7t.coffemoon.xyz
-  port: 1884
-  uuid: cb555a11-14da-4861-88b2-0d0507262b7d
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-12
-  type: vless
-  server: 176.109.109.58
-  port: 8443
-  uuid: bc32639e-100a-40ad-b064-b0829a0bd197
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-13
-  type: vless
-  server: ip6-free.shakhle.ir
-  port: 55566
-  uuid: 1f15e342-9be9-47b1-9666-3d169da1bd27
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-14
-  type: vless
-  server: pysrvip.glovesstore1.ir
-  port: 3101
-  uuid: 8b31b301-5770-4b71-b1a9-8a9546e4fd12
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-15
-  type: vless
-  server: maxa19.gatesrev.ir
-  port: 8080
-  uuid: ec6901a9-0837-4d55-a29b-f5623d138af7
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-16
-  type: vless
-  server: 25.26.27.158
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.de5.net
-  servername: sni.111000.de5.net
-- name: 🌍 ASTRACAT-Tunels-17
-  type: vless
-  server: 25.129.197.138
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560&channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
-    headers:
-      Host: sni.111000.de5.net
-  servername: sni.111000.de5.net
-- name: 🌍 ASTRACAT-Tunels-18
+      Host: sni.111000.v6.rocks
+  servername: sni.111000.v6.rocks
+- name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: Cr7.zx-shop.ir
   port: 2096
@@ -160,27 +65,122 @@ proxies:
     headers:
       Host: Nvm.website-game.ir
   servername: Nvm.website-game.ir
-- name: 🌍 ASTRACAT-Tunels-19
+- name: 🌍 ASTRACAT-Tunels-8
   type: vless
-  server: sw.sepshoping.de
-  port: 1121
-  uuid: f90b7a19-0b71-44b6-b95b-baab85af4d51
+  server: maxa11.gatesrev.ir
+  port: 8080
+  uuid: ec6901a9-0837-4d55-a29b-f5623d138af7
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-20
+- name: 🌍 ASTRACAT-Tunels-9
   type: vless
-  server: 25.129.199.148
+  server: DEADSEECtelegram.fast.hosting-ip.com
+  port: 80
+  uuid: 70557107-0ca9-4c37-f02c-09c333a3d219
+  cipher: none
+  tls: false
+  network: xhttp
+- name: 🌍 ASTRACAT-Tunels-10
+  type: vless
+  server: 25.129.197.138
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN----Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN?ed=2560
     headers:
-      Host: sni.111000.v6.rocks
-  servername: sni.111000.v6.rocks
+      Host: sni.111000.de5.net
+  servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-11
+  type: vless
+  server: 25.129.197.138
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN----Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN---Telegram---MTMVPN?ed=2560
+    headers:
+      Host: sni.111000.de5.net
+  servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-12
+  type: vless
+  server: 202.133.88.161
+  port: 20146
+  uuid: 4d9a6f21-6f31-43b5-88e0-17474f0b2b75
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🌍 ASTRACAT-Tunels-13
+  type: vless
+  server: godteam15.srvrgod.xyz
+  port: 47488
+  uuid: 94d95500-9f18-4018-8c81-7d883a5965eb
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-14
+  type: vless
+  server: godteam15.srvrgod.xyz
+  port: 47488
+  uuid: b3a2e2e2-4282-4e2e-9f33-72a759bec053
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-15
+  type: vless
+  server: maxb17.musicdoon.ir
+  port: 8080
+  uuid: 2c7a2b04-ad16-484b-b0e4-739cd06b650f
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-16
+  type: vless
+  server: ir894ag1733r.n33jdhj81a2s.e95v0h9lle7t.coffemoon.xyz
+  port: 1884
+  uuid: cb555a11-14da-4861-88b2-0d0507262b7d
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-17
+  type: vless
+  server: 176.109.109.58
+  port: 8443
+  uuid: bc32639e-100a-40ad-b064-b0829a0bd197
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-18
+  type: vless
+  server: ip6-free.shakhle.ir
+  port: 55566
+  uuid: 1f15e342-9be9-47b1-9666-3d169da1bd27
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-19
+  type: vless
+  server: pysrvip.glovesstore1.ir
+  port: 3101
+  uuid: 8b31b301-5770-4b71-b1a9-8a9546e4fd12
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-20
+  type: vless
+  server: maxa19.gatesrev.ir
+  port: 8080
+  uuid: ec6901a9-0837-4d55-a29b-f5623d138af7
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-21
   type: vless
   server: tun.thuglife.ir
