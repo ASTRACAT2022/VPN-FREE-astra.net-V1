@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🌍 ASTRACAT-Tunels-1
+- name: 🌍 ASTRACAT-Tunels-2
   type: vless
   server: 146.103.105.233
   port: 443
@@ -13,7 +13,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-2
+- name: 🌍 ASTRACAT-Tunels-3
   type: vless
   server: 109.122.253.85
   port: 9000
@@ -21,7 +21,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-3
+- name: 🌍 ASTRACAT-Tunels-4
   type: vless
   server: 25.129.199.122
   port: 2096
@@ -34,14 +34,6 @@ proxies:
     headers:
       Host: digikalaa.dpdns.org
   servername: DiGIkALaA.dpdns.ORG
-- name: 🌍 ASTRACAT-Tunels-4
-  type: vless
-  server: DEADSEECtelegram.blackandwhiteshop.ir
-  port: 80
-  uuid: cbadfd29-8352-46e5-8baa-0010b43d1059
-  cipher: none
-  tls: false
-  network: xhttp
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
   server: DEADSEECtelegram.blackandwhiteshop.ir
@@ -51,6 +43,14 @@ proxies:
   tls: false
   network: xhttp
 - name: 🌍 ASTRACAT-Tunels-6
+  type: vless
+  server: DEADSEECtelegram.blackandwhiteshop.ir
+  port: 80
+  uuid: cbadfd29-8352-46e5-8baa-0010b43d1059
+  cipher: none
+  tls: false
+  network: xhttp
+- name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: 25.129.197.138
   port: 2053
@@ -63,19 +63,6 @@ proxies:
     headers:
       Host: khamenei.dpdns.org
   servername: KhAmeneI.DPdNs.OrG
-- name: 🌍 ASTRACAT-Tunels-7
-  type: vless
-  server: 5.10.214.5
-  port: 2087
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
 - name: 🌍 ASTRACAT-Tunels-8
   type: vless
   server: 95.128.157.251
@@ -1832,7 +1819,6 @@ proxy-groups:
 - name: 🚀 ASTRACAT-Tunels-Group
   type: select
   proxies:
-  - 🌍 ASTRACAT-Tunels-1
   - 🌍 ASTRACAT-Tunels-2
   - 🌍 ASTRACAT-Tunels-3
   - 🌍 ASTRACAT-Tunels-4
