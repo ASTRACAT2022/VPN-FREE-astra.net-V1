@@ -7,124 +7,123 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-1
   type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: digikalaa.dpdns.org
+  servername: DiGIkALaA.dpdns.ORG
+- name: 🌍 ASTRACAT-Tunels-2
+  type: vless
+  server: chatgpt.com
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: x-hk1.xaniusnippets.qzz.io
+  servername: x-hk1.xaniusnippets.qzz.io
+- name: 🌍 ASTRACAT-Tunels-3
+  type: vless
   server: chatgpt.com
   port: 8443
-  uuid: ffa70a95-b21a-425b-a09e-a9cea698b077
+  uuid: e9d67296-1362-4147-bdff-63a2489fce3e
   cipher: none
   tls: true
   network: ws
   ws-opts:
     path: /
-  servername: er.seniornetwork.sbs
-- name: 🌍 ASTRACAT-Tunels-2
-  type: vless
-  server: 104.18.32.47
-  port: 8443
-  uuid: 15727cc1-22d2-45af-8120-dcf44b66ef94
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /MsV
     headers:
-      Host: gpt.fastlink.blog
-  servername: gpt.fastlink.blog
-- name: 🌍 ASTRACAT-Tunels-3
-  type: vless
-  server: 104.18.32.47
-  port: 443
-  uuid: 0916451d-6db9-4176-90d6-13a14d4630a9
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /nQTgdN6riY4Ccz5ZKh
-    headers:
-      Host: overlab.mlopera.eu
-  servername: overlab.mlopera.eu
+      Host: 555vpn.nl
+  servername: 555vpn.nl
 - name: 🌍 ASTRACAT-Tunels-4
   type: vless
   server: chatgpt.com
-  port: 2053
-  uuid: 6d288402-6ef9-4092-9d52-c528690fb693
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ifzr5xrgltxbyevl/mtixlju0ljmwlje1oq==?ed=2560
-    headers:
-      Host: pmlmyazd-6s6.pages.dev
-  servername: pmlmyazd-6s6.pages.dev
-- name: 🌍 ASTRACAT-Tunels-5
-  type: vless
-  server: Chatgpt.com
   port: 443
-  uuid: 3c2679b2-cfb6-4bdf-a443-e63571c59ae8
+  uuid: 6bad0e86-fba5-4221-a0aa-9d0c53059d5c
   cipher: none
   tls: true
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: Emergency.electrov2ray.store
-  servername: Emergency.electrov2ray.store
+      Host: online.taavoni.net
+  servername: online.taavoni.net
+- name: 🌍 ASTRACAT-Tunels-5
+  type: vless
+  server: divar.rezaedvr.shop
+  port: 443
+  uuid: b891e5c3-2797-48d1-8301-cbed50988c92
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+  servername: pn.rezaedvr.shop
 - name: 🌍 ASTRACAT-Tunels-6
   type: vless
   server: 104.18.32.47
-  port: 2053
-  uuid: dab2a176-7715-448c-959c-6c07244bb72f
+  port: 443
+  uuid: b891e5c3-2797-48d1-8301-cbed50988c92
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /?ed=2048
-  servername: temp.iranvatanam.com
+    path: /
+  servername: pn.rezaedvr.shop
 - name: 🌍 ASTRACAT-Tunels-7
   type: vless
-  server: chatgpt.com
+  server: openai.com
   port: 443
-  uuid: dab2a176-7715-448c-959c-6c07244bb72f
+  uuid: b891e5c3-2797-48d1-8301-cbed50988c92
   cipher: none
   tls: true
   network: ws
   ws-opts:
     path: /
-  servername: temp.iranvatanam.com
+  servername: pn.rezaedvr.shop
 - name: 🌍 ASTRACAT-Tunels-8
   type: vless
-  server: 104.18.32.47
-  port: 2053
-  uuid: a513154f-1d98-49dc-a280-004bf1682b6f
+  server: mci.sulduz.pw
+  port: 38064
+  uuid: 404606d3-fc87-4732-a9b0-c4a593b8afc1
   cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-  servername: temp.iranvatanam.com
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-9
   type: vless
-  server: chatgpt.com
+  server: openai.com
   port: 443
-  uuid: a513154f-1d98-49dc-a280-004bf1682b6f
+  uuid: fef4a93d-eb4f-4657-b56b-32a0dc060045
   cipher: none
   tls: true
   network: ws
   ws-opts:
     path: /
-  servername: temp.iranvatanam.com
+    headers:
+      Host: dev.qsaas.dev
+  servername: dev.qsaas.dev
 - name: 🌍 ASTRACAT-Tunels-10
   type: vless
   server: 104.18.32.47
   port: 2053
-  uuid: 7025adf2-2cf8-4dde-82be-18093b43e038
+  uuid: a1a91a85-4997-40ca-a32c-269f39d1381c
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---
+    path: /
     headers:
-      Host: misd.abriabri.ir
-  servername: misd.abriabri.ir
+      Host: s4294287AAMf.gamenexus.ir
+  servername: s4294287AAMf.gamenexus.ir
 - name: 🌍 ASTRACAT-Tunels-11
   type: vless
   server: 5.182.36.56
