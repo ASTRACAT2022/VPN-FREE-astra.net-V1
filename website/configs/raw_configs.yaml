@@ -54,19 +54,6 @@ proxies:
   servername: last.ownlink.pro
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: fef4a93d-eb4f-4657-b56b-32a0dc060045
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dev.qsaas.dev
-  servername: dev.qsaas.dev
-- name: 🌍 ASTRACAT-Tunels-6
-  type: vless
   server: zzula.ir
   port: 443
   uuid: 84ccd309-283a-49e8-b92c-8b9ecdae7f42
@@ -78,32 +65,33 @@ proxies:
     headers:
       Host: cornsilk.qzz.io
   servername: cornsilk.qzz.io
+- name: 🌍 ASTRACAT-Tunels-6
+  type: vless
+  server: 3.70.150.185
+  port: 22224
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /telegram-channel-vlessconfig
+  servername: trojan.burgerip.co.uk
 - name: 🌍 ASTRACAT-Tunels-7
   type: vless
-  server: 162.159.152.4
-  port: 443
-  uuid: ab79efdd-aac0-45f6-8646-15bbe6ac3221
+  server: 100niggavs100.mrpixanos.ir
+  port: 42542
+  uuid: 76706391-ca95-40c1-b081-342208eb0cfb
   cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /188.166.162.201=443
-    headers:
-      Host: gulfblue.qzz.io
-  servername: gulfblue.qzz.io
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-8
   type: vless
-  server: 162.159.152.4
-  port: 2083
-  uuid: a861157a-e465-44bf-8a81-338cf1aa030b
+  server: france.novaads.shop
+  port: 42541
+  uuid: 5a76fdef-97a2-43cd-93b9-e9646a7d6a6c
   cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /path
-    headers:
-      Host: panel.captainsparo.ir
-  servername: panel.captainsparo.ir
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-9
   type: vless
   server: 91.107.244.15
