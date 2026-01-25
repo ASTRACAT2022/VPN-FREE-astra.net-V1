@@ -5,44 +5,539 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🌍 ASTRACAT-Tunels-1
+- name: 🌍 ASTRACAT-Tunels-2
   type: vless
-  server: 162.159.152.4
+  server: 194.104.94.141
   port: 443
-  uuid: 2cc02f50-530b-47e2-89a7-30025a978fc5
+  uuid: c7b84b2c-3091-4372-8275-774e7a4659b4
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /185.94.29.156=4001
+    path: /wp-admin.php?ed=2083
     headers:
-      Host: iceberg.qzz.io
-  servername: iceberg.qzz.io
-- name: 🌍 ASTRACAT-Tunels-2
-  type: vless
-  server: mci2.atliehsafa.ir
-  port: 443
-  uuid: 5985deab-e8cf-4228-af5f-a3ebcf648b23
-  cipher: none
-  tls: true
-  network: xhttp
+      Host: v2.cybersrv.top
+  servername: v2.cybersrv.top
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
-  server: 91.107.244.15
-  port: 443
-  uuid: 7b148add-4438-426e-a583-50f11e7bd0e4
-  cipher: none
-  tls: false
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-4
-  type: vless
-  server: 5.182.36.56
-  port: 45886
-  uuid: 8338171d-2ea7-4015-bdea-492f3d5d4e60
+  server: 84.32.231.133
+  port: 80
+  uuid: e820d8f6-1bb6-4f23-aead-11544349fa6a
   cipher: none
   tls: false
   network: tcp
+- name: 🌍 ASTRACAT-Tunels-4
+  type: vless
+  server: fr-1-direct.healingfluence.com
+  port: 8000
+  uuid: 54424df8-aee6-4d2d-8006-4f91e5183544
+  cipher: none
+  tls: true
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-5
+  type: vless
+  server: IT.digitstocks.ir
+  port: 6030
+  uuid: 66c67c20-f8e8-4f42-9376-a7a9111421a0
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-6
+  type: vless
+  server: nl.reata.ir
+  port: 2050
+  uuid: 8d5b2746-aeda-4f7c-9f6b-062bb6517d48
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-7
+  type: vless
+  server: es.marzxo.biz
+  port: 8086
+  uuid: 887c4487-5a14-426c-9c1b-f0b857d6ae06
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-8
+  type: vless
+  server: 64.188.124.240
+  port: 14353
+  uuid: a64c5f92-0fb8-4ed0-92a0-cd44168bd15e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🌍 ASTRACAT-Tunels-9
+  type: vless
+  server: pjweuqrblkmzvyctdxdhdhdhifetubgvyqczrmsn.zhongyang-telecom.com
+  port: 6690
+  uuid: eee719b0-79d5-8c36-50b4-1380180c5a08
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-10
+  type: vless
+  server: nleuroaccess.amirconfigpaanelllll.com
+  port: 2126
+  uuid: 198b3de2-6f17-4b75-b1cb-a5e6c300bd28
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-11
+  type: vless
+  server: 37.252.4.176
+  port: 35979
+  uuid: 8ad4523c-032e-4ec3-94ea-182638c8e688
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🌍 ASTRACAT-Tunels-12
+  type: vless
+  server: uae.torprospeed.ir
+  port: 587
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-13
+  type: vless
+  server: 25.129.199.2
+  port: 2082
+  uuid: 22180bd5-7d26-4e1b-ef93-6329eef37709
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /assets/js/app.min.js
+    headers:
+      Host: mx5.mmd8563.ir
+- name: 🌍 ASTRACAT-Tunels-14
+  type: vless
+  server: ca.novaads.shop
+  port: 42537
+  uuid: b6effac4-2883-47ff-8325-93d0a3d75c22
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-15
+  type: vless
+  server: 104.17.147.22
+  port: 8080
+  uuid: '%50a%72sa%73%68%6fna%6d-Bot-37'
+  cipher: none
+  tls: false
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-16
+  type: vless
+  server: iran.mr-cloud.ir
+  port: 443
+  uuid: 06d4887e-9e2c-45a3-a0ac-309f4e47f047
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-17
+  type: vless
+  server: mobinhost.com
+  port: 443
+  uuid: 06d4887e-9e2c-45a3-a0ac-309f4e47f047
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ao0s41N5cxHj2bMQx1iv8oR
+    headers:
+      Host: cdn-two.mr-cloud.ir
+  servername: cdn-two.mr-cloud.ir
+- name: 🌍 ASTRACAT-Tunels-18
+  type: vless
+  server: germany1.fiogoir-germany1.site
+  port: 8080
+  uuid: 098f4eac-39fd-4c91-9bf3-dfe55e47e1ee
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-19
+  type: vless
+  server: 103.253.43.210
+  port: 8443
+  uuid: 0db05419-5dab-4c66-85f6-12be9de74f70
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-20
+  type: vless
+  server: 91.242.241.45
+  port: 8443
+  uuid: 0deb6f9d-9ad9-4b73-ac33-f3176e7ec1f2
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-21
+  type: vless
+  server: 194.110.246.61
+  port: 8443
+  uuid: 21f78714-2df6-4757-9fa5-f583eb0290cf
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-22
+  type: vless
+  server: 104.17.147.22
+  port: 443
+  uuid: 3058e698-61fd-4d12-95bc-f1fe4c071713
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /RklUHeautH5uvnSB/NTQuMTY5LjIyOS4xODg
+    headers:
+      Host: hOZori.iR
+  servername: hOZori.iR
+- name: 🌍 ASTRACAT-Tunels-23
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 3058e698-61fd-4d12-95bc-f1fe4c071713
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /Telegram@V2ray_Alpha
+    headers:
+      Host: hozori.ir
+  servername: hOZori.iR
+- name: 🌍 ASTRACAT-Tunels-24
+  type: vless
+  server: 109.237.99.63
+  port: 54899
+  uuid: 3d9f9671-a9c0-4f05-bf9b-0ab1f1b44654
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-25
+  type: vless
+  server: sir.serverpower657.fun
+  port: 26810
+  uuid: 40090834-1406-4c25-9c51-326d897e9aab
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-26
+  type: vless
+  server: 85.158.110.62
+  port: 8443
+  uuid: 46c4bca1-3899-496c-9fd5-358fc5b08d01
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-27
+  type: vless
+  server: 103.175.79.10
+  port: 443
+  uuid: 49ed01ad-3bb4-204f-b0ff-a58f658fd618
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-28
+  type: vless
+  server: 109.73.206.90
+  port: 443
+  uuid: 4eff2388-2092-4b0a-aa74-0e464889ffaf
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-29
+  type: vless
+  server: 173.245.59.132
+  port: 8880
+  uuid: 570f00ba-af38-44b9-955c-86f8272e0d3a
+  cipher: none
+  tls: false
+  network: httpupgrade
+- name: 🌍 ASTRACAT-Tunels-30
+  type: vless
+  server: www.speedtest.net
+  port: 80
+  uuid: 58e596b3-e7e6-43c5-9c03-b1e90db428a9
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2?ed=2560
+    headers:
+      Host: pamchall.com.
+- name: 🌍 ASTRACAT-Tunels-31
+  type: vless
+  server: aturka.alcatelindan.com
+  port: 32986
+  uuid: 680eb606-0a50-4758-a75f-7d17ddeaf28a
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-32
+  type: vless
+  server: 99.199.73.27
+  port: 8060
+  uuid: 6d5d6143-2daa-41d5-c51f-cb7b64783b68
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dsjh5tGfRgUy789-jU/
+    headers:
+      Host: sport-shop-online-02.cyberscaler.com
+  servername: sport-shop-online-02.cyberscaler.com
+- name: 🌍 ASTRACAT-Tunels-33
+  type: vless
+  server: 51.44.208.42
+  port: 443
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-34
+  type: vless
+  server: 62.60.164.192
+  port: 927
+  uuid: 8582e686-c209-4bfc-95ae-37ff0e20dd77
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Poshtiban
+- name: 🌍 ASTRACAT-Tunels-35
+  type: vless
+  server: 85.158.110.62
+  port: 8443
+  uuid: 86be7d6e-9dda-433b-8ea8-0c44a7dfcfbd
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-36
+  type: vless
+  server: 104.17.148.22
+  port: 443
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@V2ray_Alpha
+    headers:
+      Host: UuhUHYygESDfgh.uYhJhGVgfCjgujhbUiLbVFdXDXM.XyZ
+  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+- name: 🌍 ASTRACAT-Tunels-37
+  type: vless
+  server: 104.26.5.57
+  port: 443
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /egFIvRfuMjM1LjE2OS4yMzQ=?ed=2560/?@V2ray_Alpha
+    headers:
+      Host: UuhUHYygESDfgh.uYhJhGVgfCjgujhbUiLbVFdXDXM.XyZ
+  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+- name: 🌍 ASTRACAT-Tunels-38
+  type: vless
+  server: customers.tele-shop-too.studio
+  port: 44
+  uuid: 95635fc6-3fe8-40f5-bb7b-a5ed8e83efb2
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-39
+  type: vless
+  server: 194.110.246.61
+  port: 8443
+  uuid: 96b84d8a-6355-4422-8e65-42d3ccdb17c4
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-40
+  type: vless
+  server: 185.146.173.39
+  port: 8880
+  uuid: Parsashonam-254
+  cipher: none
+  tls: false
+  network: httpupgrade
+- name: 🌍 ASTRACAT-Tunels-41
+  type: vless
+  server: iP.BadZat.Space
+  port: 443
+  uuid: Parsashonam-254
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-42
+  type: vless
+  server: vp.helsvptun.m2ring.sbs
+  port: 6666
+  uuid: afa3cd54-f05d-4e0b-a4d6-9f046f5d1c05
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-43
+  type: vless
+  server: 104.24.34.94
+  port: 443
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560/?JOKERRVPN
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+  servername: kssepa.sabzipolobamahi.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-44
+  type: vless
+  server: 172.67.11.138
+  port: 80
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560/?JOKERRVPN
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-45
+  type: vless
+  server: 103.253.43.210
+  port: 8443
+  uuid: ba2ac75f-0a9b-4483-9155-c00c8814d7c9
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-46
+  type: vless
+  server: 185.239.48.109
+  port: 8443
+  uuid: ba2ac75f-0a9b-4483-9155-c00c8814d7c9
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-47
+  type: vless
+  server: 104.16.0.113
+  port: 80
+  uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560/?JOKERRVPN
+    headers:
+      Host: barayeiran.nastaranh.dpdns.org
+- name: 🌍 ASTRACAT-Tunels-48
+  type: vless
+  server: afranlo.alcatelindan.com
+  port: 45980
+  uuid: c259672d-68a3-4cde-9cc2-87ae10f3b7bf
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-49
+  type: vless
+  server: www.speedtest.net
+  port: 80
+  uuid: d483e7ab-5223-44bd-b68d-b4f185b1801e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Channel-ELiV2RAY---ELiV2RAY---ELiV2RAY---ELiV2RAY----Channel-ELiV2RAY---ELiV2RAY?ed=2048
+    headers:
+      Host: PaMCHALL.cOM.
+- name: 🌍 ASTRACAT-Tunels-50
+  type: vless
+  server: 104.18.0.191
+  port: 443
+  uuid: d5c1abb8-2024-4fc0-9810-09dc10a5b948
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /admin
+    headers:
+      Host: am.digikala-aparat-zula.com
+  servername: am.digikala-aparat-zula.com
+- name: 🌍 ASTRACAT-Tunels-51
+  type: vless
+  server: 62.60.193.74
+  port: 443
+  uuid: da45876f-e3be-477e-b513-6a85e470339b
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-52
+  type: vless
+  server: 91.242.241.45
+  port: 8443
+  uuid: e85ce618-50cd-42e0-a8ba-5052e6be9498
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-53
+  type: vless
+  server: 172.67.164.1
+  port: 443
+  uuid: ec7de7e0-3f09-4ef4-8a34-e441917d65fa
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /proxyip=robin.yaemiko.ggff.net
+    headers:
+      Host: verina.ccantarella.dns-dynamic.net
+  servername: verina.ccantarella.dns-dynamic.net
+- name: 🌍 ASTRACAT-Tunels-54
+  type: vless
+  server: speedtest.net
+  port: 80
+  uuid: ed87c882-17f3-491a-810c-c0000e4b279e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /olem/ws?ed=1024
+    headers:
+      Host: foffmelo.com
+- name: 🌍 ASTRACAT-Tunels-55
+  type: vless
+  server: zmaoz.faculty.ucdavis.edu
+  port: 80
+  uuid: ed87c882-17f3-491a-810c-c0000e4b279e
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /olem/ws?ed=1024
+    headers:
+      Host: foffmelo.com
+- name: 🌍 ASTRACAT-Tunels-56
+  type: vless
+  server: 37.27.220.198
+  port: 2001
+  uuid: f4b81795-2e5a-4584-ea25-44bc16e8fc2c
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-57
+  type: vless
+  server: 85.158.110.62
+  port: 8443
+  uuid: f4d8b865-a620-4e1d-802a-6bcf5a48c49e
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-58
   type: vless
   server: pqh29v3.globalfymain.com
   port: 8880
@@ -50,7 +545,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-6
+- name: 🌍 ASTRACAT-Tunels-59
   type: vless
   server: 45.12.143.191
   port: 20329
@@ -58,7 +553,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-7
+- name: 🌍 ASTRACAT-Tunels-60
   type: vless
   server: 57.129.53.180
   port: 23576
@@ -66,7 +561,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-8
+- name: 🌍 ASTRACAT-Tunels-61
   type: vless
   server: 188.34.193.153
   port: 443
@@ -74,7 +569,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-9
+- name: 🌍 ASTRACAT-Tunels-62
   type: vless
   server: 91.107.173.252
   port: 41647
@@ -82,62 +577,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-10
-  type: vless
-  server: 45.12.143.191
-  port: 20329
-  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-11
-  type: vless
-  server: ip-range.web3.name.ng
-  port: 8443
-  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hzr50.sepiol.name.ng
-  servername: hzr50.sepiol.name.ng
-- name: 🌍 ASTRACAT-Tunels-12
-  type: vless
-  server: ip-range.web3.name.ng
-  port: 8443
-  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hzr33.sepiol.name.ng
-  servername: hzr33.sepiol.name.ng
-- name: 🌍 ASTRACAT-Tunels-13
-  type: vless
-  server: 45.89.107.200
-  port: 8443
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-14
-  type: vless
-  server: ip-range.web3.name.ng
-  port: 8443
-  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hzr50.sepiol.name.ng
-  servername: hzr50.sepiol.name.ng
-- name: 🌍 ASTRACAT-Tunels-15
+- name: 🌍 ASTRACAT-Tunels-63
   type: vless
   server: 15.204.97.149
   port: 23576
@@ -145,7 +585,15 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-16
+- name: 🌍 ASTRACAT-Tunels-64
+  type: vless
+  server: 45.12.143.191
+  port: 20329
+  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-65
   type: vless
   server: ip-range.web3.name.ng
   port: 8443
@@ -156,9 +604,17 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: hzr33.sepiol.name.ng
-  servername: hzr33.sepiol.name.ng
-- name: 🌍 ASTRACAT-Tunels-17
+      Host: hzr50.sepiol.name.ng
+  servername: hzr50.sepiol.name.ng
+- name: 🌍 ASTRACAT-Tunels-66
+  type: vless
+  server: 45.89.107.200
+  port: 8443
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-67
   type: vless
   server: 43.250.54.155
   port: 49000
@@ -166,23 +622,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-18
-  type: vless
-  server: 43.250.54.155
-  port: 49000
-  uuid: 160e9c18-c548-42bf-9c00-905aed8ef96f
-  cipher: none
-  tls: false
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-19
-  type: vless
-  server: 65.109.178.83
-  port: 443
-  uuid: 7b148add-4438-426e-a583-50f11e7bd0e4
-  cipher: none
-  tls: false
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-20
+- name: 🌍 ASTRACAT-Tunels-68
   type: vless
   server: 57.129.53.180
   port: 23576
@@ -190,23 +630,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-21
-  type: vless
-  server: octopusss5.info
-  port: 22955
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  cipher: none
-  tls: false
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-22
-  type: vless
-  server: 91.107.148.79
-  port: 443
-  uuid: 7b148add-4438-426e-a583-50f11e7bd0e4
-  cipher: none
-  tls: false
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-23
+- name: 🌍 ASTRACAT-Tunels-69
   type: vless
   server: 45.82.251.98
   port: 8880
@@ -214,15 +638,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-24
-  type: vless
-  server: 94.131.8.19
-  port: 45448
-  uuid: 96fcf8cc-535d-46c4-b8f9-76058df48e3b
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-25
+- name: 🌍 ASTRACAT-Tunels-70
   type: vless
   server: nasnet-146198073-direct.iranpress.co
   port: 443
@@ -230,7 +646,15 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-26
+- name: 🌍 ASTRACAT-Tunels-71
+  type: vless
+  server: octopusss5.info
+  port: 22955
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  cipher: none
+  tls: false
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-72
   type: vless
   server: 95.164.85.109
   port: 59374
@@ -238,63 +662,15 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-27
+- name: 🌍 ASTRACAT-Tunels-73
   type: vless
-  server: 5.181.21.101
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
+  server: 94.131.8.19
+  port: 45448
+  uuid: 96fcf8cc-535d-46c4-b8f9-76058df48e3b
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-28
-  type: vless
-  server: 103.35.190.51
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-29
-  type: vless
-  server: 5.180.45.176
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-30
-  type: vless
-  server: 89.110.90.65
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-31
-  type: vless
-  server: 91.142.72.101
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-32
-  type: vless
-  server: 82.97.252.100
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-33
-  type: vless
-  server: 193.233.85.244
-  port: 2584
-  uuid: 038a50c3-229c-41ef-a7ef-7abb504e4f33
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-34
+- name: 🌍 ASTRACAT-Tunels-74
   type: vless
   server: 176.120.67.77
   port: 8443
@@ -302,7 +678,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-35
+- name: 🌍 ASTRACAT-Tunels-75
   type: vless
   server: 176.120.67.95
   port: 8443
@@ -310,41 +686,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-36
-  type: vless
-  server: chatgpt.com
-  port: 2053
-  uuid: 2dcfa7eb-170a-46c8-b367-ce68d86a03c2
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ir2.airpanel.top
-  servername: ir2.airpanel.top
-- name: 🌍 ASTRACAT-Tunels-37
-  type: vless
-  server: chatgpt.com
-  port: 2053
-  uuid: 062a230c-211d-4569-958d-dddf2c3aa613
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ir3uk.airpanel.top
-  servername: ir3uk.airpanel.top
-- name: 🌍 ASTRACAT-Tunels-38
-  type: vless
-  server: 45.82.251.95
-  port: 8880
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-  cipher: none
-  tls: false
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-39
+- name: 🌍 ASTRACAT-Tunels-76
   type: vless
   server: all.tellmethetrue.shop
   port: 443
@@ -352,242 +694,15 @@ proxies:
   cipher: none
   tls: true
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-40
+- name: 🌍 ASTRACAT-Tunels-77
   type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: c2ca41d6-a825-454b-abf6-e4a83d6df9c7
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-  servername: god1.alireza031.net
-- name: 🌍 ASTRACAT-Tunels-41
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: 15fe9ff7-f48c-467c-b1b1-658c210ea01d
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /nQTgdN6riY4Ccz5ZKh
-    headers:
-      Host: overlab.mlopera.eu
-  servername: overlab.mlopera.eu
-- name: 🌍 ASTRACAT-Tunels-42
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: 15fe9ff7-f48c-467c-b1b1-658c210ea01d
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /nQTgdN6riY4Ccz5ZKh
-    headers:
-      Host: overlab.mlopera.eu
-  servername: overlab.mlopera.eu
-- name: 🌍 ASTRACAT-Tunels-43
-  type: vless
-  server: 104.18.32.47
-  port: 443
-  uuid: 15331f4d-140a-4f1b-b4a1-0c5fe9140dc2
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-  servername: cdn.farshe500shaneh.ir
-- name: 🌍 ASTRACAT-Tunels-44
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: 15331f4d-140a-4f1b-b4a1-0c5fe9140dc2
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-  servername: cdn.farshe500shaneh.ir
-- name: 🌍 ASTRACAT-Tunels-45
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: c2ca41d6-a825-454b-abf6-e4a83d6df9c7
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-  servername: god1.alireza031.net
-- name: 🌍 ASTRACAT-Tunels-46
-  type: vless
-  server: 104.18.32.47
-  port: 443
-  uuid: 8c9b0290-c067-420b-db16-767bc97008a9
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config
-    headers:
-      Host: website-game-film-ai-download.online-book.ir
-  servername: website-game-film-ai-download.online-book.ir
-- name: 🌍 ASTRACAT-Tunels-47
-  type: vless
-  server: 144.124.228.129
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
+  server: 45.82.251.95
+  port: 8880
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
   cipher: none
   tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-48
-  type: vless
-  server: 45.87.154.132
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-49
-  type: vless
-  server: 146.103.113.79
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-50
-  type: vless
-  server: 144.124.240.217
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-51
-  type: vless
-  server: 5.129.231.109
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-52
-  type: vless
-  server: 72.56.92.27
-  port: 4443
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-53
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: 58a38e3c-18b3-4830-b00b-6c5cce81c41a
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: konkorgptketab.sanjeshvipspeed.top
-  servername: konkorgptketab.sanjeshvipspeed.top
-- name: 🌍 ASTRACAT-Tunels-54
-  type: vless
-  server: 8.6.112.0
-  port: 2053
-  uuid: 827c5131-6703-4930-a75f-b7f6d4c1938f
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dnsman.atlassmusic.top
-  servername: dnsman.atlassmusic.top
-- name: 🌍 ASTRACAT-Tunels-55
-  type: vless
-  server: hell-tawana.lookanet.codes
-  port: 2053
-  uuid: 89be0078-b1f2-4fd8-8e3d-a2065df38853
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /15.204.57.47=7267
-    headers:
-      Host: gulfblue.qzz.io
-  servername: gulfblue.qzz.io
-- name: 🌍 ASTRACAT-Tunels-56
-  type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: all.aniuge.qzz.io
-  servername: all.aniuge.qzz.io
-- name: 🌍 ASTRACAT-Tunels-57
-  type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: d577ad65-4e97-4b4f-8adf-29340520318c
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /64.110.70.205:23022
-    headers:
-      Host: heavenlyblue.qzz.io
-  servername: heavenlyblue.qzz.io
-- name: 🌍 ASTRACAT-Tunels-58
-  type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ziyong.boringdad.netlib.re
-  servername: ziyong.boringdad.netlib.re
-- name: 🌍 ASTRACAT-Tunels-59
-  type: vless
-  server: cdn-ngmy.vip.tehv2.ir
-  port: 2053
-  uuid: 89be0078-b1f2-4fd8-8e3d-a2065df38853
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /15.204.57.47=7267
-    headers:
-      Host: gulfblue.qzz.io
-  servername: gulfblue.qzz.io
-- name: 🌍 ASTRACAT-Tunels-60
-  type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: 0f811ad6-6af9-4959-8394-8ba31f738d9d
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cl9145.eighani3.com
-  servername: cl9145.eighani3.com
-- name: 🌍 ASTRACAT-Tunels-61
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-78
   type: vless
   server: 8.6.112.0
   port: 443
@@ -600,20 +715,7 @@ proxies:
     headers:
       Host: cdn.55994421.xyz
   servername: cdn.55994421.xyz
-- name: 🌍 ASTRACAT-Tunels-62
-  type: vless
-  server: 8.6.112.0
-  port: 2096
-  uuid: f0693080-e004-4baf-a1e9-258025a134a7
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rb11.fasst11.shop
-  servername: rb11.fasst11.shop
-- name: 🌍 ASTRACAT-Tunels-63
+- name: 🌍 ASTRACAT-Tunels-79
   type: vless
   server: 8.6.112.0
   port: 443
@@ -626,7 +728,20 @@ proxies:
     headers:
       Host: cl9145.eighani3.com
   servername: cl9145.eighani3.com
-- name: 🌍 ASTRACAT-Tunels-64
+- name: 🌍 ASTRACAT-Tunels-80
+  type: vless
+  server: 8.6.112.0
+  port: 443
+  uuid: 0f811ad6-6af9-4959-8394-8ba31f738d9d
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cl9145.eighani3.com
+  servername: cl9145.eighani3.com
+- name: 🌍 ASTRACAT-Tunels-81
   type: vless
   server: 8.6.112.0
   port: 443
@@ -639,7 +754,7 @@ proxies:
     headers:
       Host: cdn.55994421.xyz
   servername: cdn.55994421.xyz
-- name: 🌍 ASTRACAT-Tunels-65
+- name: 🌍 ASTRACAT-Tunels-82
   type: vless
   server: 8.6.112.0
   port: 2053
@@ -652,20 +767,7 @@ proxies:
     headers:
       Host: sinesukhte.ecoping1.net
   servername: sinesukhte.ecoping1.net
-- name: 🌍 ASTRACAT-Tunels-66
-  type: vless
-  server: dns.ownlink.pro
-  port: 443
-  uuid: 7abc75eb-b58b-4e28-af59-20f41bdf7a2a
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /restart
-    headers:
-      Host: last.ownlink.pro
-  servername: last.ownlink.pro
-- name: 🌍 ASTRACAT-Tunels-67
+- name: 🌍 ASTRACAT-Tunels-83
   type: vless
   server: p1.sarvderakht.ir
   port: 2087
@@ -678,57 +780,7 @@ proxies:
     headers:
       Host: menugetsfull.get-service.ir
   servername: menugetsfull.get-service.ir
-- name: 🌍 ASTRACAT-Tunels-68
-  type: vless
-  server: star0.kharabetam.de
-  port: 2053
-  uuid: '%40X_Her0%40X_Her0%40X_Her0%40X_Her0'
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /NoBodyKnowS
-    headers:
-      Host: cld.kharabetam.de
-  servername: cld.kharabetam.de
-- name: 🌍 ASTRACAT-Tunels-69
-  type: vless
-  server: dns.ownlink.pro
-  port: 443
-  uuid: 7abc75eb-b58b-4e28-af59-20f41bdf7a2a
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /restart
-    headers:
-      Host: last.ownlink.pro
-  servername: last.ownlink.pro
-- name: 🌍 ASTRACAT-Tunels-70
-  type: vless
-  server: dns.ownlink.pro
-  port: 443
-  uuid: 7abc75eb-b58b-4e28-af59-20f41bdf7a2a
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /restart
-    headers:
-      Host: last.ownlink.pro
-  servername: last.ownlink.pro
-- name: 🌍 ASTRACAT-Tunels-71
-  type: vless
-  server: cfcdn.zopli.ir
-  port: 443
-  uuid: 99351e9e-ea57-4b85-9985-072ab7512cfb
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-  servername: cdn-it.fxcdn.ir
-- name: 🌍 ASTRACAT-Tunels-72
+- name: 🌍 ASTRACAT-Tunels-84
   type: vless
   server: 104.18.32.47
   port: 2053
@@ -741,33 +793,7 @@ proxies:
     headers:
       Host: new.hupcloud.com
   servername: new.hupcloud.com
-- name: 🌍 ASTRACAT-Tunels-73
-  type: vless
-  server: 162.159.152.4
-  port: 443
-  uuid: 2cc02f50-530b-47e2-89a7-30025a978fc5
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /185.94.29.156=4001
-    headers:
-      Host: iceberg.qzz.io
-  servername: iceberg.qzz.io
-- name: 🌍 ASTRACAT-Tunels-74
-  type: vless
-  server: 162.159.152.4
-  port: 2096
-  uuid: 1d819aab-2593-40e0-a537-f1b48a6fd069
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rb11.fasst11.shop
-  servername: rb11.fasst11.shop
-- name: 🌍 ASTRACAT-Tunels-75
+- name: 🌍 ASTRACAT-Tunels-85
   type: vless
   server: 8.6.112.0
   port: 2053
@@ -780,33 +806,647 @@ proxies:
     headers:
       Host: sinesukhte.ecoping1.net
   servername: sinesukhte.ecoping1.net
-- name: 🌍 ASTRACAT-Tunels-76
+- name: 🌍 ASTRACAT-Tunels-86
   type: vless
-  server: 162.159.152.4
+  server: dns.ownlink.pro
   port: 443
-  uuid: 7b617bbb-8ff7-470e-b23b-339d48a2b8c3
+  uuid: 7abc75eb-b58b-4e28-af59-20f41bdf7a2a
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /45.77.52.102=8443
+    path: /restart
     headers:
-      Host: gulfblue.qzz.io
-  servername: gulfblue.qzz.io
-- name: 🌍 ASTRACAT-Tunels-77
+      Host: last.ownlink.pro
+  servername: last.ownlink.pro
+- name: 🌍 ASTRACAT-Tunels-87
   type: vless
   server: 162.159.152.4
   port: 443
-  uuid: 43eb6b49-8d34-460f-b8b3-a81f7fd4a5f1
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  cipher: none
+  tls: true
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-88
+  type: vless
+  server: cdn.halazzon.ir
+  port: 2053
+  uuid: c659ce22-0a02-4d75-8c89-58d99916b846
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /89.22.230.197=443
+    path: /
     headers:
-      Host: gulfblue.qzz.io
-  servername: gulfblue.qzz.io
-- name: 🌍 ASTRACAT-Tunels-78
+      Host: ir6.hnbyme.online
+  servername: ir6.hnbyme.online
+- name: 🌍 ASTRACAT-Tunels-89
+  type: vless
+  server: 162.159.152.4
+  port: 443
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  cipher: none
+  tls: true
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-90
+  type: vless
+  server: 104.17.134.117
+  port: 2053
+  uuid: nasnet
+  cipher: none
+  tls: true
+  network: httpupgrade
+- name: 🌍 ASTRACAT-Tunels-91
+  type: vless
+  server: 8.6.112.0
+  port: 443
+  uuid: c9b0932d-8d1c-43c5-b64b-e9a74719c76d
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /hsdgsws
+    headers:
+      Host: forreest.info
+  servername: forreest.info
+- name: 🌍 ASTRACAT-Tunels-92
+  type: vless
+  server: 185.126.67.73
+  port: 443
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-93
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: 24159510-d3f9-42db-9bb6-a0b43007b552
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /api/v2/data
+    headers:
+      Host: bupnl.sepotishop.ir
+  servername: bupnl.sepotishop.ir
+- name: 🌍 ASTRACAT-Tunels-94
+  type: vless
+  server: 162.159.152.4
+  port: 443
+  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  servername: pages.dev
+- name: 🌍 ASTRACAT-Tunels-95
+  type: vless
+  server: nodejs.org
+  port: 443
+  uuid: c9b0932d-8d1c-43c5-b64b-e9a74719c76d
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /hsdgsws
+    headers:
+      Host: forreest.info
+  servername: forreest.info
+- name: 🌍 ASTRACAT-Tunels-96
+  type: vless
+  server: 5.182.36.251
+  port: 16331
+  uuid: d7dbeb1e-268c-465c-8f59-489f14703efd
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-97
+  type: vless
+  server: 143.20.213.40
+  port: 8443
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.de5.net
+  servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-98
+  type: vless
+  server: 77.91.84.103
+  port: 443
+  uuid: 772d810c-4886-4475-81b2-2673b682c778
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-99
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: 24159510-d3f9-42db-9bb6-a0b43007b552
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /api/v2/data
+    headers:
+      Host: bupnl.sepotishop.ir
+  servername: bupnl.sepotishop.ir
+- name: 🌍 ASTRACAT-Tunels-100
+  type: vless
+  server: 138.124.79.4
+  port: 443
+  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-101
+  type: vless
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.de5.net
+  servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-102
+  type: vless
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.de5.net
+  servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-103
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: 72f175f6-e2e4-4bb7-9165-8de10dd6c463
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: starping.starpingshop.org
+  servername: starping.starpingshop.org
+- name: 🌍 ASTRACAT-Tunels-104
+  type: vless
+  server: 51.158.206.87
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-105
+  type: vless
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.de5.net
+  servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-106
+  type: vless
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.de5.net
+  servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-107
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: 8f7885e2-2851-481e-8864-38ed7f9680c2
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /bestvpn
+    headers:
+      Host: sakurai.bestcurt.ir
+  servername: sakurai.bestcurt.ir
+- name: 🌍 ASTRACAT-Tunels-108
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: 8f7885e2-2851-481e-8864-38ed7f9680c2
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /bestvpn
+    headers:
+      Host: sakurai.bestcurt.ir
+  servername: sakurai.bestcurt.ir
+- name: 🌍 ASTRACAT-Tunels-109
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: 8f7885e2-2851-481e-8864-38ed7f9680c2
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /bestvpn
+    headers:
+      Host: sakurai.bestcurt.ir
+  servername: sakurai.bestcurt.ir
+- name: 🌍 ASTRACAT-Tunels-110
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: 8f7885e2-2851-481e-8864-38ed7f9680c2
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /bestvpn
+    headers:
+      Host: sakurai.bestcurt.ir
+  servername: sakurai.bestcurt.ir
+- name: 🌍 ASTRACAT-Tunels-111
+  type: vless
+  server: zzula.ir
+  port: 443
+  uuid: c249ca6f-1bde-479b-af96-da0e948a3800
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /admin
+    headers:
+      Host: zitel.digikala-aparat-zula.com
+  servername: zitel.digikala-aparat-zula.com
+- name: 🌍 ASTRACAT-Tunels-112
+  type: vless
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560&Telegram@V2rayAlpha
+    headers:
+      Host: sni.111000.de5.net
+  servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-113
+  type: vless
+  server: sktr.berkeart.ir
+  port: 19702
+  uuid: 1f3b130d-7d29-45d1-b5aa-adc5cd94a885
+  cipher: none
+  tls: false
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-114
+  type: vless
+  server: 144.124.240.217
+  port: 4443
+  uuid: 6e6609bf-6867-4fa7-b4c3-d5555d67d724
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-115
+  type: vless
+  server: gcre.segstar.info
+  port: 10100
+  uuid: '%40SEGVPN'
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-116
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: fef4a93d-eb4f-4657-b56b-32a0dc060045
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dev.twistsparrow.xyz
+  servername: dev.twistsparrow.xyz
+- name: 🌍 ASTRACAT-Tunels-117
+  type: vless
+  server: gcre.segstar.info
+  port: 10100
+  uuid: '%40SEGVPN'
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-118
+  type: vless
+  server: 147.45.243.234
+  port: 4443
+  uuid: 6e6609bf-6867-4fa7-b4c3-d5555d67d724
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-119
+  type: vless
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.de5.net
+  servername: sni.111000.de5.net
+- name: 🌍 ASTRACAT-Tunels-120
+  type: vless
+  server: 185.207.136.215
+  port: 8443
+  uuid: 6f6121b1-027b-40d3-8f43-58c59e976661
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-121
+  type: vless
+  server: nodejs.org
+  port: 443
+  uuid: c9b0932d-8d1c-43c5-b64b-e9a74719c76d
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /hsdgsws
+    headers:
+      Host: forreest.info
+  servername: forreest.info
+- name: 🌍 ASTRACAT-Tunels-122
+  type: vless
+  server: 85.133.204.132
+  port: 80
+  uuid: d9738de2-1b25-407f-9096-fcb6ddc0aa86
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: test.sigmagames.shop
+- name: 🌍 ASTRACAT-Tunels-123
+  type: vless
+  server: dns.ownlink.pro
+  port: 443
+  uuid: 7abc75eb-b58b-4e28-af59-20f41bdf7a2a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /restart
+    headers:
+      Host: last.ownlink.pro
+  servername: last.ownlink.pro
+- name: 🌍 ASTRACAT-Tunels-124
+  type: vless
+  server: mouse4.1lil1.de
+  port: 443
+  uuid: fd172037-5098-1245-7859-58a5c57e993c
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-125
+  type: vless
+  server: 45.150.32.57
+  port: 443
+  uuid: 0544b7f0-25d9-4a93-89b0-a91d9a5737cf
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-126
+  type: vless
+  server: 188.214.157.159
+  port: 443
+  uuid: 0544b7f0-25d9-4a93-89b0-a91d9a5737cf
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-127
+  type: vless
+  server: 188.214.157.251
+  port: 443
+  uuid: 0544b7f0-25d9-4a93-89b0-a91d9a5737cf
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-128
+  type: vless
+  server: 45.144.51.22
+  port: 443
+  uuid: 6c49485f-843c-4e96-abfe-046bc473c7b0
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-129
+  type: vless
+  server: 64.81.32.183
+  port: 21486
+  uuid: 76be3888-75e3-47dc-8c9c-8f9f759a2261
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-130
+  type: vless
+  server: 51.158.206.19
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-131
+  type: vless
+  server: chatgpt.com
+  port: 443
+  uuid: 1c2cb6e4-1594-4ba1-8b2b-ac26d0eadc00
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /video
+    headers:
+      Host: www.alitehran.ir
+  servername: www.alitehran.ir
+- name: 🌍 ASTRACAT-Tunels-132
+  type: vless
+  server: 188.137.183.181
+  port: 31357
+  uuid: a9aa7646-09a7-45b9-b391-25741f6bf26f
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-133
+  type: vless
+  server: 188.137.183.116
+  port: 8880
+  uuid: b9958288-743a-4789-89eb-bd2acd5a5fd4
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🌍 ASTRACAT-Tunels-134
+  type: vless
+  server: 45.82.249.129
+  port: 8443
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-135
+  type: vless
+  server: 217.160.189.116
+  port: 443
+  uuid: 2db1793c-48c5-4cc7-b893-02292fd9400b
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-136
+  type: vless
+  server: amsteer.kesslershop.ir
+  port: 8989
+  uuid: 5e2f2224-4151-4f75-8728-9c564d45f853
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-137
+  type: vless
+  server: Chatgpt.com
+  port: 443
+  uuid: 4c7f6084-ab3c-4515-a69d-fb6f5c0c08ae
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /130.162.193.183:15401
+    headers:
+      Host: market.chepschasb.shop
+  servername: market.chepschasb.shop
+- name: 🌍 ASTRACAT-Tunels-138
+  type: vless
+  server: 91.247.177.207
+  port: 443
+  uuid: 5a9a33eb-546c-4ffa-aadc-1c75b3ac084b
+  cipher: none
+  tls: true
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-139
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: 2426cb8b-9476-419f-b279-b36e2d572ee1
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: panel.redmak1.online
+  servername: panel.redmak1.online
+- name: 🌍 ASTRACAT-Tunels-140
+  type: vless
+  server: api1.uploadsho.com
+  port: 443
+  uuid: 91d906df-9e60-4186-945e-4ad1ac331e3a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /upload/?ed=2560
+    headers:
+      Host: nl.uploadsho.com
+  servername: nl.uploadsho.com
+- name: 🌍 ASTRACAT-Tunels-141
+  type: vless
+  server: iran.zone-server-irani.ir
+  port: 2053
+  uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+  servername: wizwiz.vidboxco.ir
+- name: 🌍 ASTRACAT-Tunels-142
+  type: vless
+  server: iran.zone-server-irani.ir
+  port: 2053
+  uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+  servername: wizwiz.vidboxco.ir
+- name: 🌍 ASTRACAT-Tunels-143
+  type: vless
+  server: chatgpt.com
+  port: 443
+  uuid: 4c7f6084-ab3c-4515-a69d-fb6f5c0c08ae
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /130.162.193.183:15401
+    headers:
+      Host: market.chepschasb.shop
+  servername: market.chepschasb.shop
+- name: 🌍 ASTRACAT-Tunels-144
+  type: vless
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
+  servername: sni.111000.dynv6.net
+- name: 🌍 ASTRACAT-Tunels-145
+  type: vless
+  server: free1.aattaash.com
+  port: 2087
+  uuid: eaf287ce-1bd5-4dd5-af88-379f5d31b6db
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+  servername: germany.aattaash.com
+- name: 🌍 ASTRACAT-Tunels-146
   type: vless
   server: 185.236.232.189
   port: 8880
@@ -814,7 +1454,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-79
+- name: 🌍 ASTRACAT-Tunels-147
   type: vless
   server: deu196.unboundaccess.org
   port: 443
@@ -822,7 +1462,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-80
+- name: 🌍 ASTRACAT-Tunels-148
   type: vless
   server: 185.236.232.223
   port: 8880
@@ -830,7 +1470,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-81
+- name: 🌍 ASTRACAT-Tunels-149
   type: vless
   server: 104.26.6.89
   port: 8443
@@ -843,7 +1483,7 @@ proxies:
     headers:
       Host: YjF03nNq0B.sOlEnTrAa.InFo
   servername: YjF03nNq0B.sOlEnTrAa.InFo
-- name: 🌍 ASTRACAT-Tunels-82
+- name: 🌍 ASTRACAT-Tunels-150
   type: vless
   server: 212.41.11.152
   port: 443
@@ -851,7 +1491,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-83
+- name: 🌍 ASTRACAT-Tunels-151
   type: vless
   server: 45.140.147.74
   port: 8880
@@ -859,7 +1499,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-84
+- name: 🌍 ASTRACAT-Tunels-152
   type: vless
   server: ipw.gfdv54cvghhgfhgj-njhgj64.info
   port: 443
@@ -872,7 +1512,7 @@ proxies:
     headers:
       Host: M84tG1gGw0.SoLeNtRaA.iNfO
   servername: M84tG1gGw0.SoLeNtRaA.iNfO
-- name: 🌍 ASTRACAT-Tunels-85
+- name: 🌍 ASTRACAT-Tunels-153
   type: vless
   server: 104.18.35.85
   port: 443
@@ -885,7 +1525,7 @@ proxies:
     headers:
       Host: cf.vless.sandesh.fr
   servername: cf.vless.sandesh.fr
-- name: 🌍 ASTRACAT-Tunels-86
+- name: 🌍 ASTRACAT-Tunels-154
   type: vless
   server: nodc.bazarkha.sbs
   port: 6003
@@ -893,7 +1533,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-87
+- name: 🌍 ASTRACAT-Tunels-155
   type: vless
   server: m33a.vip784.com
   port: 33801
@@ -901,7 +1541,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-88
+- name: 🌍 ASTRACAT-Tunels-156
   type: vless
   server: 172.66.40.99
   port: 443
@@ -914,7 +1554,7 @@ proxies:
     headers:
       Host: www.dollardoon.com
   servername: www.dollardoon.com
-- name: 🌍 ASTRACAT-Tunels-89
+- name: 🌍 ASTRACAT-Tunels-157
   type: vless
   server: m7a.vip784.com
   port: 33801
@@ -922,7 +1562,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-90
+- name: 🌍 ASTRACAT-Tunels-158
   type: vless
   server: 159.223.209.139
   port: 46964
@@ -930,7 +1570,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-91
+- name: 🌍 ASTRACAT-Tunels-159
   type: vless
   server: 165.22.200.45
   port: 45323
@@ -938,7 +1578,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-92
+- name: 🌍 ASTRACAT-Tunels-160
   type: vless
   server: bm.boulvarmoein.shop
   port: 2095
@@ -951,7 +1591,7 @@ proxies:
     headers:
       Host: bm.boulvarmoein.shop
   servername: bm.boulvarmoein.shop
-- name: 🌍 ASTRACAT-Tunels-93
+- name: 🌍 ASTRACAT-Tunels-161
   type: vless
   server: 206.189.135.13
   port: 41856
@@ -959,7 +1599,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-94
+- name: 🌍 ASTRACAT-Tunels-162
   type: vless
   server: 139.59.46.188
   port: 37548
@@ -967,7 +1607,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-95
+- name: 🌍 ASTRACAT-Tunels-163
   type: vless
   server: 104.21.36.57
   port: 443
@@ -980,7 +1620,7 @@ proxies:
     headers:
       Host: black.fullmargintraders.com
   servername: black.fullmargintraders.com
-- name: 🌍 ASTRACAT-Tunels-96
+- name: 🌍 ASTRACAT-Tunels-164
   type: vless
   server: 139.59.58.120
   port: 31855
@@ -988,7 +1628,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-97
+- name: 🌍 ASTRACAT-Tunels-165
   type: vless
   server: 170.64.154.27
   port: 20651
@@ -996,7 +1636,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-98
+- name: 🌍 ASTRACAT-Tunels-166
   type: vless
   server: 638928668169310838.rasht-drc-tusabp.info
   port: 8880
@@ -1004,7 +1644,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-99
+- name: 🌍 ASTRACAT-Tunels-167
   type: vless
   server: 192.142.53.38
   port: 16529
@@ -1012,7 +1652,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-100
+- name: 🌍 ASTRACAT-Tunels-168
   type: vless
   server: 45.82.251.114
   port: 8880
@@ -1020,7 +1660,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-101
+- name: 🌍 ASTRACAT-Tunels-169
   type: vless
   server: 195.42.233.125
   port: 8880
@@ -1028,7 +1668,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-102
+- name: 🌍 ASTRACAT-Tunels-170
   type: vless
   server: 45.15.167.13
   port: 443
@@ -1036,7 +1676,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-103
+- name: 🌍 ASTRACAT-Tunels-171
   type: vless
   server: narrow-passenger.oneeat.co
   port: 80
@@ -1046,7 +1686,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🌍 ASTRACAT-Tunels-104
+- name: 🌍 ASTRACAT-Tunels-172
   type: vless
   server: 638929396024910159.lisbon-drc-dcrabj.info
   port: 8880
@@ -1054,7 +1694,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-105
+- name: 🌍 ASTRACAT-Tunels-173
   type: vless
   server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
   port: 80
@@ -1064,7 +1704,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🌍 ASTRACAT-Tunels-106
+- name: 🌍 ASTRACAT-Tunels-174
   type: vless
   server: kz.accesspoints.cloakify.app
   port: 38339
@@ -1072,7 +1712,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-107
+- name: 🌍 ASTRACAT-Tunels-175
   type: vless
   server: 141.227.178.165
   port: 25365
@@ -1080,7 +1720,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-108
+- name: 🌍 ASTRACAT-Tunels-176
   type: vless
   server: ovhwuxian.pai50288.uk
   port: 8443
@@ -1093,7 +1733,7 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
   servername: ovhwuxian.pai50288.uk
-- name: 🌍 ASTRACAT-Tunels-109
+- name: 🌍 ASTRACAT-Tunels-177
   type: vless
   server: 1lpxy6haqm-451516713-direct.zamam.co
   port: 443
@@ -1101,7 +1741,7 @@ proxies:
   cipher: none
   tls: true
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-110
+- name: 🌍 ASTRACAT-Tunels-178
   type: vless
   server: 192.142.53.38
   port: 37321
@@ -1109,7 +1749,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-111
+- name: 🌍 ASTRACAT-Tunels-179
   type: vless
   server: 64.225.9.191
   port: 25023
@@ -1117,7 +1757,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-112
+- name: 🌍 ASTRACAT-Tunels-180
   type: vless
   server: 89.44.242.222
   port: 29500
@@ -1125,7 +1765,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-113
+- name: 🌍 ASTRACAT-Tunels-181
   type: vless
   server: 104.21.3.219
   port: 8443
@@ -1138,7 +1778,7 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
   servername: ovhwuxian.pai50288.uk
-- name: 🌍 ASTRACAT-Tunels-114
+- name: 🌍 ASTRACAT-Tunels-182
   type: vless
   server: 64.227.41.160
   port: 57996
@@ -1146,7 +1786,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-115
+- name: 🌍 ASTRACAT-Tunels-183
   type: vless
   server: 45.82.245.173
   port: 80
@@ -1158,7 +1798,7 @@ proxies:
     path: /vless/
     headers:
       Host: '---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net'
-- name: 🌍 ASTRACAT-Tunels-116
+- name: 🌍 ASTRACAT-Tunels-184
   type: vless
   server: 94.26.228.10
   port: 443
@@ -1166,7 +1806,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-117
+- name: 🌍 ASTRACAT-Tunels-185
   type: vless
   server: 45.82.251.180
   port: 8880
@@ -1174,7 +1814,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-118
+- name: 🌍 ASTRACAT-Tunels-186
   type: vless
   server: 5.181.171.2
   port: 443
@@ -1182,7 +1822,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-119
+- name: 🌍 ASTRACAT-Tunels-187
   type: vless
   server: 5.181.171.2
   port: 443
@@ -1190,7 +1830,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-120
+- name: 🌍 ASTRACAT-Tunels-188
   type: vless
   server: 45.88.183.156
   port: 12794
@@ -1198,7 +1838,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-121
+- name: 🌍 ASTRACAT-Tunels-189
   type: vless
   server: 91.99.168.213
   port: 443
@@ -1206,7 +1846,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-122
+- name: 🌍 ASTRACAT-Tunels-190
   type: vless
   server: 638930382260455538.ahvaz-drc-tusabt.info
   port: 8880
@@ -1214,7 +1854,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-123
+- name: 🌍 ASTRACAT-Tunels-191
   type: vless
   server: ov-france2.09vpn.com
   port: 80
@@ -1224,7 +1864,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vless/
-- name: 🌍 ASTRACAT-Tunels-124
+- name: 🌍 ASTRACAT-Tunels-192
   type: vless
   server: fearless-change.oneeat.co
   port: 80
@@ -1234,7 +1874,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🌍 ASTRACAT-Tunels-125
+- name: 🌍 ASTRACAT-Tunels-193
   type: vless
   server: m33a.vip784.com
   port: 33801
@@ -1242,7 +1882,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-126
+- name: 🌍 ASTRACAT-Tunels-194
   type: vless
   server: 185.231.205.99
   port: 8880
@@ -1250,7 +1890,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-127
+- name: 🌍 ASTRACAT-Tunels-195
   type: vless
   server: 185.236.232.223
   port: 8880
@@ -1258,7 +1898,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-128
+- name: 🌍 ASTRACAT-Tunels-196
   type: vless
   server: hybrid.arvancloud.online
   port: 44443
@@ -1266,7 +1906,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-129
+- name: 🌍 ASTRACAT-Tunels-197
   type: vless
   server: 193.151.135.21
   port: 44443
@@ -1274,7 +1914,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-130
+- name: 🌍 ASTRACAT-Tunels-198
   type: vless
   server: nodc.bazarkha.sbs
   port: 6003
@@ -1282,7 +1922,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-131
+- name: 🌍 ASTRACAT-Tunels-199
   type: vless
   server: public18v7.fastipsport.com
   port: 8880
@@ -1290,7 +1930,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-132
+- name: 🌍 ASTRACAT-Tunels-200
   type: vless
   server: magazine.sentry-warrunner.xyz
   port: 443
@@ -1298,7 +1938,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-133
+- name: 🌍 ASTRACAT-Tunels-201
   type: vless
   server: pqh27v4.waipdirect.shop
   port: 8880
@@ -1306,7 +1946,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-134
+- name: 🌍 ASTRACAT-Tunels-202
   type: vless
   server: ir.fxgoldensignals.com
   port: 54567
@@ -1316,7 +1956,7 @@ proxies:
   network: ws
   ws-opts:
     path: /54567/mvfkvk
-- name: 🌍 ASTRACAT-Tunels-135
+- name: 🌍 ASTRACAT-Tunels-203
   type: vless
   server: ipw.gfdv54cvghhgfhgj-njhgj64.info
   port: 443
@@ -1329,7 +1969,7 @@ proxies:
     headers:
       Host: I78nThHk0Q.sOlEnTrAa.InFo
   servername: I78nThHk0Q.sOlEnTrAa.InFo
-- name: 🌍 ASTRACAT-Tunels-136
+- name: 🌍 ASTRACAT-Tunels-204
   type: vless
   server: ovhwuxian.pai50288.uk
   port: 8443
@@ -1342,7 +1982,7 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
   servername: ovhwuxian.pai50288.uk
-- name: 🌍 ASTRACAT-Tunels-137
+- name: 🌍 ASTRACAT-Tunels-205
   type: vless
   server: 195.93.253.49
   port: 33094
@@ -1350,7 +1990,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-138
+- name: 🌍 ASTRACAT-Tunels-206
   type: vless
   server: 80.249.131.7
   port: 443
@@ -1358,7 +1998,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-139
+- name: 🌍 ASTRACAT-Tunels-207
   type: vless
   server: 185.236.232.123
   port: 8880
@@ -1366,7 +2006,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-140
+- name: 🌍 ASTRACAT-Tunels-208
   type: vless
   server: pqh30v8.waipdirect.shop
   port: 8880
@@ -1374,7 +2014,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-141
+- name: 🌍 ASTRACAT-Tunels-209
   type: vless
   server: 5.181.171.2
   port: 443
@@ -1382,7 +2022,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-142
+- name: 🌍 ASTRACAT-Tunels-210
   type: vless
   server: handsome-device.oneeat.co
   port: 80
@@ -1392,7 +2032,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🌍 ASTRACAT-Tunels-143
+- name: 🌍 ASTRACAT-Tunels-211
   type: vless
   server: 185.231.205.99
   port: 8880
@@ -1400,7 +2040,7 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-144
+- name: 🌍 ASTRACAT-Tunels-212
   type: vless
   server: fearless-change.oneeat.co
   port: 80
@@ -1410,7 +2050,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🌍 ASTRACAT-Tunels-145
+- name: 🌍 ASTRACAT-Tunels-213
   type: vless
   server: 45.128.54.17
   port: 443
@@ -1421,7 +2061,7 @@ proxies:
   ws-opts:
     path: /dahuqpws
   servername: 45.128.54.17
-- name: 🌍 ASTRACAT-Tunels-146
+- name: 🌍 ASTRACAT-Tunels-214
   type: vless
   server: 176.120.72.63
   port: 38339
@@ -1429,7 +2069,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-147
+- name: 🌍 ASTRACAT-Tunels-215
   type: vless
   server: Everyday-VPN.Telegram-Channel
   port: 443
@@ -1441,7 +2081,6 @@ proxy-groups:
 - name: 🚀 ASTRACAT-Tunels-Group
   type: select
   proxies:
-  - 🌍 ASTRACAT-Tunels-1
   - 🌍 ASTRACAT-Tunels-2
   - 🌍 ASTRACAT-Tunels-3
   - 🌍 ASTRACAT-Tunels-4
@@ -1588,6 +2227,74 @@ proxy-groups:
   - 🌍 ASTRACAT-Tunels-145
   - 🌍 ASTRACAT-Tunels-146
   - 🌍 ASTRACAT-Tunels-147
+  - 🌍 ASTRACAT-Tunels-148
+  - 🌍 ASTRACAT-Tunels-149
+  - 🌍 ASTRACAT-Tunels-150
+  - 🌍 ASTRACAT-Tunels-151
+  - 🌍 ASTRACAT-Tunels-152
+  - 🌍 ASTRACAT-Tunels-153
+  - 🌍 ASTRACAT-Tunels-154
+  - 🌍 ASTRACAT-Tunels-155
+  - 🌍 ASTRACAT-Tunels-156
+  - 🌍 ASTRACAT-Tunels-157
+  - 🌍 ASTRACAT-Tunels-158
+  - 🌍 ASTRACAT-Tunels-159
+  - 🌍 ASTRACAT-Tunels-160
+  - 🌍 ASTRACAT-Tunels-161
+  - 🌍 ASTRACAT-Tunels-162
+  - 🌍 ASTRACAT-Tunels-163
+  - 🌍 ASTRACAT-Tunels-164
+  - 🌍 ASTRACAT-Tunels-165
+  - 🌍 ASTRACAT-Tunels-166
+  - 🌍 ASTRACAT-Tunels-167
+  - 🌍 ASTRACAT-Tunels-168
+  - 🌍 ASTRACAT-Tunels-169
+  - 🌍 ASTRACAT-Tunels-170
+  - 🌍 ASTRACAT-Tunels-171
+  - 🌍 ASTRACAT-Tunels-172
+  - 🌍 ASTRACAT-Tunels-173
+  - 🌍 ASTRACAT-Tunels-174
+  - 🌍 ASTRACAT-Tunels-175
+  - 🌍 ASTRACAT-Tunels-176
+  - 🌍 ASTRACAT-Tunels-177
+  - 🌍 ASTRACAT-Tunels-178
+  - 🌍 ASTRACAT-Tunels-179
+  - 🌍 ASTRACAT-Tunels-180
+  - 🌍 ASTRACAT-Tunels-181
+  - 🌍 ASTRACAT-Tunels-182
+  - 🌍 ASTRACAT-Tunels-183
+  - 🌍 ASTRACAT-Tunels-184
+  - 🌍 ASTRACAT-Tunels-185
+  - 🌍 ASTRACAT-Tunels-186
+  - 🌍 ASTRACAT-Tunels-187
+  - 🌍 ASTRACAT-Tunels-188
+  - 🌍 ASTRACAT-Tunels-189
+  - 🌍 ASTRACAT-Tunels-190
+  - 🌍 ASTRACAT-Tunels-191
+  - 🌍 ASTRACAT-Tunels-192
+  - 🌍 ASTRACAT-Tunels-193
+  - 🌍 ASTRACAT-Tunels-194
+  - 🌍 ASTRACAT-Tunels-195
+  - 🌍 ASTRACAT-Tunels-196
+  - 🌍 ASTRACAT-Tunels-197
+  - 🌍 ASTRACAT-Tunels-198
+  - 🌍 ASTRACAT-Tunels-199
+  - 🌍 ASTRACAT-Tunels-200
+  - 🌍 ASTRACAT-Tunels-201
+  - 🌍 ASTRACAT-Tunels-202
+  - 🌍 ASTRACAT-Tunels-203
+  - 🌍 ASTRACAT-Tunels-204
+  - 🌍 ASTRACAT-Tunels-205
+  - 🌍 ASTRACAT-Tunels-206
+  - 🌍 ASTRACAT-Tunels-207
+  - 🌍 ASTRACAT-Tunels-208
+  - 🌍 ASTRACAT-Tunels-209
+  - 🌍 ASTRACAT-Tunels-210
+  - 🌍 ASTRACAT-Tunels-211
+  - 🌍 ASTRACAT-Tunels-212
+  - 🌍 ASTRACAT-Tunels-213
+  - 🌍 ASTRACAT-Tunels-214
+  - 🌍 ASTRACAT-Tunels-215
 rules:
 - MATCH,🚀 ASTRACAT-Tunels-Group
 dns:
