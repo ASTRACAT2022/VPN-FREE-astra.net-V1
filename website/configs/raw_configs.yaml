@@ -7,6 +7,14 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
+  server: go.adslimit.info
+  port: 2345
+  uuid: 0331b690-79fc-49d5-85f0-54faa4eff89f
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-6
+  type: vless
   server: pishj.afti1.sfhre2.lili1.mimkiscx.ir
   port: 443
   uuid: b2bf1a8f-6f12-4ec8-8c1f-9b0dd8dca205
@@ -16,7 +24,7 @@ proxies:
   ws-opts:
     path: /
   servername: harro-likeh1.sdcards1.ir
-- name: 🌍 ASTRACAT-Tunels-6
+- name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: 167.82.92.159
   port: 80
@@ -28,7 +36,7 @@ proxies:
     path: /
     headers:
       Host: dayous.global.ssl.fastly.net
-- name: 🌍 ASTRACAT-Tunels-7
+- name: 🌍 ASTRACAT-Tunels-8
   type: vless
   server: 5.57.38.168
   port: 443
@@ -36,7 +44,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-8
+- name: 🌍 ASTRACAT-Tunels-9
   type: vless
   server: ipbaz.ping-box.com
   port: 443
@@ -49,14 +57,6 @@ proxies:
     headers:
       Host: dev.twistsparrow.xyz
   servername: dev.twistsparrow.xyz
-- name: 🌍 ASTRACAT-Tunels-9
-  type: vless
-  server: zone.jp.fx2hub.ir
-  port: 45703
-  uuid: bdf97c06-ae1f-47e9-b47a-9d9ff47b5820
-  cipher: none
-  tls: false
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-10
   type: vless
   server: zone.pt.lopzo.ir
