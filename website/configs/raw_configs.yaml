@@ -7,12 +7,17 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
-  server: 193.242.125.18
-  port: 80
-  uuid: 8db31176-aed6-402d-aa1b-a8b04b5c3b48
+  server: www.speedtest.net
+  port: 8443
+  uuid: 3b7ec44b-66d8-4822-b772-f1f50c3fec95
   cipher: none
-  tls: false
-  network: tcp
+  tls: true
+  network: ws
+  ws-opts:
+    path: /R8I9Yqu0DxpQB2NKCxLA
+    headers:
+      Host: data-tm189.netsnap.ir
+  servername: data-tm189.netsnap.ir
 - name: 🌍 ASTRACAT-Tunels-6
   type: vless
   server: pishj.afti1.sfhre2.lili1.mimkiscx.ir
