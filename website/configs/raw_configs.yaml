@@ -7,44 +7,15 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
-  server: 3.70.227.1
-  port: 28027
-  uuid: 5070f55f-1666-4d55-8817-8200dd4f7ea1
+  server: mail.speedmizban.net
+  port: 1517
+  uuid: 084dac85-a82a-4462-9c43-13f0dcf7467c
   cipher: none
   tls: false
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-6
   type: vless
-  server: de.prod.n7.homes
-  port: 8443
-  uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-7
-  type: vless
-  server: fastly3.hamrahflow.ir
-  port: 443
-  uuid: 7f33aedf-a105-4143-af45-96e44474ab26
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Valsiin.com
-  servername: default.ssl.fastly.net
-- name: 🌍 ASTRACAT-Tunels-8
-  type: vless
-  server: Dnss.iraniranshopdashnoard.ir
-  port: 2086
-  uuid: a2626d27-e0f8-490d-b23c-c9ca0dea4ea9
-  cipher: none
-  tls: false
-  network: httpupgrade
-- name: 🌍 ASTRACAT-Tunels-9
-  type: vless
-  server: ipbaz.ping-box.com
+  server: 188.114.99.243
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   cipher: none
@@ -55,41 +26,95 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
   servername: sni.111000.indevs.in
+- name: 🌍 ASTRACAT-Tunels-7
+  type: vless
+  server: nodejs.org
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /178.128.80.43=443
+    headers:
+      Host: afrcloud22.mmv.kr
+  servername: afrcloud22.mmv.kr
+- name: 🌍 ASTRACAT-Tunels-8
+  type: vless
+  server: 104.17.152.223
+  port: 80
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us3.rtacg.com
+- name: 🌍 ASTRACAT-Tunels-9
+  type: vless
+  server: 91.194.11.168
+  port: 443
+  uuid: d671bed2-c140-4bf9-ab17-4d1c04deb300
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /VLESS
+  servername: ca-full.privateip.net
 - name: 🌍 ASTRACAT-Tunels-10
   type: vless
-  server: afrcloud22.mmv.kr
+  server: 217.163.76.73
   port: 443
-  uuid: 8fc83032-cb7e-4626-8058-f7051a68eb7b
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /44.217.235.114=2053
-    headers:
-      Host: afrcloud22.mmv.kr
-  servername: afrcloud22.mmv.kr
+    path: /freecodes
+  servername: jp626.ylks01.eu.org
 - name: 🌍 ASTRACAT-Tunels-11
   type: vless
-  server: afrcloud22.mmv.kr
-  port: 443
-  uuid: d85ea913-7dfa-44b0-bd66-33414e897991
+  server: 104.17.105.248
+  port: 80
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us3.rtacg.com
+- name: 🌍 ASTRACAT-Tunels-12
+  type: vless
+  server: 104.21.226.202
+  port: 2096
+  uuid: 81d304dd-dfdd-4db3-9918-b1516dc3510d
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /35.230.79.26=443
+    path: /?ed=1024
     headers:
-      Host: afrcloud22.mmv.kr
-  servername: afrcloud22.mmv.kr
-- name: 🌍 ASTRACAT-Tunels-12
+      Host: H.fruitsstore.ir
+  servername: H.fruitsstore.ir
+- name: 🌍 ASTRACAT-Tunels-13
   type: vless
-  server: s1.mobileemdad.top
+  server: itly1.azangooo.ir
   port: 443
-  uuid: 8b8ddf81-f031-4fe5-b698-2c4942a290fb
+  uuid: 4e392aec-fd42-48aa-bc52-a7f927dd7da0
+  cipher: none
+  tls: true
+  network: xhttp
+- name: 🌍 ASTRACAT-Tunels-14
+  type: vless
+  server: de.prod.n7.homes
+  port: 8443
+  uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-13
+- name: 🌍 ASTRACAT-Tunels-15
   type: vless
   server: pishj.afti1.sfhre2.lili1.mimkiscx.ir
   port: 443
@@ -100,7 +125,7 @@ proxies:
   ws-opts:
     path: /
   servername: harro-likeh1.sdcards1.ir
-- name: 🌍 ASTRACAT-Tunels-14
+- name: 🌍 ASTRACAT-Tunels-16
   type: vless
   server: 167.82.92.159
   port: 80
@@ -112,7 +137,7 @@ proxies:
     path: /
     headers:
       Host: dayous.global.ssl.fastly.net
-- name: 🌍 ASTRACAT-Tunels-15
+- name: 🌍 ASTRACAT-Tunels-17
   type: vless
   server: 5.57.38.168
   port: 443
@@ -120,7 +145,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-16
+- name: 🌍 ASTRACAT-Tunels-18
   type: vless
   server: ipbaz.ping-box.com
   port: 443
@@ -133,32 +158,6 @@ proxies:
     headers:
       Host: dev.twistsparrow.xyz
   servername: dev.twistsparrow.xyz
-- name: 🌍 ASTRACAT-Tunels-17
-  type: vless
-  server: 172.64.153.235
-  port: 8443
-  uuid: f94fc28f-688f-43aa-92a0-621f6255451c
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: il8fd4w6j293nc2uzjc6xkwko6ohe43k845a76c2nl6su5q19ivkrboek9.zjde5.de5.net
-  servername: il8fd4w6j293nc2uzjc6xkwko6ohe43k845a76c2nl6su5q19ivkrboek9.zjde5.de5.net
-- name: 🌍 ASTRACAT-Tunels-18
-  type: vless
-  server: 104.17.25.173
-  port: 443
-  uuid: 003ef206-46b6-3701-ab77-b03debe7511f
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /db1024143bf11354
-    headers:
-      Host: dabaihk.webn.cc
-  servername: dabaihk.webn.cc
 - name: 🌍 ASTRACAT-Tunels-19
   type: vless
   server: c1.site.azadsb.sbs
