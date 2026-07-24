@@ -14,7 +14,7 @@ proxies:
   tls: true
   network: ws
   ws-opts:
-    path: /?TELEGRAM-ShadowProxy66?ed=512
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed
     headers:
       Host: t1s1.rittbo.kdns.fr
   servername: t1s1.rittbo.kdns.fr
@@ -27,7 +27,7 @@ proxies:
   tls: true
   network: ws
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed
+    path: /?TELEGRAM-ShadowProxy66?ed=512
     headers:
       Host: t1s1.rittbo.kdns.fr
   servername: t1s1.rittbo.kdns.fr
@@ -1256,12 +1256,14 @@ proxies:
   servername: kcxal.freshfieldhub-ili.sbs
 - name: 🌍 ASTRACAT-Tunels-125
   type: vless
-  server: 45.82.251.80
-  port: 8880
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  server: 89.44.197.77
+  port: 15946
+  uuid: 8672bdcd-e331-464d-9ed8-93a242ca7d2e
   cipher: none
   tls: false
-  network: grpc
+  network: ws
+  ws-opts:
+    path: /
 - name: 🌍 ASTRACAT-Tunels-126
   type: vless
   server: 45.12.143.191
@@ -1272,14 +1274,12 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-127
   type: vless
-  server: 89.44.197.77
-  port: 15946
-  uuid: 8672bdcd-e331-464d-9ed8-93a242ca7d2e
+  server: 45.82.251.80
+  port: 8880
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
   cipher: none
   tls: false
-  network: ws
-  ws-opts:
-    path: /
+  network: grpc
 - name: 🌍 ASTRACAT-Tunels-128
   type: vless
   server: 185.236.232.189
