@@ -23,17 +23,12 @@ proxies:
   network: xhttp
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
-  server: one-for-all.levikogjgfdd.ir
+  server: static.lotussec.com
   port: 443
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
   cipher: none
   tls: true
-  network: ws
-  ws-opts:
-    path: /fdip
-    headers:
-      Host: learn00.evany.de5.net
-  servername: learn00.evany.de5.net
+  network: xhttp
 - name: 🌍 ASTRACAT-Tunels-4
   type: vless
   server: one-for-all.levikogjgfdd.ir
@@ -43,20 +38,20 @@ proxies:
   tls: true
   network: ws
   ws-opts:
-    path: /fdp
+    path: /fdip
     headers:
       Host: learn00.evany.de5.net
   servername: learn00.evany.de5.net
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
-  server: millionaire.levikogjgfdd.ir
+  server: one-for-all.levikogjgfdd.ir
   port: 443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /fdip
+    path: /fdp
     headers:
       Host: learn00.evany.de5.net
   servername: learn00.evany.de5.net
@@ -75,7 +70,7 @@ proxies:
   servername: learn00.evany.de5.net
 - name: 🌍 ASTRACAT-Tunels-7
   type: vless
-  server: 162.159.38.119
+  server: millionaire.levikogjgfdd.ir
   port: 443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   cipher: none
@@ -88,15 +83,7 @@ proxies:
   servername: learn00.evany.de5.net
 - name: 🌍 ASTRACAT-Tunels-8
   type: vless
-  server: static.lotussec.com
-  port: 443
-  uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-  cipher: none
-  tls: true
-  network: xhttp
-- name: 🌍 ASTRACAT-Tunels-9
-  type: vless
-  server: one-for-all.levikogjgfdd.ir
+  server: 162.159.38.119
   port: 443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   cipher: none
@@ -107,9 +94,17 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
   servername: learn00.evany.de5.net
+- name: 🌍 ASTRACAT-Tunels-9
+  type: vless
+  server: static.lotussec.com
+  port: 443
+  uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+  cipher: none
+  tls: true
+  network: xhttp
 - name: 🌍 ASTRACAT-Tunels-10
   type: vless
-  server: millionaire.levikogjgfdd.ir
+  server: one-for-all.levikogjgfdd.ir
   port: 443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   cipher: none
@@ -122,7 +117,7 @@ proxies:
   servername: learn00.evany.de5.net
 - name: 🌍 ASTRACAT-Tunels-11
   type: vless
-  server: one-for-all.levikogjgfdd.ir
+  server: millionaire.levikogjgfdd.ir
   port: 443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   cipher: none
@@ -135,12 +130,17 @@ proxies:
   servername: learn00.evany.de5.net
 - name: 🌍 ASTRACAT-Tunels-12
   type: vless
-  server: 159.195.45.129
+  server: one-for-all.levikogjgfdd.ir
   port: 443
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
   cipher: none
-  tls: false
-  network: tcp
+  tls: true
+  network: ws
+  ws-opts:
+    path: /fdip
+    headers:
+      Host: learn00.evany.de5.net
+  servername: learn00.evany.de5.net
 - name: 🌍 ASTRACAT-Tunels-13
   type: vless
   server: 89.44.197.77
@@ -153,20 +153,20 @@ proxies:
     path: /
 - name: 🌍 ASTRACAT-Tunels-14
   type: vless
-  server: 45.82.251.80
-  port: 8880
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-  cipher: none
-  tls: false
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-15
-  type: vless
   server: 45.12.143.191
   port: 20329
   uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
   cipher: none
   tls: false
   network: tcp
+- name: 🌍 ASTRACAT-Tunels-15
+  type: vless
+  server: 45.82.251.80
+  port: 8880
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  cipher: none
+  tls: false
+  network: grpc
 - name: 🌍 ASTRACAT-Tunels-16
   type: vless
   server: 185.236.232.189
