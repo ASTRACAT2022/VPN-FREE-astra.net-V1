@@ -135,17 +135,12 @@ proxies:
   servername: learn00.evany.de5.net
 - name: 🌍 ASTRACAT-Tunels-12
   type: vless
-  server: 188.114.97.4
+  server: 159.195.45.129
   port: 443
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
   cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: rubifen.adaspoloandco.com
-  servername: rubifen.adaspoloandco.com
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-13
   type: vless
   server: 89.44.197.77
