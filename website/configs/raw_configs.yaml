@@ -28,13 +28,21 @@ proxies:
   servername: rubifen.adaspoloandco.com
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
+  server: 169.40.42.173
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-6
+  type: vless
   server: gr005.bamajobin.ir
   port: 2053
   uuid: d9aa9ea3-9388-483f-a58d-a754f33ec505
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-6
+- name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: 169.40.42.184
   port: 443
@@ -42,7 +50,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-7
+- name: 🌍 ASTRACAT-Tunels-8
   type: vless
   server: 169.40.42.179
   port: 443
@@ -50,7 +58,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-8
+- name: 🌍 ASTRACAT-Tunels-9
   type: vless
   server: 104.20.39.109
   port: 443
@@ -63,7 +71,7 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
   servername: support.zoom.us.yxls.eu.cc
-- name: 🌍 ASTRACAT-Tunels-9
+- name: 🌍 ASTRACAT-Tunels-10
   type: vless
   server: 45.13.119.219
   port: 8888
@@ -71,15 +79,15 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-10
+- name: 🌍 ASTRACAT-Tunels-11
   type: vless
-  server: 159.195.45.129
-  port: 443
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+  server: 45.82.251.80
+  port: 8880
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
   cipher: none
   tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-11
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-12
   type: vless
   server: 89.44.197.77
   port: 15946
@@ -89,7 +97,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🌍 ASTRACAT-Tunels-12
+- name: 🌍 ASTRACAT-Tunels-13
   type: vless
   server: 45.12.143.191
   port: 20329
@@ -97,14 +105,6 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-13
-  type: vless
-  server: 45.82.251.80
-  port: 8880
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-  cipher: none
-  tls: false
-  network: grpc
 - name: 🌍 ASTRACAT-Tunels-14
   type: vless
   server: 185.236.232.189
