@@ -20,13 +20,21 @@ proxies:
   servername: rubifen.adaspoloandco.com
 - name: 🌍 ASTRACAT-Tunels-4
   type: vless
+  server: 176.53.17.240
+  port: 5463
+  uuid: c65380b4-5b6b-4445-acdf-0e772f7a59c3
+  cipher: none
+  tls: false
+  network: xhttp
+- name: 🌍 ASTRACAT-Tunels-5
+  type: vless
   server: gr005.bamajobin.ir
   port: 2053
   uuid: d9aa9ea3-9388-483f-a58d-a754f33ec505
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-5
+- name: 🌍 ASTRACAT-Tunels-6
   type: vless
   server: 169.40.42.179
   port: 443
@@ -34,7 +42,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-6
+- name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: 104.20.39.109
   port: 443
@@ -47,14 +55,6 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
   servername: support.zoom.us.yxls.eu.cc
-- name: 🌍 ASTRACAT-Tunels-7
-  type: vless
-  server: 51.158.206.29
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: none
-  tls: false
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-8
   type: vless
   server: 51.158.206.80
@@ -65,20 +65,20 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-9
   type: vless
-  server: 45.82.251.80
-  port: 8880
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-  cipher: none
-  tls: false
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-10
-  type: vless
   server: 45.12.143.191
   port: 20329
   uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
   cipher: none
   tls: false
   network: tcp
+- name: 🌍 ASTRACAT-Tunels-10
+  type: vless
+  server: 45.82.251.80
+  port: 8880
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  cipher: none
+  tls: false
+  network: grpc
 - name: 🌍 ASTRACAT-Tunels-11
   type: vless
   server: 89.44.197.77
