@@ -8,11 +8,11 @@ proxies:
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
   server: 138.124.90.40
-  port: 11735
-  uuid: 1a33ef35-79eb-4c01-a70b-6b55a1204f5d
+  port: 53932
+  uuid: 9325718d-cc25-4f26-b460-392056885413
   cipher: none
   tls: false
-  network: tcp
+  network: xhttp
 - name: 🌍 ASTRACAT-Tunels-4
   type: vless
   server: 85.155.226.156
@@ -79,14 +79,6 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-12
   type: vless
-  server: 45.82.251.80
-  port: 8880
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-  cipher: none
-  tls: false
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-13
-  type: vless
   server: 89.44.197.77
   port: 15946
   uuid: 8672bdcd-e331-464d-9ed8-93a242ca7d2e
@@ -95,6 +87,14 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: 🌍 ASTRACAT-Tunels-13
+  type: vless
+  server: 45.82.251.80
+  port: 8880
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  cipher: none
+  tls: false
+  network: grpc
 - name: 🌍 ASTRACAT-Tunels-14
   type: vless
   server: 185.236.232.189
