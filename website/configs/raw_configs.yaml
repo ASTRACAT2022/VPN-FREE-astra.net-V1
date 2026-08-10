@@ -7,17 +7,12 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
-  server: 188.114.97.4
-  port: 443
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  server: 138.124.90.40
+  port: 11735
+  uuid: 1a33ef35-79eb-4c01-a70b-6b55a1204f5d
   cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: rubifen.adaspoloandco.com
-  servername: rubifen.adaspoloandco.com
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-4
   type: vless
   server: 85.155.226.156
