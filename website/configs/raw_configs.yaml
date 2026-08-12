@@ -23,17 +23,12 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
-  server: 104.18.37.228
+  server: 94.249.225.79
   port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
   cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  servername: hhlfy.twiladaphne.ndjp.net
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-6
   type: vless
   server: 169.40.42.15
