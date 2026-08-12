@@ -15,26 +15,13 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-4
   type: vless
-  server: 188.114.97.4
-  port: 443
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: rubifen.adaspoloandco.com
-  servername: rubifen.adaspoloandco.com
-- name: 🌍 ASTRACAT-Tunels-5
-  type: vless
   server: 169.40.42.15
   port: 443
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-6
+- name: 🌍 ASTRACAT-Tunels-5
   type: vless
   server: 169.40.42.173
   port: 443
@@ -42,7 +29,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-7
+- name: 🌍 ASTRACAT-Tunels-6
   type: vless
   server: 169.40.42.184
   port: 443
@@ -50,7 +37,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-8
+- name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: 169.40.42.179
   port: 443
@@ -58,7 +45,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-9
+- name: 🌍 ASTRACAT-Tunels-8
   type: vless
   server: 104.18.37.228
   port: 443
@@ -71,6 +58,14 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   servername: hhlfy.twiladaphne.ndjp.net
+- name: 🌍 ASTRACAT-Tunels-9
+  type: vless
+  server: 45.13.119.219
+  port: 8888
+  uuid: eb77be10-9d9e-527b-a78d-8caaf58992d6
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-10
   type: vless
   server: 51.158.206.25
@@ -129,14 +124,6 @@ proxies:
   network: grpc
 - name: 🌍 ASTRACAT-Tunels-17
   type: vless
-  server: 45.12.143.191
-  port: 20329
-  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-18
-  type: vless
   server: 89.44.197.77
   port: 15946
   uuid: 8672bdcd-e331-464d-9ed8-93a242ca7d2e
@@ -145,6 +132,14 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: 🌍 ASTRACAT-Tunels-18
+  type: vless
+  server: 45.12.143.191
+  port: 20329
+  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-19
   type: vless
   server: 185.236.232.189
