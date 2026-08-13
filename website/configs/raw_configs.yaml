@@ -7,32 +7,6 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
-  server: 69.46.46.30
-  port: 443
-  uuid: 5d2da74f-d323-4338-0959-2a50d7c9bdec
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws/5d2da74f-d323-4338-0959-2a50d7c9bdec
-    headers:
-      Host: rvg-production-c16b.up.railway.app
-  servername: rvg-production-c16b.up.railway.app
-- name: 🌍 ASTRACAT-Tunels-4
-  type: vless
-  server: 172.66.44.97
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi#TELEGRAM-TOOTFFARANGI_TOOTFFARANGI?ed=2560
-    headers:
-      Host: josni.hoyes.cloudns.ch
-  servername: josni.hoyes.cloudns.ch
-- name: 🌍 ASTRACAT-Tunels-5
-  type: vless
   server: 146.75.119.82
   port: 80
   uuid: 70f6663a-4f3a-4538-9658-78459fe7da0b
@@ -43,7 +17,7 @@ proxies:
     path: ws/?ed=2048/@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR----@SPIDDY_IR/?2048
     headers:
       Host: rb24.ir
-- name: 🌍 ASTRACAT-Tunels-6
+- name: 🌍 ASTRACAT-Tunels-4
   type: vless
   server: 104.16.6.70
   port: 2087
@@ -51,6 +25,32 @@ proxies:
   cipher: none
   tls: true
   network: xhttp
+- name: 🌍 ASTRACAT-Tunels-5
+  type: vless
+  server: 104.19.176.197
+  port: 2083
+  uuid: 50414e45-4c5f-5a45-5553-7e971c924280
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/7e971c924280/loc-1
+    headers:
+      Host: nzz29xe4ulqs.amirmajor91.workers.dev
+  servername: nzz29xe4ulqs.amirmajor91.workers.dev
+- name: 🌍 ASTRACAT-Tunels-6
+  type: vless
+  server: bagsell.axiomed.ir
+  port: 443
+  uuid: 871bb9e5-ac38-4d87-b4fe-84f01ee55df7
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /vl/7vCpuRK8JkrdBOttRmBQT?ed=2560
+    headers:
+      Host: tzkss6gpump40c9t7nsme.bagsell-axiomed-ir.workers.dev
+  servername: tzKss6GPuMp40C9t7NsmE.BAGsell-aXIomed-iR.WOrKErs.Dev
 - name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: 104.18.37.228
