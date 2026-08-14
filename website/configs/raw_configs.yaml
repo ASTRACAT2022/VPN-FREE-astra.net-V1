@@ -53,17 +53,12 @@ proxies:
   servername: tzKss6GPuMp40C9t7NsmE.BAGsell-aXIomed-iR.WOrKErs.Dev
 - name: 🌍 ASTRACAT-Tunels-7
   type: vless
-  server: 104.18.37.228
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 63.185.250.13
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi#TELEGRAM-PROXY_MTM?ed=512
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  servername: hhlfy.twiladaphne.ndjp.net
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-8
   type: vless
   server: 104.18.37.228
@@ -164,14 +159,6 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-19
   type: vless
-  server: 45.12.143.191
-  port: 20329
-  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-20
-  type: vless
   server: 89.44.197.77
   port: 15946
   uuid: 8672bdcd-e331-464d-9ed8-93a242ca7d2e
@@ -180,7 +167,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🌍 ASTRACAT-Tunels-21
+- name: 🌍 ASTRACAT-Tunels-20
   type: vless
   server: 45.82.251.80
   port: 8880
@@ -188,6 +175,14 @@ proxies:
   cipher: none
   tls: false
   network: grpc
+- name: 🌍 ASTRACAT-Tunels-21
+  type: vless
+  server: 45.12.143.191
+  port: 20329
+  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-22
   type: vless
   server: 185.236.232.189
