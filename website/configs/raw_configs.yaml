@@ -7,20 +7,25 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
-  server: 82.202.247.181
-  port: 443
-  uuid: cd60668d-28d0-4070-8179-47ad0d151dd5
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-4
-  type: vless
   server: 206.71.158.124
   port: 443
   uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
   cipher: none
   tls: true
   network: xhttp
+- name: 🌍 ASTRACAT-Tunels-4
+  type: vless
+  server: 104.18.37.228
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi#TELEGRAM-PROXY_MTM?ed=512
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  servername: hhlfy.twiladaphne.ndjp.net
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
   server: 104.18.37.228
@@ -43,24 +48,11 @@ proxies:
   tls: true
   network: ws
   ws-opts:
-    path: /sg-melbi#TELEGRAM-PROXY_MTM?ed=512
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  servername: hhlfy.twiladaphne.ndjp.net
-- name: 🌍 ASTRACAT-Tunels-7
-  type: vless
-  server: 104.18.37.228
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
     path: /sg-melbi
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   servername: hhlfy.twiladaphne.ndjp.net
-- name: 🌍 ASTRACAT-Tunels-8
+- name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: 169.40.42.15
   port: 443
@@ -68,7 +60,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-9
+- name: 🌍 ASTRACAT-Tunels-8
   type: vless
   server: 169.40.42.173
   port: 443
@@ -76,7 +68,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-10
+- name: 🌍 ASTRACAT-Tunels-9
   type: vless
   server: 169.40.42.184
   port: 443
@@ -84,7 +76,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-11
+- name: 🌍 ASTRACAT-Tunels-10
   type: vless
   server: 169.40.42.179
   port: 443
@@ -92,7 +84,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-12
+- name: 🌍 ASTRACAT-Tunels-11
   type: vless
   server: 104.18.37.228
   port: 443
@@ -105,14 +97,22 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   servername: hhlfy.twiladaphne.ndjp.net
-- name: 🌍 ASTRACAT-Tunels-13
+- name: 🌍 ASTRACAT-Tunels-12
   type: vless
-  server: 45.82.251.80
-  port: 8880
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  server: 51.158.206.97
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   cipher: none
   tls: false
-  network: grpc
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-13
+  type: vless
+  server: 45.12.143.191
+  port: 20329
+  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-14
   type: vless
   server: 89.44.197.77
@@ -125,12 +125,12 @@ proxies:
     path: /
 - name: 🌍 ASTRACAT-Tunels-15
   type: vless
-  server: 45.12.143.191
-  port: 20329
-  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  server: 45.82.251.80
+  port: 8880
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
   cipher: none
   tls: false
-  network: tcp
+  network: grpc
 - name: 🌍 ASTRACAT-Tunels-16
   type: vless
   server: 185.236.232.189
