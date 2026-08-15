@@ -32,14 +32,6 @@ proxies:
       Host: irancellman.lynch.ir
 - name: 🌍 ASTRACAT-Tunels-5
   type: vless
-  server: 206.71.158.124
-  port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  cipher: none
-  tls: true
-  network: xhttp
-- name: 🌍 ASTRACAT-Tunels-6
-  type: vless
   server: 188.114.97.4
   port: 443
   uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
@@ -51,15 +43,15 @@ proxies:
     headers:
       Host: rubifen.adaspoloandco.com
   servername: rubifen.adaspoloandco.com
-- name: 🌍 ASTRACAT-Tunels-7
+- name: 🌍 ASTRACAT-Tunels-6
   type: vless
-  server: 63.187.167.167
-  port: 22222
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: 206.71.158.124
+  port: 443
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
   cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-8
+  tls: true
+  network: xhttp
+- name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: 169.40.42.15
   port: 443
@@ -67,7 +59,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-9
+- name: 🌍 ASTRACAT-Tunels-8
   type: vless
   server: 169.40.42.173
   port: 443
@@ -75,7 +67,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-10
+- name: 🌍 ASTRACAT-Tunels-9
   type: vless
   server: 169.40.42.184
   port: 443
@@ -83,7 +75,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-11
+- name: 🌍 ASTRACAT-Tunels-10
   type: vless
   server: 169.40.42.179
   port: 443
@@ -91,6 +83,14 @@ proxies:
   cipher: none
   tls: false
   network: tcp
+- name: 🌍 ASTRACAT-Tunels-11
+  type: vless
+  server: 51.158.206.8
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: none
+  tls: false
+  network: raw
 - name: 🌍 ASTRACAT-Tunels-12
   type: vless
   server: 104.18.37.228
@@ -106,15 +106,15 @@ proxies:
   servername: hhlfy.twiladaphne.ndjp.net
 - name: 🌍 ASTRACAT-Tunels-13
   type: vless
-  server: 51.158.206.25
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: 159.195.45.129
+  port: 443
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
   cipher: none
   tls: false
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-14
   type: vless
-  server: 51.158.206.103
+  server: 51.158.206.25
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   cipher: none
@@ -154,6 +154,14 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-19
   type: vless
+  server: 45.12.143.191
+  port: 20329
+  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-20
+  type: vless
   server: 89.44.197.77
   port: 15946
   uuid: 8672bdcd-e331-464d-9ed8-93a242ca7d2e
@@ -162,7 +170,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🌍 ASTRACAT-Tunels-20
+- name: 🌍 ASTRACAT-Tunels-21
   type: vless
   server: 45.82.251.80
   port: 8880
@@ -170,14 +178,6 @@ proxies:
   cipher: none
   tls: false
   network: grpc
-- name: 🌍 ASTRACAT-Tunels-21
-  type: vless
-  server: 45.12.143.191
-  port: 20329
-  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
-  cipher: none
-  tls: false
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-22
   type: vless
   server: 185.236.232.189
