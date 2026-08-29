@@ -17,11 +17,27 @@ proxies:
   type: vless
   server: b2n.ir
   port: 443
-  uuid: 14c44521-e28f-4561-a12c-337d8cc44d87
+  uuid: d5af4dfe-eaf1-460c-87aa-fefe930db0ba
   cipher: none
   tls: true
   network: xhttp
 - name: 🌍 ASTRACAT-Tunels-3
+  type: vless
+  server: b2n.ir
+  port: 443
+  uuid: 14c44521-e28f-4561-a12c-337d8cc44d87
+  cipher: none
+  tls: true
+  network: xhttp
+- name: 🌍 ASTRACAT-Tunels-4
+  type: vless
+  server: 31.76.79.118
+  port: 2444
+  uuid: fc1ee51e-72ec-4af0-ab0f-540c9e22427b
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-5
   type: vless
   server: 162.35.231.31
   port: 443
@@ -29,32 +45,14 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-4
-  type: vless
-  server: 5.161.147.20
-  port: 17339
-  uuid: 55d0df2a-299e-407f-bfe5-072f6910c938
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-5
-  type: vless
-  server: 180.178.60.254
-  port: 10000
-  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-  cipher: none
-  tls: false
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-6
   type: vless
-  server: 40.160.68.122
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  server: 31.76.4.103
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   cipher: none
   tls: false
-  network: ws
-  ws-opts:
-    path: /?ed
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: 45.82.251.80
@@ -65,14 +63,6 @@ proxies:
   network: grpc
 - name: 🌍 ASTRACAT-Tunels-8
   type: vless
-  server: 45.12.143.191
-  port: 20329
-  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-9
-  type: vless
   server: 89.44.197.77
   port: 15946
   uuid: 8672bdcd-e331-464d-9ed8-93a242ca7d2e
@@ -81,6 +71,14 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: 🌍 ASTRACAT-Tunels-9
+  type: vless
+  server: 45.12.143.191
+  port: 20329
+  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-10
   type: vless
   server: 185.236.232.189
