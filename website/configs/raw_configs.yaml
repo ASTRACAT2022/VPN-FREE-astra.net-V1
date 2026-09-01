@@ -7,24 +7,26 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: 🌍 ASTRACAT-Tunels-1
   type: vless
+  server: 91.107.188.158
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed
+- name: 🌍 ASTRACAT-Tunels-2
+  type: vless
   server: b2n.ir
   port: 443
   uuid: d5af4dfe-eaf1-460c-87aa-fefe930db0ba
   cipher: none
   tls: true
   network: xhttp
-- name: 🌍 ASTRACAT-Tunels-2
-  type: vless
-  server: md5.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  cipher: none
-  tls: false
-  network: grpc
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
   server: 16.61.172.239
-  port: 22223
+  port: 22222
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   cipher: none
   tls: false
