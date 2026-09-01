@@ -25,41 +25,13 @@ proxies:
   network: xhttp
 - name: 🌍 ASTRACAT-Tunels-3
   type: vless
-  server: 16.61.172.239
-  port: 22222
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: md5.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
   cipher: none
   tls: false
-  network: tcp
+  network: grpc
 - name: 🌍 ASTRACAT-Tunels-4
-  type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: fae272a6-a184-4c91-83ed-771abdcff404
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-5
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌍 ASTRACAT-Tunels-6
-  type: vless
-  server: 180.178.60.254
-  port: 10000
-  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-7
   type: vless
   server: 57.131.38.163
   port: 2053
@@ -67,23 +39,31 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-8
+- name: 🌍 ASTRACAT-Tunels-5
   type: vless
-  server: 45.82.251.80
-  port: 8880
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-  cipher: none
-  tls: false
-  network: grpc
-- name: 🌍 ASTRACAT-Tunels-9
-  type: vless
-  server: 45.12.143.191
-  port: 20329
-  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  server: 91.107.242.197
+  port: 51815
+  uuid: f7e8a87f-e472-4fca-a393-fb9cc5b5dfa9
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-10
+- name: 🌍 ASTRACAT-Tunels-6
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: fae272a6-a184-4c91-83ed-771abdcff404
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-7
+  type: vless
+  server: 180.178.60.254
+  port: 10000
+  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-8
   type: vless
   server: 89.44.197.77
   port: 15946
@@ -93,6 +73,22 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: 🌍 ASTRACAT-Tunels-9
+  type: vless
+  server: 45.82.251.80
+  port: 8880
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  cipher: none
+  tls: false
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-10
+  type: vless
+  server: 45.12.143.191
+  port: 20329
+  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-11
   type: vless
   server: 185.236.232.189
