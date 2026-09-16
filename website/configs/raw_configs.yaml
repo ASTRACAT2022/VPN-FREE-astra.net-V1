@@ -31,27 +31,25 @@ proxies:
   network: xhttp
 - name: 🌍 ASTRACAT-Tunels-8
   type: vless
-  server: 91.98.96.59
-  port: 40017
-  uuid: d005cde6-263f-48ac-8b13-74ebf7f3f8ef
+  server: 88.216.220.88
+  port: 443
+  uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401
   cipher: none
   tls: false
-  network: tcp
+  network: grpc
 - name: 🌍 ASTRACAT-Tunels-9
-  type: vless
-  server: 91.98.96.59
-  port: 80
-  uuid: 35a6c37b-5df7-4d7f-b338-f9092d3be2e9
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🌍 ASTRACAT-Tunels-10
   type: vless
   server: 31.76.91.72
   port: 2087
   uuid: 524e00ce-ed89-481d-b4a4-6d7017f884e3
+  cipher: none
+  tls: false
+  network: grpc
+- name: 🌍 ASTRACAT-Tunels-10
+  type: vless
+  server: api.noneok.com
+  port: 443
+  uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401
   cipher: none
   tls: false
   network: grpc
