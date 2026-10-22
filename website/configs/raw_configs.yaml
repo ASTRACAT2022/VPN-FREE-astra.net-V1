@@ -28,6 +28,14 @@ proxies:
   servername: ovh-gr1.mahkhorshidi.ir
 - name: 🌍 ASTRACAT-Tunels-20
   type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 56415
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  cipher: none
+  tls: false
+  network: tcp
+- name: 🌍 ASTRACAT-Tunels-21
+  type: vless
   server: 188.114.98.0
   port: 2053
   uuid: 3ee10440-225e-4cbc-83ed-3c80b90bcb07
@@ -39,7 +47,7 @@ proxies:
     headers:
       Host: ovh-gr1.mahkhorshidi.ir
   servername: ovh-gr1.mahkhorshidi.ir
-- name: 🌍 ASTRACAT-Tunels-21
+- name: 🌍 ASTRACAT-Tunels-22
   type: vless
   server: funagfrdfs.alixxplay.com
   port: 35544
@@ -47,7 +55,7 @@ proxies:
   cipher: none
   tls: false
   network: tcp
-- name: 🌍 ASTRACAT-Tunels-22
+- name: 🌍 ASTRACAT-Tunels-23
   type: vless
   server: 188.114.98.0
   port: 2053
@@ -60,7 +68,7 @@ proxies:
     headers:
       Host: ovh-gr1.mahkhorshidi.ir
   servername: ovh-gr1.mahkhorshidi.ir
-- name: 🌍 ASTRACAT-Tunels-23
+- name: 🌍 ASTRACAT-Tunels-24
   type: vless
   server: dnld.chaqalli.com
   port: 8180
@@ -70,23 +78,7 @@ proxies:
   network: ws
   ws-opts:
     path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-- name: 🌍 ASTRACAT-Tunels-24
-  type: vless
-  server: nl1.fluxorvpn.net
-  port: 443
-  uuid: 6c713691-3ca2-0009-ad25-113d1bed6b03
-  cipher: none
-  tls: false
-  network: tcp
 - name: 🌍 ASTRACAT-Tunels-25
-  type: vless
-  server: nl1.fluxorvpn.net
-  port: 443
-  uuid: 6c713691-3ca2-0009-ad25-113d1bed6b03
-  cipher: none
-  tls: false
-  network: tcp
-- name: 🌍 ASTRACAT-Tunels-26
   type: vless
   server: 185.192.22.159
   port: 8444
@@ -94,6 +86,14 @@ proxies:
   cipher: none
   tls: false
   network: grpc
+- name: 🌍 ASTRACAT-Tunels-26
+  type: vless
+  server: 205.237.110.254
+  port: 443
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  cipher: none
+  tls: false
+  network: tcp
 - name: 🌍 ASTRACAT-Tunels-27
   type: vless
   server: 205.237.110.254
@@ -104,12 +104,12 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-28
   type: vless
-  server: 205.237.110.254
+  server: md5.univesalsrv.com
   port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
   cipher: none
   tls: false
-  network: tcp
+  network: grpc
 - name: 🌍 ASTRACAT-Tunels-29
   type: vless
   server: 89.44.197.77
