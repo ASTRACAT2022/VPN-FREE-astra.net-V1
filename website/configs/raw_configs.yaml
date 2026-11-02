@@ -15,12 +15,16 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-20
   type: vless
-  server: 51.158.206.25
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   cipher: none
   tls: false
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🌍 ASTRACAT-Tunels-21
   type: vless
   server: 51.158.206.25
@@ -31,7 +35,7 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-22
   type: vless
-  server: 51.158.206.97
+  server: 51.158.206.25
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   cipher: none
@@ -47,9 +51,9 @@ proxies:
   network: tcp
 - name: 🌍 ASTRACAT-Tunels-24
   type: vless
-  server: 205.237.110.254
-  port: 443
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  server: 156.252.229.11
+  port: 8443
+  uuid: 3e21e3d3-6d26-4155-b851-764dd8e8c6b5
   cipher: none
   tls: false
   network: tcp
